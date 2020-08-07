@@ -44,3 +44,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Backstopjs
+backstop_data/bitmaps_test/*
