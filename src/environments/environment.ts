@@ -1,9 +1,35 @@
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
+const dataPath="assets/data/";
+const countriesPath=dataPath+"countries/";
+const homePath=dataPath+"home/";
+const speciePath=dataPath+"specie/";
 
 export const environment = {
-  production: false
+    production: false,
+    logging:true,
+
+    /**
+     * default date format used to format dates
+     */
+    defaultDateFormat:"dd/MM/yyyy",
+
+    services:{
+        countries:{
+            all:countriesPath+"countries.json"
+        },
+        params: {
+            continent:"continent_like", 
+            region:"region_like", 
+            country:"country_like", 
+            taxonomy:"taxonomy_like", 
+            specie:"specie_like", 
+            ftype:"ftype_like", 
+            sftype:"sftype_like", 
+            search:"key_like", 
+            limit:"_limit",
+            sortBy:"_sort"
+        },
+    }
+
 };
 
 /*
@@ -13,4 +39,4 @@ export const environment = {
  * This import should be commented out in production mode because it will have a negative impact
  * on performance if an error is thrown.
  */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+import 'zone.js/dist/zone-error';  // Included with Angular CLI.

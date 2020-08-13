@@ -1,0 +1,211 @@
+{
+  "continents": [
+    {
+      "nameEn": "Asia",
+      "species": 88,
+      "ftypes": 894,
+      "sftypes": 808,
+      "regions": [
+        {
+          "nameEn": "Southern Asia",
+          "species": 13,
+          "ftypes": 152,
+          "sftypes": 146,
+          "countries": [
+            {
+              "nameEn": "Bangladesh",
+              "iso3": "BGD",
+              "species": 6,
+              "ftypes": 57,
+              "sftypes": 90
+            },
+            {
+              "nameEn": "India",
+              "iso3": "IND",
+              "species": 7,
+              "ftypes": 95,
+              "sftypes": 56
+            }
+          ]
+        },
+        {
+          "nameEn": "Eastern Asia",
+          "species": 49,
+          "ftypes": 506,
+          "sftypes": 437,
+          "countries": [
+            {
+              "nameEn": "China",
+              "iso3": "CHN",
+              "species": 43,
+              "ftypes": 445,
+              "sftypes": 368
+            },
+            {
+              "nameEn": "Japan",
+              "iso3": "JPN",
+              "species": 2,
+              "ftypes": 12,
+              "sftypes": 15
+            },
+            {
+              "nameEn": "Korea, Republic of",
+              "iso3": "KOR",
+              "species": 4,
+              "ftypes": 49,
+              "sftypes": 54
+            }
+          ]
+        },
+        {
+          "nameEn": "South-Eastern Asia",
+          "species": 26,
+          "ftypes": 236,
+          "sftypes": 225,
+          "countries": [
+            {
+              "nameEn": "Indonesia",
+              "iso3": "IDN",
+              "species": 10,
+              "ftypes": 130,
+              "sftypes": 78
+            },
+            {
+              "nameEn": "Malaysia",
+              "iso3": "MYS",
+              "species": 1,
+              "ftypes": 10,
+              "sftypes": 0
+            },
+            {
+              "nameEn": "Myanmar",
+              "iso3": "MMR",
+              "species": 1,
+              "ftypes": 10,
+              "sftypes": 0
+            },
+            {
+              "nameEn": "Philippines",
+              "iso3": "PHL",
+              "species": 3,
+              "ftypes": 21,
+              "sftypes": 37
+            },
+            {
+              "nameEn": "Thailand",
+              "iso3": "THA",
+              "species": 3,
+              "ftypes": 15,
+              "sftypes": 16
+            },
+            {
+              "nameEn": "Viet Nam",
+              "iso3": "VNM",
+              "species": 8,
+              "ftypes": 50,
+              "sftypes": 94
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameEn": "Americas",
+      "species": 5,
+      "ftypes": 62,
+      "sftypes": 57,
+      "regions": [
+        {
+          "nameEn": "South America",
+          "species": 5,
+          "ftypes": 62,
+          "sftypes": 57,
+          "countries": [
+            {
+              "nameEn": "Brazil",
+              "iso3": "BRA",
+              "species": 1,
+              "ftypes": 12,
+              "sftypes": 0
+            },
+            {
+              "nameEn": "Chile",
+              "iso3": "CHL",
+              "species": 3,
+              "ftypes": 32,
+              "sftypes": 43
+            },
+            {
+              "nameEn": "Ecuador",
+              "iso3": "ECU",
+              "species": 1,
+              "ftypes": 18,
+              "sftypes": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameEn": "Africa",
+      "species": 2,
+      "ftypes": 25,
+      "sftypes": 37,
+      "regions": [
+        {
+          "nameEn": "Northern Africa",
+          "species": 2,
+          "ftypes": 25,
+          "sftypes": 37,
+          "countries": [
+            {
+              "nameEn": "Egypt",
+              "iso3": "EGY",
+              "species": 2,
+              "ftypes": 25,
+              "sftypes": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameEn": "Europe",
+      "species": 2,
+      "ftypes": 21,
+      "sftypes": 21,
+      "regions": [
+        {
+          "nameEn": "Northern Europe",
+          "species": 1,
+          "ftypes": 12,
+          "sftypes": 21,
+          "countries": [
+            {
+              "nameEn": "Norway",
+              "iso3": "NOR",
+              "species": 1,
+              "ftypes": 12,
+              "sftypes": 21
+            }
+          ]
+        },
+        {
+          "nameEn": "Southern Europe",
+          "species": 1,
+          "ftypes": 9,
+          "sftypes": 0,
+          "countries": [
+            {
+              "nameEn": "Spain",
+              "iso3": "ESP",
+              "species": 1,
+              "ftypes": 9,
+              "sftypes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
