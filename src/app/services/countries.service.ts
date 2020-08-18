@@ -22,7 +22,7 @@ export class CountriesService extends BaseService {
      */
     getAll(ssp: SearchServiceParams=new SearchServiceParams()): Observable<any> {
         return this._getAll(
-            "FishStatCultSpecCountriesService",
+            this.constructor.name,
             environment.services.countries.all,
             ssp
         );

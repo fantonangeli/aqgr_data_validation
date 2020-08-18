@@ -1,5 +1,6 @@
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
+import { DatePipe } from '@angular/common';
 import { CountriesService } from '../../../services/countries.service';
 import {SearchServiceParams} from 'aqgr-lib';
 import { LoggerService } from 'aqgr-lib';
@@ -10,12 +11,13 @@ import { environment } from '../../../../environments/environment';
     templateUrl: './countries-table.component.html',
     encapsulation: ViewEncapsulation.None
 })
-export class CountriesTableComponent implements OnChanges {
+export class CountriesTableComponent {
     tableData=[];
     data=[];
 
 
-    constructor(private service: CountriesService, private logger:LoggerService){
+    constructor(private service: CountriesService, private logger:LoggerService, private datePipe:DatePipe){
+        this.fetchData();
     }
 
     /**
@@ -26,33 +28,17 @@ export class CountriesTableComponent implements OnChanges {
     loadTableData(data){
         let newdata;
 
-        if(!data || !data.Continents) return;
+        if(!data || !data.continents) return;
 
-        newdata=JSON.parse(JSON.stringify(data.Continents));
+        newdata=JSON.parse(JSON.stringify(data.continents));
 
-        return newdata.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
-            e.nameEn,
-            e.specie,
-            e.ftypes,
-            e.sftypes,
-            e.regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
-                r.nameEn,
-                r.specie,
-                r.ftypes,
-                r.sftypes,
-                r.countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
-                    let rv=[
-                        c.nameEn,
-                        c.specie,
-                        c.ftypes,
-                        c.sftypes,
-                    ];
-                    rv["iso3"]=c.Ccode;
-                    return rv;
-                })
-
-            ])
-        ]);
+        return newdata.map(e=>({
+            ...e,
+            "children": e.regions.map(r=>({
+                ...r,
+                "children":r.countries
+            }))
+        }));
     }
 
     /**
@@ -72,9 +58,6 @@ export class CountriesTableComponent implements OnChanges {
     }
 
 
-    ngOnChanges() {
-        this.fetchData();
-    }
 
 
 }

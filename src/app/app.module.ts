@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
+import { DatePipe } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { environment } from '../environments/environment';
     AppRoutingModule
   ],
   providers: [
-        {provide: 'LoggingEnabled', useValue: environment.logging}
+      DatePipe,
+      {provide: 'LoggingEnabled', useValue: environment.logging}
   ],
   bootstrap: [AppComponent]
 })
