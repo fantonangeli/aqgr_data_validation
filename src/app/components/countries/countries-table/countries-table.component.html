@@ -4,7 +4,8 @@
         <ng-template aqgrlibTreeTableColumnHeader>Country</ng-template>
         <ng-template let-value="value" let-level="level" aqgrlibTreeTableColumnCell>
             <span *ngIf="level!=2">{{value}}</span>
-            <a href="#" *ngIf="level===2">{{value}}</a>
+            <!-- TODO: replace country link with real page link -->
+            <a [routerLink]="['/country/PHL']" *ngIf="level===2">{{value}}</a>
         </ng-template>
     </aqgrlib-tree-table-column>
 

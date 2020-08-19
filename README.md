@@ -14,6 +14,15 @@ Install project dependencies
 npm install
 ```
 
+## Dependencies
+
+Build and install AqGR-lib.  
+Clone aqgr-lib and follow the instructions in the README.md.
+From this folder run:
+```
+npm link aqgr-lib 
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
