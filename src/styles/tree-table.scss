@@ -1,0 +1,18 @@
+@import './vars.scss';
+
+td.status {
+    font-weight: bold;
+
+    &::first-letter {
+        text-transform: capitalize;
+    }
+
+    span {
+        &.pending {
+            color: $color_yellow;
+        }
+        &.accepted {
+            color: $color_green;
+        }
+    }
+}

@@ -25,9 +25,11 @@
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:'yyyy-MM-dd hh:mm'}}</ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="status" aqgrlibTreeTableColumn>
+    <aqgrlib-tree-table-column prop="status" cellClass="status" aqgrlibTreeTableColumn>
         <ng-template aqgrlibTreeTableColumnHeader>Status</ng-template>
-        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>
+            <span [ngClass]="value">{{value}}</span>
+        </ng-template>
     </aqgrlib-tree-table-column>
 
 </aqgrlib-tree-table>

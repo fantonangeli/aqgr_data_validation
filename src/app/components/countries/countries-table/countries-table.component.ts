@@ -1,6 +1,5 @@
 import { Component, OnInit, Input} from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
-import { DatePipe } from '@angular/common';
 import { CountriesService } from '../../../services/countries.service';
 import {SearchServiceParams} from 'aqgr-lib';
 import { LoggerService } from 'aqgr-lib';
@@ -9,6 +8,7 @@ import { environment } from '../../../../environments/environment';
 @Component({
     selector: 'app-countries-table',
     templateUrl: './countries-table.component.html',
+    styleUrls: ['./countries-table.component.scss'],
     encapsulation: ViewEncapsulation.None
 })
 export class CountriesTableComponent {
@@ -16,7 +16,7 @@ export class CountriesTableComponent {
     data=[];
 
 
-    constructor(private service: CountriesService, private logger:LoggerService, private datePipe:DatePipe){
+    constructor(private service: CountriesService, private logger:LoggerService){
         this.fetchData();
     }
 
@@ -34,9 +34,9 @@ export class CountriesTableComponent {
 
         return newdata.map(e=>({
             ...e,
-            "children": e.regions.map(r=>({
+            "_children": e.regions.map(r=>({
                 ...r,
-                "children":r.countries
+                "_children":r.countries
             }))
         }));
     }
@@ -49,6 +49,9 @@ export class CountriesTableComponent {
         this.service.getAll().subscribe(
             (data)=>{
                 this.tableData=this.loadTableData(data);
+                /* TODO: (high) remove me */
+                this.tableData[0]._toggle=true;
+                this.tableData[0]._children[2]._toggle=true;
             },
             (error)=>{
                 this.logger.error("Network error: ", error);
