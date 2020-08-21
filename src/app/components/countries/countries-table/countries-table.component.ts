@@ -14,7 +14,7 @@ import { environment } from '../../../../environments/environment';
 export class CountriesTableComponent {
     tableData=[];
     data=[];
-
+    defaultDateFormat=environment.defaultDateFormat;
 
     constructor(private service: CountriesService, private logger:LoggerService){
         this.fetchData();

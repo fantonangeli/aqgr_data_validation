@@ -22,7 +22,7 @@
 
     <aqgrlib-tree-table-column prop="lastModifiedDate" aqgrlibTreeTableColumn>
         <ng-template aqgrlibTreeTableColumnHeader>Last update</ng-template>
-        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:'yyyy-MM-dd hh:mm'}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:defaultDateFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="status" cellClass="status" aqgrlibTreeTableColumn>

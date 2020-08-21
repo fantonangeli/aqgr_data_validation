@@ -10,21 +10,21 @@ export const environment = {
     /**
      * default date format used to format dates
      */
-    defaultDateFormat:"dd/MM/yyyy",
+    defaultDateFormat:'dd/MM/yyyy hh:mm',
 
     services:{
         countries:{
             all:countriesPath+"countries.json"
         },
         params: {
-            continent:"continent_like", 
-            region:"region_like", 
-            country:"country_like", 
-            taxonomy:"taxonomy_like", 
-            specie:"specie_like", 
-            ftype:"ftype_like", 
-            sftype:"sftype_like", 
-            search:"key_like", 
+            continent:"continent_like",
+            region:"region_like",
+            country:"country_like",
+            taxonomy:"taxonomy_like",
+            specie:"specie_like",
+            ftype:"ftype_like",
+            sftype:"sftype_like",
+            search:"key_like",
             limit:"_limit",
             sortBy:"_sort"
         },
