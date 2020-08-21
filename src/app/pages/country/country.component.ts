@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
-import { CountryInfoService } from 'src/app/services/country-info.service';
+import { CountryInfoService } from 'src/app/services/country/country-info.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 
@@ -11,19 +11,21 @@ import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 })
 export class CountryComponent implements OnInit {
     iso3:string;
-    countryName:string="";
+    countryName="";
+    searchServiceParams=new SearchServiceParams();
 
   constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService, private _logger:LoggerService) { }
     
     /**
      * fetch the data and load them
-     * @param {string} iso3 country code
+     * @param iso3 country code
      *
      */
     fetchInfo(iso3:string) {
         this._countryInfoService.getData(this.iso3).subscribe(
             (data)=>{
                 this.countryName=data.nameEn;
+                this.searchServiceParams.country=this.countryName;
             },
             (error)=>{
                 this._logger.error("Network error: ", error);

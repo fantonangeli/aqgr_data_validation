@@ -19,6 +19,7 @@ export const environment = {
         },
         country:{
             info:countryPath+"country-info.json",
+            species:countryPath+"species.json",
         },
         params: {
             continent:"continent_like",

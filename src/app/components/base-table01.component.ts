@@ -1,4 +1,4 @@
-import { Input } from '@angular/core';
+import { Input, OnInit } from '@angular/core';
 import {SearchServiceParams} from 'aqgr-lib';
 import { LoggerService } from 'aqgr-lib';
 import { environment } from '../../environments/environment';
@@ -6,7 +6,7 @@ import { environment } from '../../environments/environment';
 /**
  * Base class to be extended from tables components
  */
-export class BaseTable01Component {
+export class BaseTable01Component implements OnInit{
     tableData=[];
     defaultDateFormat=environment.defaultDateFormat;
     logger: LoggerService;
@@ -14,7 +14,6 @@ export class BaseTable01Component {
     @Input() searchServiceParams: SearchServiceParams;
 
     constructor(private service){
-        this.fetchData();
     }
 
     /**
@@ -43,6 +42,9 @@ export class BaseTable01Component {
     }
 
 
+    ngOnInit(){
+        this.fetchData();
+    }
 
 
 }

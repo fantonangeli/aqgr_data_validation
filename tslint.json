@@ -2,6 +2,7 @@
   "extends": "tslint:recommended",
   "rules": {
     "curly": [true, "ignore-same-line"],
+    "typedef-whitespace": false,
     "array-type": false,
     "arrow-parens": false,
     "deprecation": {

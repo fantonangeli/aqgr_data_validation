@@ -18,7 +18,7 @@
     <br>
     <div class="row">
         <div class="col-12">
-            <app-countries-table></app-countries-table>
+            <app-species-table [searchServiceParams]="searchServiceParams" *ngIf="countryName"></app-species-table>
         </div>
     </div>
 </div>

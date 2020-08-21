@@ -1,6 +1,6 @@
 import { Component, OnInit, Input} from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
-import { CountriesService } from 'src/app/services/countries.service';
+import { CountriesService } from 'src/app/services/countries/countries.service';
 import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
 
