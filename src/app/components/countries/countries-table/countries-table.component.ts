@@ -1,9 +1,8 @@
 import { Component, OnInit, Input} from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
-import { CountriesService } from '../../../services/countries.service';
+import { CountriesService } from 'src/app/services/countries.service';
 import {SearchServiceParams} from 'aqgr-lib';
-import { LoggerService } from 'aqgr-lib';
-import { environment } from '../../../../environments/environment';
+import { BaseTable01Component } from 'src/app/components/base-table01.component';
 
 @Component({
     selector: 'app-countries-table',
@@ -11,19 +10,15 @@ import { environment } from '../../../../environments/environment';
     styleUrls: ['./countries-table.component.scss'],
     encapsulation: ViewEncapsulation.None
 })
-export class CountriesTableComponent {
-    tableData=[];
-    data=[];
-    defaultDateFormat=environment.defaultDateFormat;
-
-    constructor(private service: CountriesService, private logger:LoggerService){
-        this.fetchData();
+export class CountriesTableComponent extends BaseTable01Component {
+    constructor(service: CountriesService){
+        super(service);
     }
 
     /**
      * load data for the table and set it to tableData
      *
-     * @param {Object[]} data the data from the service
+     * @param data the data from the service
      */
     loadTableData(data){
         let newdata;
@@ -32,35 +27,18 @@ export class CountriesTableComponent {
 
         newdata=JSON.parse(JSON.stringify(data.continents));
 
+        /* TODO: (high) remove me */
+        newdata[0]._toggle=true;
+        newdata[0].regions[2]._toggle=true;
+
         return newdata.map(e=>({
             ...e,
-            "_children": e.regions.map(r=>({
+            _children: e.regions.map(r=>({
                 ...r,
-                "_children":r.countries
+                _children:r.countries
             }))
         }));
     }
-
-    /**
-     * fetch the data
-     *
-     */
-    fetchData() {
-        this.service.getAll().subscribe(
-            (data)=>{
-                this.tableData=this.loadTableData(data);
-                /* TODO: (high) remove me */
-                this.tableData[0]._toggle=true;
-                this.tableData[0]._children[2]._toggle=true;
-            },
-            (error)=>{
-                this.logger.error("Network error: ", error);
-            }
-        );
-
-    }
-
-
 
 
 }
