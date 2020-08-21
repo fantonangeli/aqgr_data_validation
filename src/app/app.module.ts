@@ -9,12 +9,16 @@ import { CountriesTableComponent } from './components/countries/countries-table/
 import { CountriesComponent } from './pages/countries/countries.component';
 import { AqgrLibModule } from 'aqgr-lib';
 import { environment } from '../environments/environment';
+import { CountryComponent } from './pages/country/country.component';
+import { SpeciesTableComponent } from './components/country/species-table/species-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CountriesTableComponent,
-    CountriesComponent
+    CountriesComponent,
+    CountryComponent,
+    SpeciesTableComponent
   ],
   imports: [
     BrowserModule,

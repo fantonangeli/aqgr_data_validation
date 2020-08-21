@@ -2,6 +2,7 @@ const dataPath="assets/data/";
 const countriesPath=dataPath+"countries/";
 const homePath=dataPath+"home/";
 const speciePath=dataPath+"specie/";
+const countryPath=dataPath+"country/";
 
 export const environment = {
     production: false,
@@ -15,6 +16,9 @@ export const environment = {
     services:{
         countries:{
             all:countriesPath+"countries.json"
+        },
+        country:{
+            info:countryPath+"country-info.json",
         },
         params: {
             continent:"continent_like",

@@ -6,23 +6,28 @@ import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 
 @Injectable({
-  providedIn: "root",
+  providedIn: 'root'
 })
-export class CountriesService extends BaseService {
+export class CountryInfoService extends BaseService{
     constructor(http: HttpClient, logger: LoggerService) {
         super(http, environment.services.params);
     }
 
     /**
-     * get all data or filtered from the server
-     *
-     * @param params ssp the params to send to the service
+     * get by countryCode
+     * @params
+     * @returns {Observable}
      */
-    getAll(ssp: SearchServiceParams=new SearchServiceParams()): Observable<any> {
-        return this._getAll(
-            this.constructor.name,
-            environment.services.countries.all,
-            ssp
+    getData(iso3: string): Observable<any> {
+
+        return this._getByParams(
+            "CountryInfoService",
+            environment.services.country.info, 
+            {iso3}
         );
     }
+
+
+
+
 }

@@ -1,0 +1,580 @@
+{
+  "taxonomies": [
+    {
+      "name": "Aquatic plants",
+      "ftypes": 102,
+      "species": [
+        {
+          "name": "Algae",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Enteromorpha clathrata",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Eucheuma spp",
+          "ftypes": 12,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Gelidium amansii",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Gracilaria spp",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Haematococcus pluvialis",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Laminaria japonica",
+          "ftypes": 14,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Porphyra spp",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Sargassum fusiforme",
+          "ftypes": 16,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Spirulina spp",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Undaria pinnatifida",
+          "ftypes": 3,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Crustaceans",
+      "ftypes": 107,
+      "species": [
+        {
+          "name": "Brachyura",
+          "ftypes": 4,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Eriocheir sinensis",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Macrobrachium nipponense",
+          "ftypes": 5,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Macrobrachium rosenbergii",
+          "ftypes": 5,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Palaemonidae",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Penaeus chinensis",
+          "ftypes": 6,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Penaeus japonicus",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Penaeus monodon",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Penaeus spp",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Penaeus vannamei",
+          "ftypes": 24,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Portunidae",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Portunus spp",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Procambarus clarkii",
+          "ftypes": 6,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Scylla paramamosain",
+          "ftypes": 5,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Diadromous fishes",
+      "ftypes": 35,
+      "species": [
+        {
+          "name": "Acipenseridae",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Anguilla japonica",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Hypomesus olidus",
+          "ftypes": 5,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Oncorhynchus mykiss",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Protosalanx hyalocranius",
+          "ftypes": 6,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Salmonoidei",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Freshwater fishes",
+      "ftypes": 209,
+      "species": [
+        {
+          "name": "Carassius spp",
+          "ftypes": 15,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Channa argus",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Cirrhinus molitorella",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Ctenopharyngodon idellus",
+          "ftypes": 12,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Cyprinus carpio",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Hypophthalmichthys molitrix",
+          "ftypes": 14,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Hypophthalmichthys nobilis",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Ictalurus punctatus",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Leiocassis longirostris",
+          "ftypes": 4,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Megalobrama amblycephala",
+          "ftypes": 12,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Micropterus salmoides",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Misgurnus anguillicaudatus",
+          "ftypes": 14,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Monopterus albus",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Mylopharyngodon piceus",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Oreochromis aureus x O. niloticus",
+          "ftypes": 13,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Oreochromis niloticus",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Osteichthyes",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Pelteobagrus fulvidraco",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Piaractus brachypomus",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Silurus asotus",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Siniperca chuatsi",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Marine fishes",
+      "ftypes": 109,
+      "species": [
+        {
+          "name": "Bothidae",
+          "ftypes": 6,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Epinephelus spp",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Larimichthys croceus",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Lateolabrax japonicus",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Osteichthyes",
+          "ftypes": 13,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Pleuronectidae",
+          "ftypes": 4,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Psetta maxima",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Rachycentron canadum",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Sciaenops ocellatus",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Seriola spp",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Sparidae",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Takifugu obscurus",
+          "ftypes": 2,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Takifugu rubripes",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Trachinotus blochii",
+          "ftypes": 9,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous aquatic animal products",
+      "ftypes": 0,
+      "species": [
+        {
+          "name": "Ex Pinctada spp",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Ex Unionidae",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous aquatic animals",
+      "ftypes": 56,
+      "species": [
+        {
+          "name": "Apostichopus japonicus",
+          "ftypes": 5,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Invertebrata",
+          "ftypes": 15,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Rana spp",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Rhopilema spp",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Strongylocentrotus spp",
+          "ftypes": 3,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Testudinata",
+          "ftypes": 6,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Trionyx sinensis",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "name": "Molluscs",
+      "ftypes": 147,
+      "species": [
+        {
+          "name": "Anadara granosa",
+          "ftypes": 15,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Anodonta cygnea",
+          "ftypes": 10,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Atrina spp",
+          "ftypes": 5,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Cipangopaludina chinensis",
+          "ftypes": 7,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Corbicula fluminea",
+          "ftypes": 4,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Crassostrea spp",
+          "ftypes": 21,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Haliotis spp",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Mollusca",
+          "ftypes": 14,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Mytilidae",
+          "ftypes": 8,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Pectinidae",
+          "ftypes": 11,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Rapana spp",
+          "ftypes": 14,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Ruditapes philippinarum",
+          "ftypes": 13,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Sinonovacula constricta",
+          "ftypes": 14,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}
