@@ -6,24 +6,28 @@
       "species": [
         {
           "name": "Caulerpa spp",
+          "alphaCode": "CAU",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Eucheuma denticulatum",
+          "alphaCode": "EMI",
           "ftypes": 11,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Gracilaria spp",
+          "alphaCode": "GLS",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "accepted"
         },
         {
           "name": "Kappaphycus alvarezii",
+          "alphaCode": "EMA",
           "ftypes": 12,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "accepted"
@@ -36,57 +40,66 @@
       "species": [
         {
           "name": "Macrobrachium rosenbergii",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Metapenaeus spp",
+          "alphaCode": "PRF",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
+          "name": "Metapenaeus spp",
+          "alphaCode": "MET",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
           "name": "Panulirus spp",
+          "alphaCode": "SLV",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Penaeus merguiensis",
+          "alphaCode": "PBA",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "accepted"
         },
         {
           "name": "Penaeus monodon",
+          "alphaCode": "GIT",
           "ftypes": 9,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Penaeus spp",
+          "alphaCode": "PEN",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "pending"
+          "status": "accepted"
         },
         {
           "name": "Penaeus vannamei",
+          "alphaCode": "PNV",
           "ftypes": 4,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         },
         {
           "name": "Scylla serrata",
+          "alphaCode": "MUD",
           "ftypes": 3,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         },
         {
           "name": "Thenus orientalis",
+          "alphaCode": "THQ",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "pending"
+          "status": "accepted"
         }
       ]
     },
@@ -96,15 +109,17 @@
       "species": [
         {
           "name": "Chanos chanos",
+          "alphaCode": "MIL",
           "ftypes": 25,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Lates calcarifer",
+          "alphaCode": "GIP",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "pending"
+          "status": "accepted"
         }
       ]
     },
@@ -114,42 +129,49 @@
       "species": [
         {
           "name": "Channa striata",
+          "alphaCode": "FSS",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         },
         {
           "name": "Clarias spp",
+          "alphaCode": "CTO",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "accepted"
         },
         {
           "name": "Cyprinidae",
+          "alphaCode": "FCY",
           "ftypes": 6,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Oreochromis (=Tilapia) spp",
+          "alphaCode": "TLP",
           "ftypes": 12,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         },
         {
           "name": "Oreochromis niloticus",
+          "alphaCode": "TLN",
           "ftypes": 4,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "accepted"
         },
         {
           "name": "Osphronemus goramy",
+          "alphaCode": "FGG",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Osteichthyes",
+          "alphaCode": "FRF",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "accepted"
@@ -162,51 +184,59 @@
       "species": [
         {
           "name": "Caranx spp",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "pending"
-        },
-        {
-          "name": "Lutjanus spp",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "pending"
-        },
-        {
-          "name": "Osteichthyes",
+          "alphaCode": "TRE",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "accepted"
         },
         {
-          "name": "Percoidei",
+          "name": "Lutjanus spp",
+          "alphaCode": "SNA",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Osteichthyes",
+          "alphaCode": "MZZ",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
+        },
+        {
+          "name": "Percoidei",
+          "alphaCode": "PRC",
+          "ftypes": 0,
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Scatophagus spp",
+          "alphaCode": "SCT",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "pending"
+          "status": "accepted"
         },
         {
           "name": "Serranidae",
+          "alphaCode": "BSX",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Siganus spp",
+          "alphaCode": "SPI",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         },
         {
           "name": "Trachinotus blochii",
+          "alphaCode": "POO",
           "ftypes": 0,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         }
       ]
     },
@@ -216,15 +246,17 @@
       "species": [
         {
           "name": "Crassostrea iredalei",
+          "alphaCode": "CSI",
           "ftypes": 4,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         },
         {
           "name": "Perna viridis",
+          "alphaCode": "MSV",
           "ftypes": 6,
           "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "status": "pending"
         }
       ]
     }

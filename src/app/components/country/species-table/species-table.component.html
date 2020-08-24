@@ -4,7 +4,7 @@
         <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
             <span *ngIf="level!=1">{{value}}</span>
-            <a [routerLink]="['/specie', row.name]" *ngIf="level===1"><i>{{value}}</i></a>
+            <a [routerLink]="['/specie', row.alphaCode]" *ngIf="level===1"><i>{{value}}</i></a>
         </ng-template>
     </aqgrlib-tree-table-column>
 
