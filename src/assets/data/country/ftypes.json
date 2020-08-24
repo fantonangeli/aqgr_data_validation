@@ -1,0 +1,53 @@
+{
+  "Strains": [],
+  "Varieties": [
+    {
+      "name": "Varieties 1",
+      "status": "pending"
+    },
+    {
+      "name": "Varieties 2",
+      "status": "pending"
+    },
+    {
+      "name": "Varieties 3",
+      "status": "rejected"
+    },
+    {
+      "name": "Varieties 4",
+      "status": "pending"
+    },
+    {
+      "name": "Varieties 5",
+      "status": "accepted"
+    }
+  ],
+  "Wild sourced": [
+    {
+      "name": "Wild sourced 1",
+      "status": "accepted"
+    },
+    {
+      "name": "Wild sourced 2",
+      "status": "accepted"
+    },
+    {
+      "name": "Wild sourced 3",
+      "status": "accepted"
+    },
+    {
+      "name": "Wild sourced 4",
+      "status": "rejected"
+    }
+  ],
+  "Captive propagated": [
+    {
+      "name": "Captive propagated 1",
+      "status": "pending"
+    },
+    {
+      "name": "Captive propagated 2",
+      "status": "pending"
+    }
+  ]
+}
