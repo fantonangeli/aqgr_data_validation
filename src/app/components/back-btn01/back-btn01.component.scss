@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    height: 40px;
+
+    &:hover {
+        background-color: #ddd;
+    }
+
+    fa-icon {
+        line-height: 40px;
+        color: black
+    }
+}

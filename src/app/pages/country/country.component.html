@@ -17,6 +17,11 @@
     <br>
     <br>
     <div class="row">
+        <div class="col-2 mb-2">
+            <app-back-btn01></app-back-btn01>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-12">
             <app-species-table [searchServiceParams]="searchServiceParams" *ngIf="countryName"></app-species-table>
         </div>

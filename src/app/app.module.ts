@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 import { DatePipe } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { AqgrLibModule } from 'aqgr-lib';
 import { environment } from '../environments/environment';
 import { CountryComponent } from './pages/country/country.component';
 import { SpeciesTableComponent } from './components/country/species-table/species-table.component';
+import { BackBtn01Component } from './components/back-btn01/back-btn01.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +20,14 @@ import { SpeciesTableComponent } from './components/country/species-table/specie
     CountriesTableComponent,
     CountriesComponent,
     CountryComponent,
-    SpeciesTableComponent
+    SpeciesTableComponent,
+    BackBtn01Component
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AqgrLibModule,
+    FontAwesomeModule,
     AppRoutingModule
   ],
   providers: [
