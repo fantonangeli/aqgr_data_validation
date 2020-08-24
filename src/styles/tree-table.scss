@@ -17,7 +17,7 @@ table {
                 &.pending {
                     color: $color_yellow;
                 }
-                &.accepted {
+                &.accepted, &.published {
                     color: $color_green;
                 }
             }
