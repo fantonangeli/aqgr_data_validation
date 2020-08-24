@@ -10,7 +10,7 @@ import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 })
 export class SpeciesService extends BaseService {
     constructor(http: HttpClient, logger: LoggerService) {
-        super(http, environment.services.params);
+        super(http, environment.services.params, false);
     }
 
     /**
