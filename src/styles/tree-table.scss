@@ -6,20 +6,26 @@ table {
             text-align:left !important;
         }
 
-        td.status {
-            font-weight: bold;
+        td{
+            &.status {
+                font-weight: bold;
 
-            &::first-letter {
-                text-transform: capitalize;
+                &::first-letter {
+                    text-transform: capitalize;
+                }
+
+                span {
+                    &.pending {
+                        color: $color_yellow;
+                    }
+                    &.accepted, &.published {
+                        color: $color_green;
+                    }
+                }
             }
 
-            span {
-                &.pending {
-                    color: $color_yellow;
-                }
-                &.accepted, &.published {
-                    color: $color_green;
-                }
+            &.actions button {
+                font-size: inherit;
             }
         }
     }

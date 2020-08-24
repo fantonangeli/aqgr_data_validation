@@ -22,7 +22,7 @@ export class SpeciesTableComponent extends BaseTable01Component {
      *
      * @param data the data from the service
      */
-    loadTableData(data){
+    public loadTableData(data){
         let newdata;
 
         if(!data || !data.taxonomies) return;
@@ -40,5 +40,8 @@ export class SpeciesTableComponent extends BaseTable01Component {
         }));
     }
 
+public onPublishClick(name){
+    console.log("Publish "+name);
+}
 
 }

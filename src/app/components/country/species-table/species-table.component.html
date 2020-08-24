@@ -27,4 +27,11 @@
         </ng-template>
     </aqgrlib-tree-table-column>
 
+    <aqgrlib-tree-table-column cellClass="actions" aqgrlibTreeTableColumn>
+        <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
+        <ng-template let-row="row" aqgrlibTreeTableColumnCell>
+            <button type="button" class="btn btn-success" *ngIf="row.status==='accepted'" (click)="onPublishClick(row.name)">Publish</button>
+        </ng-template>
+    </aqgrlib-tree-table-column>
+
 </aqgrlib-tree-table>
