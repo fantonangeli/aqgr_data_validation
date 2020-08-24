@@ -1,7 +1,7 @@
 import { Input, OnInit } from '@angular/core';
 import {SearchServiceParams} from 'aqgr-lib';
 import { LoggerService } from 'aqgr-lib';
-import { environment } from '../../environments/environment';
+import { environment } from 'src/environments/environment';
 
 /**
  * Base class to be extended from tables components

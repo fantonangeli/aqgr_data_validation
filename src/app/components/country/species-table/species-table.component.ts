@@ -3,6 +3,7 @@ import {ViewEncapsulation} from '@angular/core';
 import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
 import { SpeciesService } from 'src/app/services/country/species.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
     selector: 'app-species-table',
@@ -28,8 +29,10 @@ export class SpeciesTableComponent extends BaseTable01Component {
 
         newdata=JSON.parse(JSON.stringify(data.taxonomies));
 
-        /* TODO: (high) remove me */
-        newdata[0]._toggle=true;
+        if(!environment.production){
+            /* TODO: (low) remove me */
+            newdata[0]._toggle=true;
+        }
 
         return newdata.map(e=>({
             ...e,

@@ -3,6 +3,7 @@ import {ViewEncapsulation} from '@angular/core';
 import { CountriesService } from 'src/app/services/countries/countries.service';
 import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
+import { environment } from 'src/environments/environment';
 
 @Component({
     selector: 'app-countries-table',
@@ -27,9 +28,11 @@ export class CountriesTableComponent extends BaseTable01Component {
 
         newdata=JSON.parse(JSON.stringify(data.continents));
 
-        /* TODO: (high) remove me */
-        newdata[0]._toggle=true;
-        newdata[0].regions[2]._toggle=true;
+        if(!environment.production){
+            /* TODO: (low) remove me */
+            newdata[2]._toggle=true;
+            newdata[2].regions[2]._toggle=true;
+        }
 
         return newdata.map(e=>({
             ...e,
