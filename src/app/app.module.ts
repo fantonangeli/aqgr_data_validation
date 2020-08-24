@@ -13,6 +13,7 @@ import { environment } from '../environments/environment';
 import { CountryComponent } from './pages/country/country.component';
 import { SpeciesTableComponent } from './components/country/species-table/species-table.component';
 import { BackBtn01Component } from './components/back-btn01/back-btn01.component';
+import { SpecieComponent } from './pages/specie/specie.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BackBtn01Component } from './components/back-btn01/back-btn01.component
     CountriesComponent,
     CountryComponent,
     SpeciesTableComponent,
-    BackBtn01Component
+    BackBtn01Component,
+    SpecieComponent
   ],
   imports: [
     BrowserModule,
