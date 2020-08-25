@@ -15,7 +15,10 @@ table {
                 }
 
                 span {
-                    &.pending {
+                    &.rejected {
+                        color: $color_red;
+                    }
+                    &.pending, &.new {
                         color: $color_yellow;
                     }
                     &.accepted, &.published {
@@ -24,8 +27,12 @@ table {
                 }
             }
 
-            &.actions button {
-                font-size: inherit;
+            &.actions {
+                text-align:center !important;
+
+                button {
+                    font-size: inherit;
+                }
             }
         }
     }

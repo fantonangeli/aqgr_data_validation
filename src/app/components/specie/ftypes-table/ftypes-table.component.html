@@ -1,0 +1,38 @@
+<aqgrlib-tree-table [data]="tableData">
+
+    <aqgrlib-tree-table-column prop="name">
+        <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
+        <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
+            <span *ngIf="!row.ftypesCount || level===0">{{value}}</span>
+            <a [routerLink]="['/specie', row.alphaCode]" *ngIf="row.ftypesCount && level>0" >{{value}}</a>
+        </ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="ftypesCount">
+        {{value}}
+        <ng-template aqgrlibTreeTableColumnHeader>No of farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="lastModifiedDate" aqgrlibTreeTableColumn>
+        <ng-template aqgrlibTreeTableColumnHeader>Last update</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:defaultDateFormat}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="status" cellClass="status" aqgrlibTreeTableColumn>
+        <ng-template aqgrlibTreeTableColumnHeader>Status</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>
+            <span [ngClass]="value">{{value}}</span>
+        </ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column cellClass="actions" aqgrlibTreeTableColumn>
+        <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
+        <ng-template let-row="row" aqgrlibTreeTableColumnCell>
+            <button type="button" class="btn mx-2 btn-success" *ngIf="row.status==='new'" (click)="onAcceptClick(row.name)">Accept</button>
+            <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status==='new'" (click)="onRejectClick(row.name)">Reject</button>
+        </ng-template>
+    </aqgrlib-tree-table-column>
+
+</aqgrlib-tree-table>
+

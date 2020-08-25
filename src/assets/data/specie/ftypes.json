@@ -10,33 +10,33 @@
       "ftypes": [
         {
           "name": "Varieties 1",
-          "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-07T14:55:04Z",
+          "status": "new"
         },
         {
           "name": "Varieties 2",
-          "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-18T14:55:04Z",
+          "ftypesCount": 1,
+          "lastModifiedDate": "2020-03-03T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Varieties 3",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-11T14:55:04Z",
-          "status": "pending"
+          "lastModifiedDate": "2020-03-10T14:55:04Z",
+          "status": "new"
         },
         {
           "name": "Varieties 4",
-          "ftypesCount": 4,
-          "lastModifiedDate": "2020-03-16T14:55:04Z",
-          "status": "accepted"
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-15T14:55:04Z",
+          "status": "rejected"
         },
         {
           "name": "Varieties 5",
-          "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-03T14:55:04Z",
-          "status": "rejected"
+          "ftypesCount": 1,
+          "lastModifiedDate": "2020-03-14T14:55:04Z",
+          "status": "accepted"
         }
       ]
     },
@@ -46,27 +46,27 @@
       "ftypes": [
         {
           "name": "Wild sourced 1",
-          "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-07T14:55:04Z",
-          "status": "rejected"
+          "ftypesCount": 4,
+          "lastModifiedDate": "2020-03-03T14:55:04Z",
+          "status": "pending"
         },
         {
           "name": "Wild sourced 2",
           "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-14T14:55:04Z",
-          "status": "pending"
+          "lastModifiedDate": "2020-03-12T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Wild sourced 3",
-          "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-04T14:55:04Z",
-          "status": "rejected"
+          "ftypesCount": 1,
+          "lastModifiedDate": "2020-03-18T14:55:04Z",
+          "status": "pending"
         },
         {
           "name": "Wild sourced 4",
-          "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-21T14:55:04Z",
-          "status": "pending"
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-06T14:55:04Z",
+          "status": "rejected"
         }
       ]
     },
@@ -76,14 +76,14 @@
       "ftypes": [
         {
           "name": "Captive propagated 1",
-          "ftypesCount": 1,
-          "lastModifiedDate": "2020-03-07T14:55:04Z",
+          "ftypesCount": 3,
+          "lastModifiedDate": "2020-03-21T14:55:04Z",
           "status": "pending"
         },
         {
           "name": "Captive propagated 2",
           "ftypesCount": 4,
-          "lastModifiedDate": "2020-03-03T14:55:04Z",
+          "lastModifiedDate": "2020-03-26T14:55:04Z",
           "status": "accepted"
         }
       ]
