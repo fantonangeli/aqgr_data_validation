@@ -49,6 +49,8 @@ Note: Only properties from the services used for tables are not written here.
     "alphaCode": "SWX",
     "lastModifiedDate":"2020-03-20T14:55:04Z",
     "status":"accepted",
+    "ftypeCategories":[],
+    "ftypesCount": "5",
 }
 ```
 
