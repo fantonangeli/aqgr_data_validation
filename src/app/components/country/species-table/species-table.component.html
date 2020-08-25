@@ -4,8 +4,11 @@
     <aqgrlib-tree-table-column prop="name">
         <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
-            <span *ngIf="level!=1">{{value}}</span>
-            <a [routerLink]="['/specie', row.alphaCode]" *ngIf="level===1"><i>{{value}}</i></a>
+            <span *ngIf="level===0">{{value}}</span>
+            <span *ngIf="level===1">
+                <span *ngIf="row.ftypes===0"><i>{{value}}</i></span>
+                <a [routerLink]="['/specie', row.alphaCode]" *ngIf="row.ftypes!==0"><i>{{value}}</i></a>
+            </span>
         </ng-template>
     </aqgrlib-tree-table-column>
 
