@@ -17,14 +17,9 @@ These parameters are accepted by all services of this project under the SearchSe
 
 | Key | REST param | Type | Description |
 | --- | --- | --- | --- |
-| continent | continent_like | string | The continent name |
-| region | region_like | string | The region name |
 | country | country_like | string | The country name |
-| taxonomy | taxonomy_like | string | The taxonomy name |
-| specie | specie_like | string | The specie name |
-| ftype | ftype_like | string | The primary ftype |
-| sftype | sftype_like | string | The secondary ftype |
-| search | key_like | string | Free text to search by name |
+| iso3 | iso3_like | string | The country iso3 code (used only to get country info)|
+| alphaCode | alphaCode_like | string | The species alphaCode (used only to get specie info)|
 | limit | _limit | number | Used to limit the number of results |
 | sortBy | _sort | string | The field as string to sort by |
 

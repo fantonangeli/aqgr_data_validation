@@ -21,15 +21,15 @@ export const environment = {
             info:countryPath+"country-info.json",
             species:countryPath+"species.json",
         },
+        specie:{
+            info:speciePath+"specie-info.json",
+            ftypes:speciePath+"ftypes.json",
+        },
         params: {
-            continent:"continent_like",
-            region:"region_like",
             country:"country_like",
-            taxonomy:"taxonomy_like",
-            specie:"specie_like",
+            alphaCode:"alphaCode_like",
             ftype:"ftype_like",
             sftype:"sftype_like",
-            search:"key_like",
             limit:"_limit",
             sortBy:"_sort"
         },

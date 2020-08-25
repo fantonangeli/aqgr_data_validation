@@ -40,8 +40,15 @@ export class SpeciesTableComponent extends BaseTable01Component {
         }));
     }
 
-public onPublishClick(name){
-    console.log("Publish "+name);
-}
+
+    /**
+     * event called by the publish btn
+     *
+     * @param name the name of the specie
+     */
+    public onPublishClick(name):void{
+        /* TODO: onPublishClick to be implemented */
+        console.log("Publish "+name);
+    }
 
 }
