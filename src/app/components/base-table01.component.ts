@@ -14,6 +14,7 @@ export class BaseTable01Component implements OnInit{
     @Input() searchServiceParams: SearchServiceParams;
 
     constructor(private service){
+        this.logger=new LoggerService();
     }
 
     /**
