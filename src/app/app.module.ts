@@ -15,6 +15,7 @@ import { SpeciesTableComponent } from './components/country/species-table/specie
 import { BackBtn01Component } from './components/back-btn01/back-btn01.component';
 import { SpecieComponent } from './pages/specie/specie.component';
 import { FtypesTableComponent } from './components/specie/ftypes-table/ftypes-table.component';
+import { FtypeComponent } from './pages/ftype/ftype.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FtypesTableComponent } from './components/specie/ftypes-table/ftypes-ta
     SpeciesTableComponent,
     BackBtn01Component,
     SpecieComponent,
-    FtypesTableComponent
+    FtypesTableComponent,
+    FtypeComponent
   ],
   imports: [
     BrowserModule,

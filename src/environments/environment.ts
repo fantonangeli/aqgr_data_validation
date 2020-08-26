@@ -2,6 +2,7 @@ const dataPath="assets/data/";
 const countriesPath=dataPath+"countries/";
 const homePath=dataPath+"home/";
 const speciePath=dataPath+"specie/";
+const ftypePath=dataPath+"ftype/";
 const countryPath=dataPath+"country/";
 
 export const environment = {
@@ -24,6 +25,10 @@ export const environment = {
         specie:{
             info:speciePath+"specie-info.json",
             ftypes:speciePath+"ftypes.json",
+        },
+        ftype:{
+            info:ftypePath+"ftype-info.json",
+            sftypes:ftypePath+"sftypes.json",
         },
         params: {
             country:"country_like",

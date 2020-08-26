@@ -1,0 +1,171 @@
+{
+  "ftypeCategories": [
+    {
+      "name": "Hybrids",
+      "ftypesCount": "6",
+      "ftypes": [
+        {
+          "name": "Hybrids 1",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-05T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Hybrids 2",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-03T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Hybrids 3",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-07T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Hybrids 4",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-26T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Hybrids 5",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-13T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Hybrids 6",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-05T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Introgressed",
+      "ftypesCount": "7",
+      "ftypes": [
+        {
+          "name": "Introgressed 1",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-11T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Introgressed 2",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-31T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Introgressed 3",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-19T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Introgressed 4",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-24T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Introgressed 5",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-18T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Introgressed 6",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-05T14:55:04Z",
+          "status": "pending"
+        },
+        {
+          "name": "Introgressed 7",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-23T14:55:04Z",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Crossbred",
+      "ftypesCount": "0",
+      "ftypes": []
+    },
+    {
+      "name": "Polyploid",
+      "ftypesCount": "1",
+      "ftypes": [
+        {
+          "name": "Polyploid 1",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-19T14:55:04Z",
+          "status": "new"
+        }
+      ]
+    },
+    {
+      "name": "Monosex",
+      "ftypesCount": "2",
+      "ftypes": [
+        {
+          "name": "Monosex 1",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-15T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Monosex 2",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-22T14:55:04Z",
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "name": "Transgenic",
+      "ftypesCount": "3",
+      "ftypes": [
+        {
+          "name": "Transgenic 1",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-29T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Transgenic 2",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-09T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Transgenic 3",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-26T14:55:04Z",
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "name": "Gene edited",
+      "ftypesCount": "2",
+      "ftypes": [
+        {
+          "name": "Gene edited 1",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-12T14:55:04Z",
+          "status": "new"
+        },
+        {
+          "name": "Gene edited 2",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-05T14:55:04Z",
+          "status": "new"
+        }
+      ]
+    }
+  ]
+}

@@ -8,21 +8,21 @@ import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 @Injectable({
   providedIn: 'root'
 })
-export class SpecieInfoService extends BaseService{
+export class FtypeInfoService extends BaseService{
     constructor(http: HttpClient, logger: LoggerService) {
         super(http, environment.services.params);
     }
 
     /**
-     * get info about a specie
+     * get info about a ftype
      *
-     * @params alphaCode the alphaCode of the specie
+     * @params alphaCode the alphaCode of the ftype
      */
     getData(alphaCode: string): Observable<any> {
 
         return this._getByParams(
             this.constructor.name,
-            environment.services.specie.info, 
+            environment.services.ftype.info, 
             {alphaCode}
         );
     }
