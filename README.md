@@ -27,6 +27,14 @@ npm link aqgr-lib
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Developlment with mock server
+
+Run `npm run start:mockserver` for a dev server with mock json-server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Json server
+
+Run `npm run jsonserver` for a dev server. Navigate to `http://localhost:3000/{element}`.
+
 
 ## Visual regression tests
 

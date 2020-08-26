@@ -4,7 +4,6 @@ import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
 import { FtypesService } from 'src/app/services/specie/ftypes.service';
 import { environment } from 'src/environments/environment';
-import * as sftypeMockData from 'src/assets/data/ftype/sftypes.json';
 
 @Component({
     selector: 'app-ftypes-table',
@@ -32,9 +31,6 @@ export class FtypesTableComponent extends BaseTable01Component {
         newdata=JSON.parse(JSON.stringify(data.ftypeCategories));
 
         if(!environment.production){
-            if (this.searchServiceParams.ftype) {
-                newdata=sftypeMockData.default.ftypeCategories;
-            }
             newdata[1]._toggle=true;
         }
 

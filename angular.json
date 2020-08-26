@@ -63,6 +63,14 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "mockserver": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.mockserver.ts"
+                }
+              ]
             }
           }
         },
@@ -76,6 +84,9 @@
           "configurations": {
             "production": {
               "browserTarget": "aqgr-data-validation:build:production"
+            },
+            "mockserver": {
+              "browserTarget": "aqgr-data-validation:build:mockserver"
             }
           }
         },

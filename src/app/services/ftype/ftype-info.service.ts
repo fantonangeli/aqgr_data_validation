@@ -18,12 +18,12 @@ export class FtypeInfoService extends BaseService{
      *
      * @params alphaCode the alphaCode of the ftype
      */
-    getData(alphaCode: string): Observable<any> {
+    getData(name: string): Observable<any> {
 
         return this._getByParams(
             this.constructor.name,
             environment.services.ftype.info, 
-            {alphaCode}
+            {name}
         );
     }
 
