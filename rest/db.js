@@ -12,7 +12,7 @@ module.exports = () => ({
     species,
     ftypes:[
         {data:ftypes, specie:"Eucheuma denticulatum"},
-        {data:sftypes, ftype:"Strain 1"}
+        {data:sftypes, ftype:"Varieties 2"}
     ],
     "specie-info":specieInfo,
     "ftype-info":ftypeInfo

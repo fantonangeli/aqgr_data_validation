@@ -7,38 +7,38 @@
         {
           "name": "Hybrids 1",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-05T14:55:04Z",
-          "status": "accepted"
+          "lastModifiedDate": "2020-03-03T14:55:04Z",
+          "status": "rejected"
         },
         {
           "name": "Hybrids 2",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-03T14:55:04Z",
-          "status": "accepted"
+          "lastModifiedDate": "2020-03-19T14:55:04Z",
+          "status": "new"
         },
         {
           "name": "Hybrids 3",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-07T14:55:04Z",
-          "status": "rejected"
+          "lastModifiedDate": "2020-03-12T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Hybrids 4",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-26T14:55:04Z",
+          "lastModifiedDate": "2020-03-15T14:55:04Z",
           "status": "rejected"
         },
         {
           "name": "Hybrids 5",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-13T14:55:04Z",
-          "status": "rejected"
+          "lastModifiedDate": "2020-03-04T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Hybrids 6",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-05T14:55:04Z",
-          "status": "pending"
+          "lastModifiedDate": "2020-03-03T14:55:04Z",
+          "status": "accepted"
         }
       ]
     },
@@ -49,44 +49,44 @@
         {
           "name": "Introgressed 1",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-11T14:55:04Z",
-          "status": "pending"
+          "lastModifiedDate": "2020-03-03T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Introgressed 2",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-31T14:55:04Z",
-          "status": "rejected"
+          "lastModifiedDate": "2020-03-27T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Introgressed 3",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-19T14:55:04Z",
-          "status": "pending"
+          "lastModifiedDate": "2020-03-01T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Introgressed 4",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-24T14:55:04Z",
+          "lastModifiedDate": "2020-03-02T14:55:04Z",
           "status": "accepted"
         },
         {
           "name": "Introgressed 5",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-18T14:55:04Z",
+          "lastModifiedDate": "2020-03-10T14:55:04Z",
           "status": "rejected"
         },
         {
           "name": "Introgressed 6",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-05T14:55:04Z",
-          "status": "pending"
+          "lastModifiedDate": "2020-03-27T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Introgressed 7",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-23T14:55:04Z",
-          "status": "pending"
+          "lastModifiedDate": "2020-03-25T14:55:04Z",
+          "status": "rejected"
         }
       ]
     },
@@ -102,7 +102,7 @@
         {
           "name": "Polyploid 1",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-19T14:55:04Z",
+          "lastModifiedDate": "2020-03-14T14:55:04Z",
           "status": "new"
         }
       ]
@@ -114,13 +114,13 @@
         {
           "name": "Monosex 1",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-15T14:55:04Z",
-          "status": "rejected"
+          "lastModifiedDate": "2020-03-26T14:55:04Z",
+          "status": "new"
         },
         {
           "name": "Monosex 2",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-22T14:55:04Z",
+          "lastModifiedDate": "2020-03-23T14:55:04Z",
           "status": "accepted"
         }
       ]
@@ -132,20 +132,20 @@
         {
           "name": "Transgenic 1",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-29T14:55:04Z",
-          "status": "rejected"
+          "lastModifiedDate": "2020-03-02T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Transgenic 2",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-09T14:55:04Z",
-          "status": "accepted"
+          "lastModifiedDate": "2020-03-20T14:55:04Z",
+          "status": "new"
         },
         {
           "name": "Transgenic 3",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-26T14:55:04Z",
-          "status": "accepted"
+          "lastModifiedDate": "2020-03-18T14:55:04Z",
+          "status": "new"
         }
       ]
     },
@@ -156,14 +156,14 @@
         {
           "name": "Gene edited 1",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-12T14:55:04Z",
+          "lastModifiedDate": "2020-03-26T14:55:04Z",
           "status": "new"
         },
         {
           "name": "Gene edited 2",
           "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-05T14:55:04Z",
-          "status": "new"
+          "lastModifiedDate": "2020-03-07T14:55:04Z",
+          "status": "rejected"
         }
       ]
     }

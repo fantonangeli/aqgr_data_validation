@@ -31,7 +31,7 @@ export class SpeciesTableComponent extends BaseTable01Component {
 
         if(!environment.production){
             /* TODO: (low) remove me */
-            newdata[0]._toggle=true;
+            newdata[2]._toggle=true;
         }
 
         return newdata.map(e=>({

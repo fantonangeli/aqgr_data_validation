@@ -31,7 +31,7 @@ export class FtypesTableComponent extends BaseTable01Component {
         newdata=JSON.parse(JSON.stringify(data.ftypeCategories));
 
         if(!environment.production){
-            newdata[1]._toggle=true;
+            newdata[0]._toggle=true;
         }
 
         return newdata.map(e=>({

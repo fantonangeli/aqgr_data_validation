@@ -2,89 +2,78 @@
   "ftypeCategories": [
     {
       "name": "Strains",
-      "ftypesCount": 0
-    },
-    {
-      "name": "Varieties",
       "ftypesCount": "5",
       "ftypes": [
         {
-          "name": "Varieties 1",
-          "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-07T14:55:04Z",
-          "status": "new"
-        },
-        {
-          "name": "Varieties 2",
-          "ftypesCount": 1,
-          "lastModifiedDate": "2020-03-03T14:55:04Z",
+          "name": "Strains 1",
+          "ftypesCount": 21,
+          "lastModifiedDate": "2020-03-18T14:55:04Z",
           "status": "pending"
         },
         {
-          "name": "Varieties 3",
-          "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-10T14:55:04Z",
-          "status": "new"
-        },
-        {
-          "name": "Varieties 4",
-          "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-15T14:55:04Z",
+          "name": "Strains 2",
+          "ftypesCount": 4,
+          "lastModifiedDate": "2020-03-16T14:55:04Z",
           "status": "rejected"
         },
         {
-          "name": "Varieties 5",
+          "name": "Strains 3",
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-01T14:55:04Z",
+          "status": "rejected"
+        },
+        {
+          "name": "Strains 4",
+          "ftypesCount": 3,
+          "lastModifiedDate": "2020-03-30T14:55:04Z",
+          "status": "accepted"
+        },
+        {
+          "name": "Strains 5",
           "ftypesCount": 1,
-          "lastModifiedDate": "2020-03-14T14:55:04Z",
+          "lastModifiedDate": "2020-03-29T14:55:04Z",
           "status": "accepted"
         }
       ]
     },
     {
+      "name": "Varieties",
+      "ftypesCount": 0,
+      "ftypes": []
+    },
+    {
       "name": "Wild sourced",
-      "ftypesCount": "4",
+      "ftypesCount": "3",
       "ftypes": [
         {
           "name": "Wild sourced 1",
-          "ftypesCount": 4,
-          "lastModifiedDate": "2020-03-03T14:55:04Z",
-          "status": "pending"
+          "ftypesCount": 0,
+          "lastModifiedDate": "2020-03-26T14:55:04Z",
+          "status": "accepted"
         },
         {
           "name": "Wild sourced 2",
-          "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-12T14:55:04Z",
+          "ftypesCount": 1,
+          "lastModifiedDate": "2020-03-30T14:55:04Z",
           "status": "accepted"
         },
         {
           "name": "Wild sourced 3",
           "ftypesCount": 1,
-          "lastModifiedDate": "2020-03-18T14:55:04Z",
+          "lastModifiedDate": "2020-03-04T14:55:04Z",
           "status": "pending"
-        },
-        {
-          "name": "Wild sourced 4",
-          "ftypesCount": 0,
-          "lastModifiedDate": "2020-03-06T14:55:04Z",
-          "status": "rejected"
         }
       ]
     },
     {
       "name": "Captive propagated",
-      "ftypesCount": "2",
+      "ftypesCount": "1",
       "ftypes": [
         {
           "name": "Captive propagated 1",
-          "ftypesCount": 3,
-          "lastModifiedDate": "2020-03-21T14:55:04Z",
-          "status": "pending"
-        },
-        {
-          "name": "Captive propagated 2",
           "ftypesCount": 4,
-          "lastModifiedDate": "2020-03-26T14:55:04Z",
-          "status": "accepted"
+          "lastModifiedDate": "2020-03-27T14:55:04Z",
+          "status": "rejected"
         }
       ]
     }
