@@ -4,6 +4,7 @@ import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
 import { SpeciesService } from 'src/app/services/country/species.service';
 import { environment } from 'src/environments/environment';
+import * as jsonata from 'jsonata';
 
 @Component({
     selector: 'app-species-table',
@@ -17,6 +18,8 @@ export class SpeciesTableComponent extends BaseTable01Component {
         super(service);
     }
 
+
+
     /**
      * load data for the table and set it to tableData
      *
@@ -25,19 +28,15 @@ export class SpeciesTableComponent extends BaseTable01Component {
     public loadTableData(data){
         let newdata;
 
-        if(!data || !data.taxonomies) return;
+        if(!data) return;
 
-        newdata=JSON.parse(JSON.stringify(data.taxonomies));
+        newdata=jsonata('${ taxonomy:{        "name": (taxonomy)[0], "ftypes": $count($), "_children":[$] } }.*').evaluate(data);
 
         if(!environment.production){
-            /* TODO: (low) remove me */
-            newdata[2]._toggle=true;
+            newdata[1]._toggle=true;
         }
 
-        return newdata.map(e=>({
-            ...e,
-            _children: e.species
-        }));
+        return newdata;
     }
 
 

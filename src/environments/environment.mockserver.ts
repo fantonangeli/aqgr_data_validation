@@ -31,7 +31,7 @@ export const environment = {
             info:baseUrl+"ftype-info",
         },
         params: {
-            country:"country_like",
+            country:"_country_like",
             alphaCode:"alphaCode_like",
             specie:"_specie_like",
             ftype:"_ftypeParent_like",

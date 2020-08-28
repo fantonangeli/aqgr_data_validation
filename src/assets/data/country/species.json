@@ -1,264 +1,354 @@
-{
-  "taxonomies": [
-    {
-      "name": "Aquatic plants",
-      "ftypes": 23,
-      "species": [
-        {
-          "name": "Caulerpa spp",
-          "alphaCode": "CAU",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-05T14:55:04Z",
-          "status": "rejected"
-        },
-        {
-          "name": "Eucheuma denticulatum",
-          "alphaCode": "EMI",
-          "ftypes": 11,
-          "lastModifiedDate": "2020-03-01T14:55:04Z",
-          "status": "new"
-        },
-        {
-          "name": "Gracilaria spp",
-          "alphaCode": "GLS",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-20T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Kappaphycus alvarezii",
-          "alphaCode": "EMA",
-          "ftypes": 12,
-          "lastModifiedDate": "2020-03-24T14:55:04Z",
-          "status": "accepted"
-        }
-      ]
-    },
-    {
-      "name": "Crustaceans",
-      "ftypes": 16,
-      "species": [
-        {
-          "name": "Macrobrachium rosenbergii",
-          "alphaCode": "PRF",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-04T14:55:04Z",
-          "status": "new"
-        },
-        {
-          "name": "Metapenaeus spp",
-          "alphaCode": "MET",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-05T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Panulirus spp",
-          "alphaCode": "SLV",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-31T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Penaeus merguiensis",
-          "alphaCode": "PBA",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-11T14:55:04Z",
-          "status": "rejected"
-        },
-        {
-          "name": "Penaeus monodon",
-          "alphaCode": "GIT",
-          "ftypes": 9,
-          "lastModifiedDate": "2020-03-27T14:55:04Z",
-          "status": "new"
-        },
-        {
-          "name": "Penaeus spp",
-          "alphaCode": "PEN",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-28T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Penaeus vannamei",
-          "alphaCode": "PNV",
-          "ftypes": 4,
-          "lastModifiedDate": "2020-03-04T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Scylla serrata",
-          "alphaCode": "MUD",
-          "ftypes": 3,
-          "lastModifiedDate": "2020-03-07T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Thenus orientalis",
-          "alphaCode": "THQ",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-05T14:55:04Z",
-          "status": "new"
-        }
-      ]
-    },
-    {
-      "name": "Diadromous fishes",
-      "ftypes": 9,
-      "species": [
-        {
-          "name": "Chanos chanos",
-          "alphaCode": "MIL",
-          "ftypes": 9,
-          "lastModifiedDate": "2020-03-03T14:55:04Z",
-          "status": "pending"
-        },
-        {
-          "name": "Lates calcarifer",
-          "alphaCode": "GIP",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-16T14:55:04Z",
-          "status": "rejected"
-        }
-      ]
-    },
-    {
-      "name": "Freshwater fishes",
-      "ftypes": 12,
-      "species": [
-        {
-          "name": "Channa striata",
-          "alphaCode": "FSS",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-12T14:55:04Z",
-          "status": "rejected"
-        },
-        {
-          "name": "Clarias spp",
-          "alphaCode": "CTO",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-16T14:55:04Z",
-          "status": "rejected"
-        },
-        {
-          "name": "Cyprinidae",
-          "alphaCode": "FCY",
-          "ftypes": 6,
-          "lastModifiedDate": "2020-03-25T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Oreochromis (=Tilapia) spp",
-          "alphaCode": "TLP",
-          "ftypes": 6,
-          "lastModifiedDate": "2020-03-13T14:55:04Z",
-          "status": "pending"
-        },
-        {
-          "name": "Oreochromis niloticus",
-          "alphaCode": "TLN",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-12T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Osphronemus goramy",
-          "alphaCode": "FGG",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-27T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Osteichthyes",
-          "alphaCode": "FRF",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-19T14:55:04Z",
-          "status": "accepted"
-        }
-      ]
-    },
-    {
-      "name": "Marine fishes",
-      "ftypes": 0,
-      "species": [
-        {
-          "name": "Caranx spp",
-          "alphaCode": "TRE",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-31T14:55:04Z",
-          "status": "new"
-        },
-        {
-          "name": "Lutjanus spp",
-          "alphaCode": "SNA",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-16T14:55:04Z",
-          "status": "rejected"
-        },
-        {
-          "name": "Osteichthyes",
-          "alphaCode": "MZZ",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-28T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Percoidei",
-          "alphaCode": "PRC",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-13T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Scatophagus spp",
-          "alphaCode": "SCT",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-31T14:55:04Z",
-          "status": "new"
-        },
-        {
-          "name": "Serranidae",
-          "alphaCode": "BSX",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-03T14:55:04Z",
-          "status": "rejected"
-        },
-        {
-          "name": "Siganus spp",
-          "alphaCode": "SPI",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-07T14:55:04Z",
-          "status": "accepted"
-        },
-        {
-          "name": "Trachinotus blochii",
-          "alphaCode": "POO",
-          "ftypes": 0,
-          "lastModifiedDate": "2020-03-04T14:55:04Z",
-          "status": "accepted"
-        }
-      ]
-    },
-    {
-      "name": "Molluscs",
-      "ftypes": 10,
-      "species": [
-        {
-          "name": "Crassostrea iredalei",
-          "alphaCode": "CSI",
-          "ftypes": 4,
-          "lastModifiedDate": "2020-03-26T14:55:04Z",
-          "status": "pending"
-        },
-        {
-          "name": "Perna viridis",
-          "alphaCode": "MSV",
-          "ftypes": 6,
-          "lastModifiedDate": "2020-03-01T14:55:04Z",
-          "status": "accepted"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "Kappaphycus alvarezii",
+    "ftypes": 12,
+    "sftypes": 0,
+    "native": true,
+    "alphaCode": "EMA",
+    "lastModifiedDate": "2020-03-18T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Aquatic plants",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Eucheuma denticulatum",
+    "ftypes": 11,
+    "sftypes": 0,
+    "native": true,
+    "alphaCode": "EMI",
+    "lastModifiedDate": "2020-03-09T14:55:04Z",
+    "status": "pending",
+    "taxonomy": "Aquatic plants",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Caulerpa spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "CAU",
+    "lastModifiedDate": "2020-03-14T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Aquatic plants",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Gracilaria spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "GLS",
+    "lastModifiedDate": "2020-03-26T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Aquatic plants",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Chanos chanos",
+    "ftypes": 9,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "MIL",
+    "lastModifiedDate": "2020-03-17T14:55:04Z",
+    "status": "pending",
+    "taxonomy": "Diadromous fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Lates calcarifer",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "GIP",
+    "lastModifiedDate": "2020-03-28T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Diadromous fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Oreochromis niloticus",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "TLN",
+    "lastModifiedDate": "2020-03-09T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Freshwater fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Oreochromis (=Tilapia) spp",
+    "ftypes": 6,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "TLP",
+    "lastModifiedDate": "2020-03-12T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Freshwater fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Cyprinidae",
+    "ftypes": 6,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "FCY",
+    "lastModifiedDate": "2020-03-20T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Freshwater fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Clarias spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "CTO",
+    "lastModifiedDate": "2020-03-06T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Freshwater fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Channa striata",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "FSS",
+    "lastModifiedDate": "2020-03-31T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Freshwater fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Osphronemus goramy",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "FGG",
+    "lastModifiedDate": "2020-03-15T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Freshwater fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Osteichthyes",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "FRF",
+    "lastModifiedDate": "2020-03-05T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Freshwater fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Penaeus monodon",
+    "ftypes": 9,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "GIT",
+    "lastModifiedDate": "2020-03-21T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Scylla serrata",
+    "ftypes": 3,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "MUD",
+    "lastModifiedDate": "2020-03-19T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Penaeus vannamei",
+    "ftypes": 4,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "PNV",
+    "lastModifiedDate": "2020-03-01T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Penaeus merguiensis",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "PBA",
+    "lastModifiedDate": "2020-03-11T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Metapenaeus spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "MET",
+    "lastModifiedDate": "2020-03-19T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Panulirus spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "SLV",
+    "lastModifiedDate": "2020-03-06T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Macrobrachium rosenbergii",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "PRF",
+    "lastModifiedDate": "2020-03-03T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Thenus orientalis",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "THQ",
+    "lastModifiedDate": "2020-03-22T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Penaeus spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "PEN",
+    "lastModifiedDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Crustaceans",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Crassostrea iredalei",
+    "ftypes": 4,
+    "sftypes": 0,
+    "native": true,
+    "alphaCode": "CSI",
+    "lastModifiedDate": "2020-03-23T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Molluscs",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Perna viridis",
+    "ftypes": 6,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "MSV",
+    "lastModifiedDate": "2020-03-16T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Molluscs",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Osteichthyes",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "MZZ",
+    "lastModifiedDate": "2020-03-16T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Serranidae",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "BSX",
+    "lastModifiedDate": "2020-03-31T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Siganus spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "SPI",
+    "lastModifiedDate": "2020-03-14T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Lutjanus spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "SNA",
+    "lastModifiedDate": "2020-03-09T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Trachinotus blochii",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "POO",
+    "lastModifiedDate": "2020-03-28T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Caranx spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": true,
+    "alphaCode": "TRE",
+    "lastModifiedDate": "2020-03-25T14:55:04Z",
+    "status": "new",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Percoidei",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "PRC",
+    "lastModifiedDate": "2020-03-25T14:55:04Z",
+    "status": "rejected",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  },
+  {
+    "name": "Scatophagus spp",
+    "ftypes": 0,
+    "sftypes": 0,
+    "native": false,
+    "alphaCode": "SCT",
+    "lastModifiedDate": "2020-03-15T14:55:04Z",
+    "status": "accepted",
+    "taxonomy": "Marine fishes",
+    "_country": "Philippines"
+  }
+]
