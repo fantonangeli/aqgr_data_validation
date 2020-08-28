@@ -5,13 +5,13 @@
         <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
             <span *ngIf="level===0">{{value}}</span>
             <span *ngIf="level===1">
-                <span *ngIf="row.ftypesCount===0"><i>{{value}}</i></span>
-                <a [routerLink]="['/ftype', row.name]" *ngIf="row.ftypesCount!==0"><i>{{value}}</i></a>
+                <span *ngIf="row.ftypes===0"><i>{{value}}</i></span>
+                <a [routerLink]="['/ftype', row.name]" *ngIf="row.ftypes!==0"><i>{{value}}</i></a>
             </span>
         </ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="ftypesCount">
+    <aqgrlib-tree-table-column prop="ftypes">
         {{value}}
         <ng-template aqgrlibTreeTableColumnHeader>No of farmed types</ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
@@ -32,9 +32,9 @@
     <aqgrlib-tree-table-column cellClass="actions" aqgrlibTreeTableColumn>
         <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
         <ng-template let-row="row" aqgrlibTreeTableColumnCell>
-            <span *ngIf="row.ftypesCount===0">
-                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status==='new' || row.status==='rejected'" (click)="onAcceptClick(row.name)">Accept</button>
-                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status==='new' || row.status==='accepted'" (click)="onRejectClick(row.name)">Reject</button>
+            <span *ngIf="row.ftypes===0">
+                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status==='new' || row.status==='rejected'" (click)="onAcceptClick(row)">Accept</button>
+                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status==='new' || row.status==='accepted'" (click)="onRejectClick(row)">Reject</button>
             </span>
         </ng-template>
     </aqgrlib-tree-table-column>

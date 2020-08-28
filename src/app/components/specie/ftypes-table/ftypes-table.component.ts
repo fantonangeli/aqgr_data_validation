@@ -4,6 +4,7 @@ import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
 import { FtypesService } from 'src/app/services/specie/ftypes.service';
 import { environment } from 'src/environments/environment';
+import * as jsonata from 'jsonata';
 
 @Component({
     selector: 'app-ftypes-table',
@@ -11,12 +12,13 @@ import { environment } from 'src/environments/environment';
     styleUrls: ['./ftypes-table.component.scss'],
     encapsulation: ViewEncapsulation.None
 })
-export class FtypesTableComponent extends BaseTable01Component {
+export class FtypesTableComponent extends BaseTable01Component implements OnInit{
     @Input() searchServiceParams: SearchServiceParams;
 
     constructor(service: FtypesService){
         super(service);
     }
+
 
     /**
      * load data for the table and set it to tableData
@@ -26,29 +28,28 @@ export class FtypesTableComponent extends BaseTable01Component {
     public loadTableData(data){
         let newdata;
 
-        if(!data || !data.ftypeCategories) return;
+        if(!data) return;
 
-        newdata=JSON.parse(JSON.stringify(data.ftypeCategories));
+        newdata=jsonata('${ ftypeCategory:{        "name": (ftypeCategory)[0], "ftypes": $count($), "_children":[$] } }.*').evaluate(data);
 
         if(!environment.production){
             newdata[0]._toggle=true;
         }
 
-        return newdata.map(e=>({
-            ...e,
-            _children: e.ftypes
-        }));
+        return newdata;
     }
 
 
     /**
      * event called by the accept btn
      *
-     * @param name the name of the specie
+     * @param data the data to be saved
      */
-    public onAcceptClick(name):void{
+    public onAcceptClick(data):void{
         /* TODO: onAcceptClick to be implemented */
-        console.log("Accept "+name);
+        if(!data || !data.name) return;
+
+        this.service.edit(data.name, data);
     }
 
     /**
@@ -56,10 +57,14 @@ export class FtypesTableComponent extends BaseTable01Component {
      *
      * @param name the name of the specie
      */
-    public onRejectClick(name):void{
+    public onRejectClick(data):void{
         /* TODO: onRejectClick to be implemented */
         console.log("Reject "+name);
     }
 
+    ngOnInit(){
+        this.searchServiceParams.ftype=this.searchServiceParams.ftype || "null";
+        super.ngOnInit();
+    }
 }
 

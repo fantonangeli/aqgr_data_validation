@@ -19,10 +19,21 @@ export class FtypesService extends BaseService {
      * @param params ssp the params to send to the service
      */
     getAll(ssp: SearchServiceParams=new SearchServiceParams()): Observable<any> {
+        /* BUG: limit 0 is always changed to 10 */
         return this._getAll(
             this.constructor.name,
             environment.services.specie.ftypes,
-            ssp
+            ssp,
+            100
+        );
+    }
+
+
+    edit(name, data): Observable<any>{
+        return this._edit(
+            this.constructor.name,
+            `${environment.services.specie.ftypes}/${name}`,
+            data
         );
     }
 }
