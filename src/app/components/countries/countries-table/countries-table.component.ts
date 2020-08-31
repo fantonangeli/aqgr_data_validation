@@ -27,7 +27,7 @@ export class CountriesTableComponent extends BaseTable01Component {
 
         if(!data) return;
 
-        newdata=jsonata('${ continent:{        "nameEn": (continent)[0], "species":$sum(species), "ftypes":$sum(ftypes), "sftypes":$sum(sftypes), "_children":[ { region:{        "nameEn": (region)[0], "species":$sum(species), "ftypes":$sum(ftypes), "sftypes":$sum(sftypes), "_children":[$] } } ].* } }.*').evaluate(data);
+        newdata=jsonata('${ continent:{        "nameEn": (continent)[0], "species":$sum(species), "ftypes":$sum(ftypes), "sftypes":$sum(sftypes), "_children":[ { region:[{        "nameEn": (region)[0], "species":$sum(species), "ftypes":$sum(ftypes), "sftypes":$sum(sftypes), "_children":[$] } ] } ].* } }.*').evaluate(data);
 
         if(!environment.production){
             newdata[0]._toggle=true;

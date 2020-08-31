@@ -22,7 +22,8 @@ export class CountriesService extends BaseService {
         return this._getAll(
             this.constructor.name,
             environment.services.countries.all,
-            ssp
+            ssp,
+            10000
         );
     }
 }
