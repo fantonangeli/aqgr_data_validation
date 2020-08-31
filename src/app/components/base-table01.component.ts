@@ -11,7 +11,7 @@ export class BaseTable01Component implements OnInit{
     defaultDateFormat=environment.defaultDateFormat;
     logger: LoggerService;
 
-    @Input() searchServiceParams: SearchServiceParams;
+    @Input() searchServiceParams=new SearchServiceParams();
 
     constructor(protected service){
         this.logger=new LoggerService();
@@ -31,6 +31,8 @@ export class BaseTable01Component implements OnInit{
      *
      */
     fetchData() {
+        this.searchServiceParams.limit=0;
+
         this.service.getAll(this.searchServiceParams).subscribe(
             (data)=>{
                 this.tableData=this.loadTableData(data);
