@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges} from '@angular/core';
+import { Component, OnInit, Input, Injector} from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
 import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
@@ -15,8 +15,8 @@ import * as jsonata from 'jsonata';
 export class FtypesTableComponent extends BaseTable01Component implements OnInit{
     @Input() searchServiceParams: SearchServiceParams;
 
-    constructor(service: FtypesService){
-        super(service);
+    constructor(injector: Injector, service: FtypesService){
+        super(injector, service);
     }
 
 

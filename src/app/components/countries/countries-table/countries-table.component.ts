@@ -1,4 +1,4 @@
-import { Component, OnInit, Input} from '@angular/core';
+import { Component, OnInit, Input, Injector} from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
 import { CountriesService } from 'src/app/services/countries/countries.service';
 import {SearchServiceParams} from 'aqgr-lib';
@@ -13,8 +13,8 @@ import * as jsonata from 'jsonata';
     encapsulation: ViewEncapsulation.None
 })
 export class CountriesTableComponent extends BaseTable01Component {
-    constructor(service: CountriesService){
-        super(service);
+    constructor(injector: Injector, service: CountriesService){
+        super(injector, service);
     }
 
     /**

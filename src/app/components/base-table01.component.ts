@@ -1,5 +1,6 @@
-import { Input, OnInit } from '@angular/core';
+import { Input, OnInit, Injector } from '@angular/core';
 import {SearchServiceParams} from 'aqgr-lib';
+import {Router} from '@angular/router';
 import { LoggerService } from 'aqgr-lib';
 import { environment } from 'src/environments/environment';
 
@@ -12,12 +13,15 @@ export class BaseTable01Component implements OnInit{
     logger: LoggerService;
     origData=[];
     statuses=environment.statuses;
+    router:Router;
 
     @Input() searchServiceParams=new SearchServiceParams();
 
-    constructor(protected service){
+    constructor(protected injector, protected service){
         this.logger=new LoggerService();
+        this.router=injector.get(Router);
     }
+
 
     /**
      * load data for the table and set it to tableData
@@ -80,9 +84,14 @@ export class BaseTable01Component implements OnInit{
 
         origRecData[field]=newValue;
 
-        this.service.edit(origRecData.id, origRecData);
-
-        row[field]=newValue;
+        this.service.edit(origRecData.id, origRecData).subscribe(
+            (data)=>{
+                row[field]=newValue;
+            },
+            (err)=>{
+                this.router.navigate(['/error']);
+            }
+        );
     }
 
     /**

@@ -16,6 +16,7 @@ import { BackBtn01Component } from './components/back-btn01/back-btn01.component
 import { SpecieComponent } from './pages/specie/specie.component';
 import { FtypesTableComponent } from './components/specie/ftypes-table/ftypes-table.component';
 import { FtypeComponent } from './pages/ftype/ftype.component';
+import { ErrorComponent } from './pages/error/error.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FtypeComponent } from './pages/ftype/ftype.component';
     BackBtn01Component,
     SpecieComponent,
     FtypesTableComponent,
-    FtypeComponent
+    FtypeComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

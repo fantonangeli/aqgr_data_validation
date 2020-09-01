@@ -27,10 +27,17 @@ export class FtypesService extends BaseService {
     }
 
 
-    edit(name, data): Observable<any>{
+    /**
+     * edit an item.
+     *
+     * @param id the id
+     * @param data the data to be saved
+     * @returns an observable
+     */
+    edit(id, data): Observable<any>{
         return this._edit(
             this.constructor.name,
-            `${environment.services.specie.ftypes}/${name}`,
+            `${environment.services.specie.ftypes}/${id}`,
             data
         );
     }
