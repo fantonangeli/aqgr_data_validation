@@ -45,9 +45,18 @@ export class SpeciesTableComponent extends BaseTable01Component {
      *
      * @param name the name of the specie
      */
-    public onPublishClick(name):void{
-        /* TODO: onPublishClick to be implemented */
-        console.log("Publish "+name);
+    public onPublishClick(row):void{
+        this.setItemField(row, "status", this.statuses.published);
+    }
+
+
+    /**
+     * event called by the unpublish btn
+     *
+     * @param name the name of the specie
+     */
+    public onUnpublishClick(row):void{
+        this.setItemField(row, "status", this.statuses.accepted);
     }
 
 }

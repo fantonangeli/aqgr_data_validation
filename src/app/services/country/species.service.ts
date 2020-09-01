@@ -25,4 +25,20 @@ export class SpeciesService extends BaseService {
             ssp
         );
     }
+
+
+    /**
+     * edit an item.
+     *
+     * @param id the id
+     * @param data the data to be saved
+     * @returns an observable
+     */
+    edit(id, data): Observable<any>{
+        return this._edit(
+            this.constructor.name,
+            `${environment.services.country.species}/${id}`,
+            data
+        );
+    }
 }

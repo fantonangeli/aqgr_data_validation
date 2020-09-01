@@ -47,6 +47,7 @@ export const environment = {
     statuses:{
         accepted:"accepted",
         rejected:"rejected",
+        published:"published",
         new:"new",
         pending:"pending"
     }
