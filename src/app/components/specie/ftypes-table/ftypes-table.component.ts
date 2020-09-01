@@ -39,29 +39,6 @@ export class FtypesTableComponent extends BaseTable01Component implements OnInit
         return newdata;
     }
 
-
-    /**
-     * event called by the accept btn
-     *
-     * @param data the data to be saved
-     */
-    public onAcceptClick(data):void{
-        /* TODO: onAcceptClick to be implemented */
-        if(!data || !data.name) return;
-
-        this.service.edit(data.name, data);
-    }
-
-    /**
-     * event called by the reject btn
-     *
-     * @param name the name of the specie
-     */
-    public onRejectClick(data):void{
-        /* TODO: onRejectClick to be implemented */
-        console.log("Reject "+name);
-    }
-
     ngOnInit(){
         this.searchServiceParams.ftype=this.searchServiceParams.ftype || "null";
         super.ngOnInit();

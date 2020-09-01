@@ -10,6 +10,7 @@ export class BaseTable01Component implements OnInit{
     tableData=[];
     defaultDateFormat=environment.defaultDateFormat;
     logger: LoggerService;
+    origData=[];
 
     @Input() searchServiceParams=new SearchServiceParams();
 
@@ -35,6 +36,7 @@ export class BaseTable01Component implements OnInit{
 
         this.service.getAll(this.searchServiceParams).subscribe(
             (data)=>{
+                this.origData=JSON.parse(JSON.stringify(data));
                 this.tableData=this.loadTableData(data);
             },
             (error)=>{
@@ -44,6 +46,62 @@ export class BaseTable01Component implements OnInit{
 
     }
 
+
+    /**
+     * gets the original data of a record.
+     *
+     * @param id the id of the record
+     * @param data the haystack
+     * @return the item, false otherwise
+     */
+    protected getItemById(id:string, data:any[]):object{
+        let item=data.filter((e)=>e.id===id);
+
+        return item.length?item[0]:false;
+    }
+
+    /**
+     * Set a field of an item, send it to the service and update the table (if success).
+     *
+     * @param {any} row the row from the table
+     * @param {string} field the field to be edited
+     * @param {any} newValue the new value to be set
+     * @returns {boolean} true if ok, false otherwise 
+     */
+    protected setItemField(row:any, field:string, newValue:any):boolean{
+        let origRecData;
+
+        if(!row) return false;
+
+        origRecData=this.getItemById(row.id, this.origData);
+
+        if(!origRecData) return false;
+
+        origRecData[field]=newValue;
+
+        this.service.edit(origRecData.id, origRecData);
+
+        row[field]=newValue;
+    }
+
+    /**
+     * event called by the accept btn
+     *
+     * @param {any} row the row from the table
+     */
+    public onAcceptClick(row):void{
+        this.setItemField(row, "status", "accepted");
+    }
+
+
+    /**
+     * event called by the reject btn
+     *
+     * @param {any} row the row from the table
+     */
+    public onRejectClick(row):void{
+        this.setItemField(row, "status", "rejected");
+    }
 
     ngOnInit(){
         this.fetchData();

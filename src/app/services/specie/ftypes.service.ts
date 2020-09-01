@@ -22,8 +22,7 @@ export class FtypesService extends BaseService {
         return this._getAll(
             this.constructor.name,
             environment.services.specie.ftypes,
-            ssp,
-            100
+            ssp
         );
     }
 
