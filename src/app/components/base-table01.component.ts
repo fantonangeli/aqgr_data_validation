@@ -11,6 +11,7 @@ export class BaseTable01Component implements OnInit{
     defaultDateFormat=environment.defaultDateFormat;
     logger: LoggerService;
     origData=[];
+    statuses=environment.statuses;
 
     @Input() searchServiceParams=new SearchServiceParams();
 
@@ -55,7 +56,7 @@ export class BaseTable01Component implements OnInit{
      * @return the item, false otherwise
      */
     protected getItemById(id:string, data:any[]):object{
-        let item=data.filter((e)=>e.id===id);
+        const item=data.filter((e)=>e.id===id);
 
         return item.length?item[0]:false;
     }
@@ -90,7 +91,7 @@ export class BaseTable01Component implements OnInit{
      * @param {any} row the row from the table
      */
     public onAcceptClick(row):void{
-        this.setItemField(row, "status", "accepted");
+        this.setItemField(row, "status", this.statuses.accepted);
     }
 
 
@@ -100,7 +101,7 @@ export class BaseTable01Component implements OnInit{
      * @param {any} row the row from the table
      */
     public onRejectClick(row):void{
-        this.setItemField(row, "status", "rejected");
+        this.setItemField(row, "status", this.statuses.rejected);
     }
 
     ngOnInit(){

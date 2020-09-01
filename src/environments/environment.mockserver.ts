@@ -39,6 +39,16 @@ export const environment = {
             limit:"_limit",
             sortBy:"_sort"
         },
+    },
+
+    /**
+     * statuses of the records
+     */
+    statuses:{
+        accepted:"accepted",
+        rejected:"rejected",
+        new:"new",
+        pending:"pending"
     }
 
 };
