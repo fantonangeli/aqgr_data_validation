@@ -22,7 +22,7 @@ export class SpecieInfoService extends BaseService{
 
         return this._getByParams(
             this.constructor.name,
-            environment.services.specie.info, 
+            environment.services.species.info,
             {alphaCode}
         );
     }

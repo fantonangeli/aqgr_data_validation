@@ -1,9 +1,9 @@
 const countries = require("../src/assets/data/countries/countries.json");
-const countryInfo = require("../src/assets/data/country/country-info.json");
-const species = require("../src/assets/data/country/species.json");
-const ftypes = require("../src/assets/data/specie/ftypes.json");
-const specieInfo = require("../src/assets/data/specie/specie-info.json");
-const ftypeInfo = require("../src/assets/data/ftype/ftype-info.json");
+const countryInfo = require("../src/assets/data/countries/country-info.json");
+const species = require("../src/assets/data/species/species.json");
+const specieInfo = require("../src/assets/data/species/specie-info.json");
+const ftypes = require("../src/assets/data/ftypes/ftypes.json");
+const ftypeInfo = require("../src/assets/data/ftypes/ftype-info.json");
 
 module.exports = () => ({
     "country-info":countryInfo,

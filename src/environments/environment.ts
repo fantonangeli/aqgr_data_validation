@@ -1,10 +1,8 @@
 // const baseUrl="http://localhost:3000/";
 const dataPath="assets/data/";
 const countriesPath=dataPath+"countries/";
-const homePath=dataPath+"home/";
-const speciePath=dataPath+"specie/";
-const ftypePath=dataPath+"ftype/";
-const countryPath=dataPath+"country/";
+const speciesPath=dataPath+"species/";
+const ftypesPath=dataPath+"ftypes/";
 
 export const environment = {
     production: false,
@@ -17,24 +15,24 @@ export const environment = {
 
     services:{
         countries:{
-            all:countriesPath+"countries.json"
+            all:countriesPath+"countries.json",
+            info:countriesPath+"country-info.json",
         },
-        country:{
-            info:countryPath+"country-info.json",
-            species:countryPath+"species.json",
+        species:{
+            all:speciesPath+"species.json",
+            info:speciesPath+"specie-info.json",
+            edit:(id)=>`${speciesPath}species.json?id=${id}`,
         },
-        specie:{
-            info:speciePath+"specie-info.json",
-            ftypes:speciePath+"ftypes.json",
-        },
-        ftype:{
-            info:ftypePath+"ftype-info.json",
+        ftypes:{
+            all:ftypesPath+"ftypes.json",
+            info:ftypesPath+"ftype-info.json",
+            edit:(id)=>`${ftypesPath}ftypes.json?id=${id}`,
         },
         params: {
-            country:"country_like",
+            country:"_country_like",
             alphaCode:"alphaCode_like",
-            specie:"specie_like",
-            ftype:"ftype_like",
+            specie:"_specie_like",
+            ftype:"_ftypeParent_like",
             sftype:"sftype_like",
             limit:"_limit",
             sortBy:"_sort"
@@ -47,6 +45,7 @@ export const environment = {
     statuses:{
         accepted:"accepted",
         rejected:"rejected",
+        published:"published",
         new:"new",
         pending:"pending"
     }

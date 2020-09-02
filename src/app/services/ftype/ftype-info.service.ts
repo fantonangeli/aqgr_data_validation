@@ -22,7 +22,7 @@ export class FtypeInfoService extends BaseService{
 
         return this._getByParams(
             this.constructor.name,
-            environment.services.ftype.info, 
+            environment.services.ftypes.info, 
             {name}
         );
     }

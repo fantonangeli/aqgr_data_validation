@@ -22,7 +22,7 @@ export class CountryInfoService extends BaseService{
 
         return this._getByParams(
             "CountryInfoService",
-            environment.services.country.info, 
+            environment.services.countries.info,
             {iso3}
         );
     }

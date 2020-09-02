@@ -21,7 +21,7 @@ export class FtypesService extends BaseService {
     getAll(ssp: SearchServiceParams=new SearchServiceParams()): Observable<any> {
         return this._getAll(
             this.constructor.name,
-            environment.services.specie.ftypes,
+            environment.services.ftypes.all,
             ssp
         );
     }
@@ -37,7 +37,7 @@ export class FtypesService extends BaseService {
     edit(id, data): Observable<any>{
         return this._edit(
             this.constructor.name,
-            `${environment.services.specie.ftypes}/${id}`,
+            environment.services.ftypes.edit(id),
             data
         );
     }

@@ -1,10 +1,8 @@
 const baseUrl="http://localhost:3000/";
-const dataPath="assets/data/";
-const countriesPath=baseUrl+"countries/";
-const homePath=baseUrl+"home/";
-const speciePath=baseUrl+"specie/";
-const ftypePath=baseUrl+"ftype/";
-const countryPath=baseUrl+"country/";
+// const dataPath="assets/data/";
+// const countriesPath=dataPath+"countries/";
+// const speciesPath=dataPath+"species/";
+// const ftypesPath=dataPath+"ftypes/";
 
 export const environment = {
     production: false,
@@ -17,17 +15,17 @@ export const environment = {
 
     services:{
         countries:{
-            all:baseUrl+"countries"
-        },
-        country:{
+            all:baseUrl+"countries",
             info:baseUrl+"country-info",
-            species:baseUrl+"species",
         },
-        specie:{
+        species:{
+            all:baseUrl+"species",
             info:baseUrl+"specie-info",
-            ftypes:baseUrl+"ftypes",
+            edit:(id)=>`${baseUrl}species/${id}`,
         },
-        ftype:{
+        ftypes:{
+            all:baseUrl+"ftypes",
+            edit:(id)=>`${baseUrl}ftypes/${id}`,
             info:baseUrl+"ftype-info",
         },
         params: {

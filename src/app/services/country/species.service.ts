@@ -21,7 +21,7 @@ export class SpeciesService extends BaseService {
     getAll(ssp: SearchServiceParams=new SearchServiceParams()): Observable<any> {
         return this._getAll(
             this.constructor.name,
-            environment.services.country.species,
+            environment.services.species.all,
             ssp
         );
     }
@@ -37,7 +37,7 @@ export class SpeciesService extends BaseService {
     edit(id, data): Observable<any>{
         return this._edit(
             this.constructor.name,
-            `${environment.services.country.species}/${id}`,
+            environment.services.species.edit(id),
             data
         );
     }
