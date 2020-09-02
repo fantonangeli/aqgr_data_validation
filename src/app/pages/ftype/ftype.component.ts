@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { FtypeInfoService } from 'src/app/services/ftype/ftype-info.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
+import { FtypesTableComponent } from 'src/app/components/specie/ftypes-table/ftypes-table.component';
 
 @Component({
   selector: 'app-ftype',
@@ -13,6 +14,8 @@ export class FtypeComponent implements OnInit {
     name:string;
     ftypeName="";
     searchServiceParams=new SearchServiceParams();
+
+    @ViewChild(FtypesTableComponent, {static:false}) tableComponent: FtypesTableComponent;
 
   constructor(private route: ActivatedRoute, private _ftypeInfoService:FtypeInfoService, private _logger:LoggerService) { }
     
@@ -32,6 +35,15 @@ export class FtypeComponent implements OnInit {
             }
         );
 
+    }
+
+    /**
+     * event fired on AcceptAllClick.
+     *
+     * @returns {void}
+     */
+    public onAcceptAllClick():void{
+        this.tableComponent.acceptAll();
     }
 
     ngOnInit(){

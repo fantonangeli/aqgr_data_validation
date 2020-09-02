@@ -1,4 +1,5 @@
 import { Input, OnInit, Injector } from '@angular/core';
+import {Observable, merge} from 'rxjs';
 import {SearchServiceParams} from 'aqgr-lib';
 import {Router} from '@angular/router';
 import { LoggerService } from 'aqgr-lib';
@@ -111,6 +112,60 @@ export class BaseTable01Component implements OnInit{
      */
     public onRejectClick(row):void{
         this.setItemField(row, "status", this.statuses.rejected);
+    }
+
+    /**
+     * Set a field in all items, send it to the service and reload the table (if success).
+     *
+     * @param {any[]} origData the row from the table
+     * @param {string} field the field to be edited
+     * @param {any} newValue the new value to be set
+     * @returns {boolean} true if ok, false otherwise 
+     */
+    protected setItemsField(origData:any[], field:string, newValue:any):boolean{
+        const obss=[];
+        let items=[];
+
+        if(!origData.length) return;
+
+        items=origData.filter(e => e[field]!==newValue);
+
+        if(!items.length) return;
+
+        for (let i = 0, len = items.length; i < len; i++) {
+            const item=items[i];
+            item[field]=newValue;
+            obss.push(this.service.edit(item.id, item));
+        }
+
+        merge(...obss).subscribe(
+            (data)=>{
+            },
+            (err)=>{
+                this.router.navigate(['/error']);
+            },
+            ()=>{
+                this.fetchData();
+            }
+        );
+    }
+
+    /**
+     * change the status of all non-accepted items to accepted.
+     *
+     * @returns {void}
+     */
+    public acceptAll():void{
+        this.setItemsField(this.origData, "status", environment.statuses.accepted);
+    }
+
+    /**
+     * change the status of all accepted items to rejected.
+     *
+     * @returns {void}
+     */
+    public rejectAll():void{
+        this.setItemsField(this.origData, "status", environment.statuses.rejected);
     }
 
     ngOnInit(){
