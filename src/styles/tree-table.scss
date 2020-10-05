@@ -6,6 +6,12 @@ table {
             text-align:left !important;
         }
 
+        th{
+            &.actions{
+                width:27%;
+            }
+        }
+
         td{
             &.status {
                 font-weight: bold;
