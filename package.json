@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "jsonserver": "nodemon --watch rest --watch src/assets/data --exec 'json-server rest/db.js'",
-    "start:mockserver": "concurrently 'npm run jsonserver'  'ng serve -c mockserver'",
-    "start": "ng serve",
+    "start": "concurrently 'npm run jsonserver'  'ng serve'",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

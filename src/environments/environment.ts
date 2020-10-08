@@ -1,8 +1,8 @@
-// const baseUrl="http://localhost:3000/";
-const dataPath="assets/data/";
-const countriesPath=dataPath+"countries/";
-const speciesPath=dataPath+"species/";
-const ftypesPath=dataPath+"ftypes/";
+const baseUrl="http://localhost:3000/";
+// const dataPath="assets/data/";
+// const countriesPath=dataPath+"countries/";
+// const speciesPath=dataPath+"species/";
+// const ftypesPath=dataPath+"ftypes/";
 
 export const environment = {
     production: false,
@@ -15,18 +15,18 @@ export const environment = {
 
     services:{
         countries:{
-            all:countriesPath+"countries.json",
-            info:countriesPath+"country-info.json",
+            all:baseUrl+"countries",
+            info:baseUrl+"country-info",
         },
         species:{
-            all:speciesPath+"species.json",
-            info:speciesPath+"specie-info.json",
-            edit:(id)=>`${speciesPath}species.json?id=${id}`,
+            all:baseUrl+"species",
+            info:baseUrl+"specie-info",
+            edit:(id)=>`${baseUrl}species/${id}`,
         },
         ftypes:{
-            all:ftypesPath+"ftypes.json",
-            info:ftypesPath+"ftype-info.json",
-            edit:(id)=>`${ftypesPath}ftypes.json?id=${id}`,
+            all:baseUrl+"ftypes",
+            edit:(id)=>`${baseUrl}ftypes/${id}`,
+            info:baseUrl+"ftype-info",
         },
         params: {
             country:"_country_like",
