@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { DatePipe } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -17,6 +18,7 @@ import { SpecieComponent } from './pages/specie/specie.component';
 import { FtypesTableComponent } from './components/specie/ftypes-table/ftypes-table.component';
 import { FtypeComponent } from './pages/ftype/ftype.component';
 import { ErrorComponent } from './pages/error/error.component';
+import { FunkyRadioComponent } from './components/funky-radio/funky-radio.component';
 
 @NgModule({
   declarations: [
@@ -29,9 +31,11 @@ import { ErrorComponent } from './pages/error/error.component';
     SpecieComponent,
     FtypesTableComponent,
     FtypeComponent,
-    ErrorComponent
+    ErrorComponent,
+    FunkyRadioComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     HttpClientModule,
     AqgrLibModule,

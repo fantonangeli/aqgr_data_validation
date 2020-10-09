@@ -1,0 +1,184 @@
+//colors
+$color_iron_approx: #d1d3d4;
+$color_gray_approx: #888;
+$color_silver_approx: #c2c2c2;
+$color_boulder_approx: #777;
+$color_mine_shaft_approx: #333;
+$color_martini_approx: #999;
+$white: #fff;
+$color_steel_blue_approx: #337ab7;
+$color_fern_approx: #5cb85c;
+$color_roman_approx: #d9534f;
+$color_casablanca_approx: #f0ad4e;
+$color_viking_approx: #5bc0de;
+//@extend-elements
+//original selectors
+//.funkyradio input[type="radio"]:empty ~label, .funkyradio input[type="checkbox"]:empty ~label
+%extend_1 {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer; //Instead of the line below you could use @include user-select($select)
+    user-select: none;
+}
+
+//original selectors
+//.funkyradio input[type="radio"]:empty ~label:before, .funkyradio input[type="checkbox"]:empty ~label:before
+%extend_2 {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: $color_iron_approx; //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 3px 0 0 3px;
+}
+
+//original selectors
+//.funkyradio input[type="radio"]:hover:not(:checked) ~label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~label:before
+%extend_3 {
+    content: '\2714';
+    text-indent: .9em;
+    color: $color_silver_approx;
+}
+
+//original selectors
+//.funkyradio input[type="radio"]:checked ~label:before, .funkyradio input[type="checkbox"]:checked ~label:before
+%extend_4 {
+    content: '\2714';
+    text-indent: .9em;
+    color: $color_mine_shaft_approx;
+    background-color: $color_silver_approx;
+}
+
+label {
+    width: 100%; //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 3px;
+    border: 1px solid $color_iron_approx;
+    font-weight: normal;
+}
+
+input[type="radio"] {
+    &:empty {
+        display: none;
+        ~label {
+            @extend %extend_1;
+            &:before {
+                @extend %extend_2;
+            }
+        }
+    }
+    &:hover:not(:checked)~label {
+        color: $color_gray_approx;
+        &:before {
+            @extend %extend_3;
+        }
+    }
+    &:checked~label {
+        color: $color_boulder_approx;
+        &:before {
+            @extend %extend_4;
+        }
+    }
+    &:focus~label:before {
+        //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 0 3px $color_martini_approx;
+    }
+}
+
+input[type="checkbox"] {
+    &:empty {
+        display: none;
+        ~label {
+            @extend %extend_1;
+            &:before {
+                @extend %extend_2;
+            }
+        }
+    }
+    &:hover:not(:checked)~label {
+        color: $color_gray_approx;
+        &:before {
+            @extend %extend_3;
+        }
+    }
+    &:checked~label {
+        color: $color_boulder_approx;
+        &:before {
+            @extend %extend_4;
+        }
+    }
+    &:focus~label:before {
+        //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 0 3px $color_martini_approx;
+    }
+}
+
+.funkyradio-default {
+    input[type="radio"]:checked~label:before {
+        color: $color_mine_shaft_approx;
+        background-color: $color_silver_approx;
+    }
+    input[type="checkbox"]:checked~label:before {
+        color: $color_mine_shaft_approx;
+        background-color: $color_silver_approx;
+    }
+}
+
+.funkyradio-primary {
+    input[type="radio"]:checked~label:before {
+        color: $white;
+        background-color: $color_steel_blue_approx;
+    }
+    input[type="checkbox"]:checked~label:before {
+        color: $white;
+        background-color: $color_steel_blue_approx;
+    }
+}
+
+.funkyradio-success {
+    input[type="radio"]:checked~label:before {
+        color: $white;
+        background-color: $color_fern_approx;
+    }
+    input[type="checkbox"]:checked~label:before {
+        color: $white;
+        background-color: $color_fern_approx;
+    }
+}
+
+.funkyradio-danger {
+    input[type="radio"]:checked~label:before {
+        color: $white;
+        background-color: $color_roman_approx;
+    }
+    input[type="checkbox"]:checked~label:before {
+        color: $white;
+        background-color: $color_roman_approx;
+    }
+}
+
+.funkyradio-warning {
+    input[type="radio"]:checked~label:before {
+        color: $white;
+        background-color: $color_casablanca_approx;
+    }
+    input[type="checkbox"]:checked~label:before {
+        color: $white;
+        background-color: $color_casablanca_approx;
+    }
+}
+
+.funkyradio-info {
+    input[type="radio"]:checked~label:before {
+        color: $white;
+        background-color: $color_viking_approx;
+    }
+    input[type="checkbox"]:checked~label:before {
+        color: $white;
+        background-color: $color_viking_approx;
+    }
+}

@@ -1,4 +1,3 @@
-<!-- TODO: ftypes names editable -->
 <!-- TODO: put a question: is this specie native(y/n)? -->
 <div class="container mw-100">
     <div class="row">
@@ -15,8 +14,12 @@
             Which Primary farmed types are farmed for <b>{{specieName}}</b>?
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <app-funky-radio type="success" inputId="nativeCB" label="Is this spece native?" [(inputModel)]="isNative" (inputModelChange)="toggleNative($event)"></app-funky-radio>
+        </div>
+    </div>
         
-    <br>
     <br>
     <div class="row">
         <div class="col-2 mb-3">

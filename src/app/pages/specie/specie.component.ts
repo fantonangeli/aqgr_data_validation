@@ -15,7 +15,8 @@ export class SpecieComponent implements OnInit {
     searchServiceParams=new SearchServiceParams();
 
   constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService) { }
-    
+    isNative=false;
+
     /**
      * fetch the data and load them
      * @param alphaCode specie code
@@ -32,6 +33,14 @@ export class SpecieComponent implements OnInit {
             }
         );
 
+    }
+
+    /**
+     * Toggle the native flag for this specie and send the value to the service
+     *
+     */
+    toggleNative(event) {
+        console.log("isNative:", event);
     }
 
     ngOnInit(){

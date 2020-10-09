@@ -1,0 +1,4 @@
+<div [ngClass]="'funkyradio-'+type">
+    <input type="checkbox" [id]="inputId" [(ngModel)]="inputModel" (ngModelChange)="inputModelChange.emit(inputModel)" />
+    <label [for]="inputId">{{label}}</label>
+</div>
