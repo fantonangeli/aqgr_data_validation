@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 import { SpecieInfoService } from 'src/app/services/specie/specie-info.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
@@ -14,8 +14,9 @@ export class SpecieComponent implements OnInit {
     specieName="";
     searchServiceParams=new SearchServiceParams();
 
-  constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService) { }
+  constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService, private router:Router) { }
     isNative=false;
+    origData:any;
 
     /**
      * fetch the data and load them
@@ -26,6 +27,8 @@ export class SpecieComponent implements OnInit {
         this._specieInfoService.getData(this.alphaCode).subscribe(
             (data)=>{
                 this.specieName=data.name;
+                this.isNative=data.native;
+                this.origData=data;
                 this.searchServiceParams.specie=this.specieName;
             },
             (error)=>{
@@ -37,10 +40,19 @@ export class SpecieComponent implements OnInit {
 
     /**
      * Toggle the native flag for this specie and send the value to the service
-     *
+     * @param isNative the new native value
      */
-    toggleNative(event) {
-        console.log("isNative:", event);
+    toggleNative(isNative:boolean) {
+        const newData=this.origData;
+        newData.native=isNative;
+
+        this._specieInfoService.edit(newData.id, newData).subscribe(
+            (data)=>{
+            },
+            (err)=>{
+                this.router.navigate(['/error']);
+            }
+        );
     }
 
     ngOnInit(){

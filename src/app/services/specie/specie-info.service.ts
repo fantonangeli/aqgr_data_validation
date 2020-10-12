@@ -18,16 +18,31 @@ export class SpecieInfoService extends BaseService{
      *
      * @params alphaCode the alphaCode of the specie
      */
-    getData(alphaCode: string): Observable<any> {
+    getData(id: string): Observable<any> {
 
-        return this._getByParams(
+        return this._getById(
             this.constructor.name,
             environment.services.species.info,
-            {alphaCode}
+            id
         );
     }
 
 
+
+    /**
+     * edit an item.
+     *
+     * @param id the id
+     * @param data the data to be saved
+     * @returns an observable
+     */
+    edit(id:string, data:any): Observable<any>{
+        return this._edit(
+            this.constructor.name,
+            environment.services.species.infoEdit(id),
+            data
+        );
+    }
 
 
 }

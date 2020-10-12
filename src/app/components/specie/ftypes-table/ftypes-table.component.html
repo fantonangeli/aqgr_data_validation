@@ -6,7 +6,7 @@
             <span *ngIf="level===0">{{value}}</span>
             <span *ngIf="level===1">
                 <span *ngIf="row.ftypes===0"><i>{{value}}</i></span>
-                <a [routerLink]="['/ftype', row.name]" *ngIf="row.ftypes!==0"><i>{{value}}</i></a>
+                <a [routerLink]="['/ftype', (production)?row.id:'Strains 1']" *ngIf="row.ftypes!==0"><i>{{value}}</i></a>
             </span>
         </ng-template>
     </aqgrlib-tree-table-column>

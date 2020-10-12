@@ -15,6 +15,7 @@ export class BaseTable01Component implements OnInit{
     origData=[];
     statuses=environment.statuses;
     router:Router;
+    production=environment.production;
 
     @Input() searchServiceParams=new SearchServiceParams();
 
