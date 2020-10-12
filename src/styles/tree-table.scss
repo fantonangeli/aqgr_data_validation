@@ -7,6 +7,10 @@ table {
         }
 
         th{
+            &.number{
+                text-align:center !important;
+            }
+
             &.actions{
                 width:27%;
             }
