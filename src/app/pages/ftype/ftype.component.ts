@@ -24,8 +24,8 @@ export class FtypeComponent implements OnInit {
      * @param name ftype code
      *
      */
-    fetchInfo(name:string) {
-        this._ftypeInfoService.getData(this.name).subscribe(
+    fetchInfo(id:string) {
+        this._ftypeInfoService.getData(id).subscribe(
             (data)=>{
                 this.ftypeName=data.name;
                 this.searchServiceParams.ftype=this.ftypeName;

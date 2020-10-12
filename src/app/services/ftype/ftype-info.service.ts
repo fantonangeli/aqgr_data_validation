@@ -16,14 +16,14 @@ export class FtypeInfoService extends BaseService{
     /**
      * get info about a ftype
      *
-     * @params alphaCode the alphaCode of the ftype
+     * @params id the id of the element
      */
-    getData(name: string): Observable<any> {
+    getData(id: string): Observable<any> {
 
-        return this._getByParams(
+        return this._getById(
             this.constructor.name,
-            environment.services.ftypes.info, 
-            {name}
+            environment.services.ftypes.info,
+            id
         );
     }
 

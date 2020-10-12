@@ -20,10 +20,10 @@ export class CountryInfoService extends BaseService{
      */
     getData(iso3: string): Observable<any> {
 
-        return this._getByParams(
+        return this._getById(
             "CountryInfoService",
             environment.services.countries.info,
-            {iso3}
+            iso3
         );
     }
 

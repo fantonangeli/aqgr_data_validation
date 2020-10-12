@@ -20,7 +20,8 @@ export const environment = {
         },
         species:{
             all:baseUrl+"species",
-            info:(id)=>`${baseUrl}specie-info/${id}`,
+            info:baseUrl+"specie-info",
+            infoEdit:(id)=>`${baseUrl}specie-info/${id}`,
             edit:(id)=>`${baseUrl}species/${id}`,
         },
         ftypes:{
