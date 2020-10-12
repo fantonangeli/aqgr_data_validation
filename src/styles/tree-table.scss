@@ -17,6 +17,10 @@ table {
         }
 
         td{
+            &.number{
+                text-align:right !important;
+            }
+
             &.status {
                 font-weight: bold;
 

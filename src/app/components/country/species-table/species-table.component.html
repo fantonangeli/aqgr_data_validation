@@ -11,9 +11,9 @@
         </ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="ftypes" headerClass="number">
+    <aqgrlib-tree-table-column prop="ftypes" headerClass="number" cellClass="number">
         <ng-template aqgrlibTreeTableColumnHeader>Farmed types</ng-template>
-        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="lastModifiedDate">
@@ -28,7 +28,7 @@
         </ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column cellClass="actions" headerClass="actions">
+    <aqgrlib-tree-table-column cellClass="actions" headerClass="actions" cellClass="number">
         <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
         <ng-template let-row="row" aqgrlibTreeTableColumnCell>
             <button type="button" class="btn mx-2 btn-success" *ngIf="row.status===statuses.accepted" (click)="onPublishClick(row)">Publish</button>

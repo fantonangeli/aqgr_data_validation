@@ -8,21 +8,21 @@
         </ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="species" headerClass="number">
+    <aqgrlib-tree-table-column prop="species" headerClass="number" cellClass="number">
         <ng-template aqgrlibTreeTableColumnHeader>Species</ng-template>
         <ng-template let-value="value" let-row="row" aqgrlibTreeTableColumnCell>
-            <span>{{value}}</span>
+            <span>{{value | number:defaultNumberFormat}}</span>
         </ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="ftypes" headerClass="number">
+    <aqgrlib-tree-table-column prop="ftypes" headerClass="number" cellClass="number">
         <ng-template aqgrlibTreeTableColumnHeader>Farmed types</ng-template>
-        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="sftypes" headerClass="number">
+    <aqgrlib-tree-table-column prop="sftypes" headerClass="number" cellClass="number">
         <ng-template aqgrlibTreeTableColumnHeader>Secondary<br>farmed types</ng-template>
-        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="lastUploadDate">

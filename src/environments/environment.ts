@@ -9,6 +9,11 @@ export const environment = {
     logging:true,
 
     /**
+     * default numeric format used to format numbers
+     */
+    defaultNumberFormat:'1.2-2',
+
+    /**
      * default date format used to format dates
      */
     defaultDateFormat:'dd/MM/yyyy hh:mm',

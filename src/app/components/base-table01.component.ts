@@ -10,6 +10,7 @@ import { environment } from 'src/environments/environment';
  */
 export class BaseTable01Component implements OnInit{
     tableData=[];
+    defaultNumberFormat=environment.defaultNumberFormat;
     defaultDateFormat=environment.defaultDateFormat;
     logger: LoggerService;
     origData=[];
