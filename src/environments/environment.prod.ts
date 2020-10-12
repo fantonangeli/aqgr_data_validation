@@ -5,8 +5,13 @@ const baseUrl="https://aqgr-dv-demo-rest.herokuapp.com/";
 // const ftypesPath=dataPath+"ftypes/";
 
 export const environment = {
-    production: true,
+    production: false,
     logging:true,
+
+    /**
+     * default numeric format used to format numbers
+     */
+    defaultNumberFormat:'1.2-2',
 
     /**
      * default date format used to format dates
