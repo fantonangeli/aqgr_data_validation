@@ -1,8 +1,4 @@
 const baseUrl="http://localhost:3000/";
-// const dataPath="assets/data/";
-// const countriesPath=dataPath+"countries/";
-// const speciesPath=dataPath+"species/";
-// const ftypesPath=dataPath+"ftypes/";
 
 export const environment = {
     production: false,

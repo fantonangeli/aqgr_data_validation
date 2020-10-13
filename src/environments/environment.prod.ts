@@ -1,8 +1,4 @@
-const baseUrl="https://aqgr-dv-demo-rest.herokuapp.com/";
-// const dataPath="assets/data/";
-// const countriesPath=dataPath+"countries/";
-// const speciesPath=dataPath+"species/";
-// const ftypesPath=dataPath+"ftypes/";
+const baseUrl="http://localhost:3000/";
 
 export const environment = {
     production: false,
