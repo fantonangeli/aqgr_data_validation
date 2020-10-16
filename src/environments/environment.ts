@@ -7,7 +7,7 @@ export const environment = {
     /**
      * default numeric format used to format numbers
      */
-    defaultNumberFormat:'1.2-2',
+    defaultNumberFormat:'1.0-2',
 
     /**
      * default date format used to format dates

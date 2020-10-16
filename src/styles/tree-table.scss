@@ -2,14 +2,8 @@
 
 table {
     tr{
-        td, th{
-            text-align:left !important;
-        }
-
         th{
-            &.number{
-                text-align:center !important;
-            }
+            text-align:center !important;
 
             &.actions{
                 width:27%;
@@ -17,6 +11,8 @@ table {
         }
 
         td{
+            text-align:left !important;
+
             &.number{
                 text-align:right !important;
             }
