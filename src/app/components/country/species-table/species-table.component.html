@@ -1,8 +1,7 @@
 <aqgrlib-tree-table [data]="tableData">
 
     <aqgrlib-tree-table-column prop="name">
-        <!-- TODO: Countries -> species -->
-        <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader>Species</ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
             <!-- TODO: show the total number of species in brackets (xx) -->
             <span *ngIf="level===0">{{value}}</span>
