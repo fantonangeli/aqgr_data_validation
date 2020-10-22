@@ -1,4 +1,4 @@
-const baseUrl="http://localhost:3000/";
+const baseUrl="https://aqgr-dv-demo-rest.herokuapp.com/";
 
 export const environment = {
     production: false,
@@ -21,8 +21,8 @@ export const environment = {
         },
         species:{
             all:baseUrl+"species",
-            info:baseUrl+"specie-info",
-            infoEdit:(id)=>`${baseUrl}specie-info/${id}`,
+            info:baseUrl+"species-info",
+            infoEdit:(id)=>`${baseUrl}species-info/${id}`,
             edit:(id)=>`${baseUrl}species/${id}`,
         },
         ftypes:{
@@ -33,7 +33,7 @@ export const environment = {
         params: {
             country:"_country_like",
             alphaCode:"alphaCode_like",
-            specie:"_specie_like",
+            specie:"_species_like",
             ftype:"_ftypeParent_like",
             sftype:"sftype_like",
             limit:"_limit",

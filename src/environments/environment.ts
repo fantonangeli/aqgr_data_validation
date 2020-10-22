@@ -12,6 +12,7 @@ export const environment = {
     /**
      * default date format used to format dates
      */
+    /* TODO: date format to dd-MMM-yyyy */
     defaultDateFormat:'dd/MM/yyyy hh:mm',
 
     services:{
@@ -21,8 +22,8 @@ export const environment = {
         },
         species:{
             all:baseUrl+"species",
-            info:baseUrl+"specie-info",
-            infoEdit:(id)=>`${baseUrl}specie-info/${id}`,
+            info:baseUrl+"species-info",
+            infoEdit:(id)=>`${baseUrl}species-info/${id}`,
             edit:(id)=>`${baseUrl}species/${id}`,
         },
         ftypes:{
@@ -33,7 +34,7 @@ export const environment = {
         params: {
             country:"_country_like",
             alphaCode:"alphaCode_like",
-            specie:"_specie_like",
+            specie:"_species_like",
             ftype:"_ftypeParent_like",
             sftype:"sftype_like",
             limit:"_limit",

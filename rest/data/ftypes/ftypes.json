@@ -3,300 +3,300 @@
     "id": "Strains 1",
     "name": "Strains 1",
     "ftypes": 21,
-    "lastModifiedDate": "2020-03-25T14:55:04Z",
+    "lastModifiedDate": "2020-03-18T14:55:04Z",
     "status": "pending",
     "ftypeCategory": "Strains",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Strains 2",
     "name": "Strains 2",
-    "ftypes": 1,
-    "lastModifiedDate": "2020-03-13T14:55:04Z",
-    "status": "rejected",
+    "ftypes": 0,
+    "lastModifiedDate": "2020-03-17T14:55:04Z",
+    "status": "accepted",
     "ftypeCategory": "Strains",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Strains 3",
     "name": "Strains 3",
     "ftypes": 3,
-    "lastModifiedDate": "2020-03-20T14:55:04Z",
-    "status": "pending",
+    "lastModifiedDate": "2020-03-10T14:55:04Z",
+    "status": "rejected",
     "ftypeCategory": "Strains",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Strains 4",
     "name": "Strains 4",
-    "ftypes": 0,
-    "lastModifiedDate": "2020-03-29T14:55:04Z",
-    "status": "accepted",
+    "ftypes": 1,
+    "lastModifiedDate": "2020-03-17T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Strains",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Strains 5",
     "name": "Strains 5",
-    "ftypes": 3,
-    "lastModifiedDate": "2020-03-17T14:55:04Z",
-    "status": "rejected",
+    "ftypes": 0,
+    "lastModifiedDate": "2020-03-23T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Strains",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Wild sourced 1",
     "name": "Wild sourced 1",
-    "ftypes": 3,
-    "lastModifiedDate": "2020-03-15T14:55:04Z",
-    "status": "accepted",
+    "ftypes": 0,
+    "lastModifiedDate": "2020-03-20T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Wild sourced",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Wild sourced 2",
     "name": "Wild sourced 2",
-    "ftypes": 3,
-    "lastModifiedDate": "2020-03-01T14:55:04Z",
-    "status": "new",
+    "ftypes": 1,
+    "lastModifiedDate": "2020-03-22T14:55:04Z",
+    "status": "accepted",
     "ftypeCategory": "Wild sourced",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Wild sourced 3",
     "name": "Wild sourced 3",
-    "ftypes": 0,
-    "lastModifiedDate": "2020-03-13T14:55:04Z",
+    "ftypes": 1,
+    "lastModifiedDate": "2020-03-23T14:55:04Z",
     "status": "rejected",
     "ftypeCategory": "Wild sourced",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Captive propagated 1",
     "name": "Captive propagated 1",
-    "ftypes": 4,
-    "lastModifiedDate": "2020-03-21T14:55:04Z",
-    "status": "accepted",
+    "ftypes": 2,
+    "lastModifiedDate": "2020-03-23T14:55:04Z",
+    "status": "pending",
     "ftypeCategory": "Captive propagated",
     "_ftypeParent": "null",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Hybrids 1",
     "name": "Hybrids 1",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-06T14:55:04Z",
-    "status": "accepted",
+    "lastModifiedDate": "2020-03-26T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Hybrids",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Hybrids 2",
     "name": "Hybrids 2",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-03T14:55:04Z",
-    "status": "accepted",
+    "lastModifiedDate": "2020-03-02T14:55:04Z",
+    "status": "rejected",
     "ftypeCategory": "Hybrids",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Hybrids 3",
     "name": "Hybrids 3",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-26T14:55:04Z",
-    "status": "rejected",
+    "lastModifiedDate": "2020-03-15T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Hybrids",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Hybrids 4",
     "name": "Hybrids 4",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-03T14:55:04Z",
-    "status": "rejected",
+    "lastModifiedDate": "2020-03-07T14:55:04Z",
+    "status": "accepted",
     "ftypeCategory": "Hybrids",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Hybrids 5",
     "name": "Hybrids 5",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-08T14:55:04Z",
-    "status": "rejected",
+    "lastModifiedDate": "2020-03-04T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Hybrids",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Hybrids 6",
     "name": "Hybrids 6",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-18T14:55:04Z",
-    "status": "rejected",
+    "lastModifiedDate": "2020-03-23T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Hybrids",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Introgressed 1",
     "name": "Introgressed 1",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-08T14:55:04Z",
-    "status": "rejected",
+    "lastModifiedDate": "2020-03-28T14:55:04Z",
+    "status": "accepted",
     "ftypeCategory": "Introgressed",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Introgressed 2",
     "name": "Introgressed 2",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-31T14:55:04Z",
-    "status": "pending",
+    "lastModifiedDate": "2020-03-17T14:55:04Z",
+    "status": "accepted",
     "ftypeCategory": "Introgressed",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Introgressed 3",
     "name": "Introgressed 3",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-24T14:55:04Z",
-    "status": "rejected",
+    "lastModifiedDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
     "ftypeCategory": "Introgressed",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Introgressed 4",
     "name": "Introgressed 4",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-15T14:55:04Z",
-    "status": "accepted",
+    "lastModifiedDate": "2020-03-26T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Introgressed",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Introgressed 5",
     "name": "Introgressed 5",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-31T14:55:04Z",
+    "lastModifiedDate": "2020-03-15T14:55:04Z",
     "status": "accepted",
     "ftypeCategory": "Introgressed",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Introgressed 6",
     "name": "Introgressed 6",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-30T14:55:04Z",
+    "lastModifiedDate": "2020-03-18T14:55:04Z",
     "status": "rejected",
     "ftypeCategory": "Introgressed",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Introgressed 7",
     "name": "Introgressed 7",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-04T14:55:04Z",
-    "status": "pending",
+    "lastModifiedDate": "2020-03-13T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Introgressed",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Polyploid 1",
     "name": "Polyploid 1",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-28T14:55:04Z",
-    "status": "accepted",
+    "lastModifiedDate": "2020-03-09T14:55:04Z",
+    "status": "new",
     "ftypeCategory": "Polyploid",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Monosex 1",
     "name": "Monosex 1",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-30T14:55:04Z",
+    "lastModifiedDate": "2020-03-16T14:55:04Z",
     "status": "new",
     "ftypeCategory": "Monosex",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Monosex 2",
     "name": "Monosex 2",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-31T14:55:04Z",
-    "status": "new",
+    "lastModifiedDate": "2020-03-22T14:55:04Z",
+    "status": "accepted",
     "ftypeCategory": "Monosex",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Transgenic 1",
     "name": "Transgenic 1",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-25T14:55:04Z",
-    "status": "accepted",
+    "lastModifiedDate": "2020-03-28T14:55:04Z",
+    "status": "rejected",
     "ftypeCategory": "Transgenic",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Transgenic 2",
     "name": "Transgenic 2",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-20T14:55:04Z",
-    "status": "new",
+    "lastModifiedDate": "2020-03-09T14:55:04Z",
+    "status": "rejected",
     "ftypeCategory": "Transgenic",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Transgenic 3",
     "name": "Transgenic 3",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-05T14:55:04Z",
+    "lastModifiedDate": "2020-03-21T14:55:04Z",
     "status": "rejected",
     "ftypeCategory": "Transgenic",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Gene edited 1",
     "name": "Gene edited 1",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-01T14:55:04Z",
-    "status": "accepted",
+    "lastModifiedDate": "2020-03-24T14:55:04Z",
+    "status": "pending",
     "ftypeCategory": "Gene edited",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   },
   {
     "id": "Gene edited 2",
     "name": "Gene edited 2",
     "ftypes": 0,
-    "lastModifiedDate": "2020-03-14T14:55:04Z",
-    "status": "pending",
+    "lastModifiedDate": "2020-03-24T14:55:04Z",
+    "status": "rejected",
     "ftypeCategory": "Gene edited",
     "_ftypeParent": "Strains 1",
-    "_specie": "Chanos chanos"
+    "_species": "Chanos chanos"
   }
 ]

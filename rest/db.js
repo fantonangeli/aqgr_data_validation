@@ -12,7 +12,7 @@ module.exports = () => ({
     countries,
     species,
     ftypes,
-    "specie-info":specieInfo,
+    "species-info":specieInfo,
     "ftype-info":ftypeInfo
 });
 

@@ -13,14 +13,14 @@ http://localhost:3000/
   * [Services per pages](#services-per-pages)
     + [Countries page services](#countries-page-services)
     + [Country page services](#country-page-services)
-    + [Specie page services](#specie-page-services)
+    + [Species page services](#species-page-services)
     + [Ftype page services](#ftype-page-services)
   * [Services responses](#services-responses)
     + [Countries response (GET)](#countries-response-get)
     + [Country-info response (GET)](#country-info-response-get)
     + [Species response (GET)](#species-response-get)
     + [Species response (POST)](#species-response-post)
-    + [Specie-info response (GET/POST)](#specie-info-response-getpost)
+    + [Species-info response (GET/POST)](#species-info-response-getpost)
     + [Ftypes response (GET)](#ftypes-response-get)
     + [Ftypes response (POST)](#ftypes-response-post)
     + [Ftype-info response (GET/POST)](#ftype-info-response-getpost)
@@ -59,14 +59,14 @@ This services are used to get data in country page:
 <br>
 
 
-### Specie page services 
+### Species page services 
 
-This services are used to get data in specie page:
+This services are used to get data in species page:
 
 | Environment key | Url | Method | Description | Angular Service |
 | --- | --- | --- | --- | --- |
-| services.species.info | http://localhost:3000/specie-info/MIL | GET | Specie info detail | SpecieInfoService |
-| services.species.infoEdit | http://localhost:3000/specie-info/MIL | POST | Specie info edit | SpecieInfoService |
+| services.species.info | http://localhost:3000/species-info/MIL | GET | Species info detail | SpecieInfoService |
+| services.species.infoEdit | http://localhost:3000/species-info/MIL | POST | Species info edit | SpecieInfoService |
 | services.ftypes.all | http://localhost:3000/ftypes | GET | List of ftypes | FtypesService |
 | services.ftypes.edit | http://localhost:3000/ftypes | POST | Edit ftypes | FtypesService |
 
@@ -192,7 +192,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
 <br>
 <br>
 
-### Specie-info response (GET/POST)
+### Species-info response (GET/POST)
 
 
 ```json
@@ -212,7 +212,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
 
 | REST param | Type | Description |
 | --- | --- | --- |
-| specie_like | string | The specie name |
+| species_like | string | The species name |
 | ftypeParent_like | string | The parent ftype name |
 
 
@@ -226,7 +226,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
       "status": "pending",
       "ftypeCategory": "Strains",
       "_ftypeParent": "null",
-      "_specie": "Chanos chanos"
+      "_species": "Chanos chanos"
     },
 ]
 ```
@@ -246,7 +246,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
   "status": "pending",
   "ftypeCategory": "Strains",
   "_ftypeParent": "null",
-  "_specie": "Chanos chanos"
+  "_species": "Chanos chanos"
 }
 ```
 
