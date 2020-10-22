@@ -1,8 +1,10 @@
 <aqgrlib-tree-table [data]="tableData">
 
     <aqgrlib-tree-table-column prop="name">
+        <!-- TODO: Countries -> species -->
         <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
+            <!-- TODO: show the total number of species in brackets (xx) -->
             <span *ngIf="level===0">{{value}}</span>
             <span *ngIf="level===1">
                 <span *ngIf="row.ftypes===0"><i>{{value}}</i></span>
@@ -12,6 +14,7 @@
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="ftypes" headerClass="number" cellClass="number">
+        <!-- TODO: farmed types -> primary farmed types -->
         <ng-template aqgrlibTreeTableColumnHeader>Farmed types</ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
@@ -32,6 +35,7 @@
         <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
         <ng-template let-row="row" aqgrlibTreeTableColumnCell>
             <button type="button" class="btn mx-2 btn-success" *ngIf="row.status===statuses.accepted" (click)="onPublishClick(row)">Publish</button>
+              <!-- BUG: unpublish btn not centered -->
             <button type="button" class="btn mx-2 btn-warning" *ngIf="row.status===statuses.published" (click)="onUnpublishClick(row)">Unpublish</button>
             <span *ngIf="row.ftypes===0">
                 <button type="button" class="btn mx-2 btn-success" *ngIf="row.status===statuses.new || row.status===statuses.rejected" (click)="onAcceptClick(row)">Accept</button>
@@ -41,3 +45,7 @@
     </aqgrlib-tree-table-column>
 
 </aqgrlib-tree-table>
+
+<div class="tableSummary">
+    <span *ngFor="let s of summaryData; last as isLast"><span class="status" [ngClass]="s.status">{{s.status}}</span>: {{s.count}}{{isLast?"":", "}}</span>
+</div>

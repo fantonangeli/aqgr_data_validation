@@ -4,12 +4,14 @@ import {SearchServiceParams} from 'aqgr-lib';
 import {Router} from '@angular/router';
 import { LoggerService } from 'aqgr-lib';
 import { environment } from 'src/environments/environment';
+import * as jsonata from 'jsonata';
 
 /**
  * Base class to be extended from tables components
  */
 export class BaseTable01Component implements OnInit{
     tableData=[];
+    summaryData=[];
     defaultNumberFormat=environment.defaultNumberFormat;
     defaultDateFormat=environment.defaultDateFormat;
     logger: LoggerService;
@@ -27,11 +29,28 @@ export class BaseTable01Component implements OnInit{
 
 
     /**
+     * load the summary data
+     *
+     * @param data the data from the service
+     * @returns {[ { "status":string, "count": number }]} an array with the summary data
+     */
+    public loadSummaryData(data: {}): [ { "status":string, "count": number }] {
+        let summaryData;
+
+        if(!data) return;
+
+        summaryData=jsonata('${ `status`:{ "status":(status)[0], "count":$count(status) } }.*^(status)').evaluate(data);
+
+        return summaryData;
+    }
+
+
+    /**
      * load data for the table and set it to tableData
      *
      * @param data the data from the service
      */
-    loadTableData(data: {}): object[]{
+    public loadTableData(data: {}): object[]{
         return [];
     }
 
@@ -39,13 +58,14 @@ export class BaseTable01Component implements OnInit{
      * fetch the data
      *
      */
-    fetchData() {
+    public fetchData() {
         this.searchServiceParams.limit=0;
 
         this.service.getAll(this.searchServiceParams).subscribe(
             (data)=>{
                 this.origData=JSON.parse(JSON.stringify(data));
                 this.tableData=this.loadTableData(data);
+                this.summaryData=this.loadSummaryData(data);
             },
             (error)=>{
                 this.logger.error("Network error: ", error);

@@ -1,5 +1,17 @@
 @import './vars.scss';
 
+.statusColors{
+    &.rejected {
+        color: $color_red;
+    }
+    &.pending, &.new {
+        color: $color_yellow;
+    }
+    &.accepted, &.published {
+        color: $color_green;
+    }
+}
+
 table {
     tr{
         th{
@@ -11,6 +23,7 @@ table {
         }
 
         td{
+            /* TODO: center table data (non numeric) */
             text-align:left !important;
 
             &.number{
@@ -25,15 +38,7 @@ table {
                 }
 
                 span {
-                    &.rejected {
-                        color: $color_red;
-                    }
-                    &.pending, &.new {
-                        color: $color_yellow;
-                    }
-                    &.accepted, &.published {
-                        color: $color_green;
-                    }
+                    @extend .statusColors;
                 }
             }
 
@@ -49,3 +54,13 @@ table {
     
 }
 
+.tableSummary {
+	text-align: right;
+	span {
+		text-transform: capitalize;
+
+        span.status{
+            @extend .statusColors;
+        }
+	}
+}
