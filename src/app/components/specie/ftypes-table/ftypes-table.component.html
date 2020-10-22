@@ -1,8 +1,7 @@
 <aqgrlib-tree-table [data]="tableData">
 
     <aqgrlib-tree-table-column prop="name">
-        <!-- TODO: Countries -> farmed types -->
-        <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader>Primary farmed type</ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
             <!-- TODO: show the total number of ftypes in brackets (xx) -->
             <span *ngIf="level===0">{{value}}</span>
