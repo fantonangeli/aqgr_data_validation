@@ -23,8 +23,11 @@ table {
         }
 
         td{
-            /* TODO: center table data (non numeric) */
-            text-align:left !important;
+            text-align:center !important;
+
+            &.index-0{
+                text-align:left !important;
+            }
 
             &.date{
                 text-transform:uppercase;
