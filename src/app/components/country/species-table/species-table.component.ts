@@ -30,7 +30,7 @@ export class SpeciesTableComponent extends BaseTable01Component {
 
         if(!data) return;
 
-        newdata=jsonata('${ taxonomy:{        "name": (taxonomy)[0], "ftypes": $count($), "_children":[$] } }.*').evaluate(data);
+        newdata=jsonata('${ taxonomy:{"name": (taxonomy)[0], "ftypes": $sum(ftypes), "sftypes": $sum(sftypes), "_children":[$] } }.*').evaluate(data);
 
         if(!environment.production){
             newdata[1]._toggle=true;

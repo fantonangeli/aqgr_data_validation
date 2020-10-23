@@ -30,7 +30,7 @@ export class FtypesTableComponent extends BaseTable01Component implements OnInit
 
         if(!data) return;
 
-        newdata=jsonata('${ ftypeCategory:{        "name": (ftypeCategory)[0], "ftypes": $count($), "_children":[$] } }.*').evaluate(data);
+        newdata=jsonata('${ ftypeCategory:{"name": (ftypeCategory)[0], "sftypes": $sum(sftypes), "_children":[$] } }.*').evaluate(data);
 
         if(!environment.production){
             newdata[0]._toggle=true;

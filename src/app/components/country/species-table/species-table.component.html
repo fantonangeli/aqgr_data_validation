@@ -16,6 +16,11 @@
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
+    <aqgrlib-tree-table-column prop="sftypes" headerClass="number" cellClass="number">
+        <ng-template aqgrlibTreeTableColumnHeader>Secondary farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
+    </aqgrlib-tree-table-column>
+
     <aqgrlib-tree-table-column prop="lastModifiedDate" cellClass="date">
         <ng-template aqgrlibTreeTableColumnHeader>Last update</ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:defaultDateFormat}}</ng-template>
