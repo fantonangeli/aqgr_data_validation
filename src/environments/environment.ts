@@ -12,8 +12,7 @@ export const environment = {
     /**
      * default date format used to format dates
      */
-    /* TODO: date format to dd-MMM-yyyy */
-    defaultDateFormat:'dd/MM/yyyy hh:mm',
+    defaultDateFormat:'dd-MMM-yyyy',
 
     services:{
         countries:{

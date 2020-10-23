@@ -26,6 +26,9 @@ table {
             /* TODO: center table data (non numeric) */
             text-align:left !important;
 
+            &.date{
+                text-transform:uppercase;
+            }
             &.number{
                 text-align:right !important;
             }

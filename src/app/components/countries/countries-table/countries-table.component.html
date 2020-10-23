@@ -26,7 +26,7 @@
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="lastUploadDate">
+    <aqgrlib-tree-table-column prop="lastUploadDate" cellClass="date">
         <ng-template aqgrlibTreeTableColumnHeader>Last upload</ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:defaultDateFormat}}</ng-template>
     </aqgrlib-tree-table-column>
