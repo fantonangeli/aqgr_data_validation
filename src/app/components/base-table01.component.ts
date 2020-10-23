@@ -27,7 +27,6 @@ export class BaseTable01Component implements OnInit{
         this.router=injector.get(Router);
     }
 
-
     /**
      * load the summary data
      *

@@ -1,10 +1,9 @@
-<aqgrlib-tree-table [data]="tableData">
+<aqgrlib-tree-table [data]="tableData" enableCount="true">
 
     <aqgrlib-tree-table-column prop="nameEn">
         <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
-        <ng-template let-value="value" let-level="level" let-row="row" aqgrlibTreeTableColumnCell>
-            <!-- TODO: show the total number of countries in brackets (xx) -->
-            <span *ngIf="level!=2">{{value}}</span>
+        <ng-template let-value="value" let-level="level" let-row="row" let-count="count" aqgrlibTreeTableColumnCell>
+            <span *ngIf="level!=2">{{value}} ({{count}})</span>
             <a [routerLink]="['/country', (production)?row.iso3:'PHL']" *ngIf="level===2">{{value}}</a>
         </ng-template>
     </aqgrlib-tree-table-column>
