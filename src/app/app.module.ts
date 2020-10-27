@@ -19,6 +19,8 @@ import { FtypesTableComponent } from './components/specie/ftypes-table/ftypes-ta
 import { FtypeComponent } from './pages/ftype/ftype.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { FunkyRadioComponent } from './components/funky-radio/funky-radio.component';
+import { SFtypeComponent } from './pages/sftype/sftype.component';
+import { SFtypesTableComponent } from './components/ftype/sftypes-table/sftypes-table.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { FunkyRadioComponent } from './components/funky-radio/funky-radio.compon
     FtypesTableComponent,
     FtypeComponent,
     ErrorComponent,
-    FunkyRadioComponent
+    FunkyRadioComponent,
+    SFtypeComponent,
+    SFtypesTableComponent
   ],
   imports: [
     FormsModule,

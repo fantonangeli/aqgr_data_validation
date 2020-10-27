@@ -6,20 +6,15 @@
 
     <aqgrlib-tree-table-column prop="name">
         <ng-template aqgrlibTreeTableColumnHeader>
-            <span>Primary farmed type</span>
+            <span>Secondary farmed type</span>
         </ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" let-count="count" aqgrlibTreeTableColumnCell>
             <span *ngIf="level===0">{{value}} ({{count}})</span>
             <span *ngIf="level===1">
                 <span *ngIf="row.ftypes===0"><i>{{value}}</i></span>
-                <a [routerLink]="['/ftype', (production)?row.id:'Strains 1']" *ngIf="row.ftypes!==0"><i>{{value}}</i></a>
+                <a [routerLink]="['/sftype', (production)?row.id:'Hybrids 1']" *ngIf="row.ftypes!==0"><i>{{value}}</i></a>
             </span>
         </ng-template>
-    </aqgrlib-tree-table-column>
-
-    <aqgrlib-tree-table-column prop="sftypes" headerClass="number" cellClass="number">
-        <ng-template aqgrlibTreeTableColumnHeader>Secondary farmed types</ng-template>
-        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="lastModifiedDate" cellClass="date">
