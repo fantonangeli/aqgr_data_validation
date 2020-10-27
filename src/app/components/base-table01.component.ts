@@ -38,7 +38,7 @@ export class BaseTable01Component implements OnInit{
 
         if(!data) return;
 
-        summaryData=jsonata('${ `status`:{ "status":(status)[0], "count":$count(status) } }.*^(status)').evaluate(data);
+        summaryData=jsonata('[${ `status`:{ "status":(status)[0], "count":$count(status) } }.*^(status)]').evaluate(data);
 
         return summaryData;
     }
