@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'countries' },
   { path: 'countries', component: CountriesComponent },
   { path: 'country/:iso3', component: CountryComponent },
-  { path: 'specie/:alphaCode', component: SpecieComponent },
+  { path: 'species/:alphaCode', component: SpecieComponent },
   { path: 'ftype/:name', component: FtypeComponent },
   { path: 'error', component: ErrorComponent },
 ];
