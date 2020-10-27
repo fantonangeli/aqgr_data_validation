@@ -1,3 +1,7 @@
+<div class="tableSummary">
+    <span *ngFor="let s of summaryData; last as isLast"><span class="status" [ngClass]="s.status">{{s.status}}</span>: {{s.count}}{{isLast?"":", "}}</span>
+</div>
+
 <aqgrlib-tree-table [data]="tableData" enableCount="true">
 
     <aqgrlib-tree-table-column prop="name">
@@ -40,7 +44,3 @@
 
 </aqgrlib-tree-table>
 
-<!-- TODO: summary above table -->
-<div class="tableSummary">
-    <span *ngFor="let s of summaryData; last as isLast"><span class="status" [ngClass]="s.status">{{s.status}}</span>: {{s.count}}{{isLast?"":", "}}</span>
-</div>
