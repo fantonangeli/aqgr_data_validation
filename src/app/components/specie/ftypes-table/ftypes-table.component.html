@@ -37,10 +37,10 @@
 
     <aqgrlib-tree-table-column cellClass="actions" headerClass="actions">
         <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
-        <ng-template let-row="row" aqgrlibTreeTableColumnCell>
-            <span *ngIf="row.ftypes===0">
-                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status===statuses.new|| row.status===statuses.rejected" (click)="onAcceptClick(row)">Accept</button>
-                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status===statuses.new|| row.status===statuses.accepted" (click)="onRejectClick(row)">Reject</button>
+        <ng-template let-row="row" let-level="level" aqgrlibTreeTableColumnCell>
+            <span *ngIf="row.sftypes===0 && level>0">
+                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status!==statuses.accepted" (click)="onAcceptClick(row)">Accept</button>
+                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status!==statuses.rejected" (click)="onRejectClick(row)">Reject</button>
             </span>
         </ng-template>
     </aqgrlib-tree-table-column>
