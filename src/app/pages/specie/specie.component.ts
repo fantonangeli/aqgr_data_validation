@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from "@angular/router";
 import { SpecieInfoService } from 'src/app/services/specie/specie-info.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
+import { UtilsService } from 'src/app/services/utils.service';
 
 @Component({
   selector: 'app-specie',
@@ -27,7 +28,7 @@ export class SpecieComponent implements OnInit {
         this._specieInfoService.getData(this.alphaCode).subscribe(
             (data)=>{
                 this.specieName=data.name;
-                this.isNative=data.native;
+                this.isNative=UtilsService.yn2Bool(data.native_CM);
                 this.origData=data;
                 this.searchServiceParams.specie=this.specieName;
             },
@@ -44,7 +45,7 @@ export class SpecieComponent implements OnInit {
      */
     toggleNative(isNative:boolean) {
         const newData=this.origData;
-        newData.native=isNative;
+        newData.native_CM=UtilsService.bool2YN(isNative);
 
         this._specieInfoService.edit(newData.id, newData).subscribe(
             (data)=>{
