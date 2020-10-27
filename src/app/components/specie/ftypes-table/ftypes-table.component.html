@@ -5,7 +5,10 @@
 <aqgrlib-tree-table [data]="tableData" enableCount="true">
 
     <aqgrlib-tree-table-column prop="name">
-        <ng-template aqgrlibTreeTableColumnHeader>Primary farmed type</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader>
+            <span *ngIf="!searchServiceParams.ftype">Primary farmed type</span>
+            <span *ngIf="searchServiceParams.ftype">Secondary farmed type</span>
+        </ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" let-count="count" aqgrlibTreeTableColumnCell>
             <span *ngIf="level===0">{{value}} ({{count}})</span>
             <span *ngIf="level===1">
@@ -15,7 +18,7 @@
         </ng-template>
     </aqgrlib-tree-table-column>
 
-    <aqgrlib-tree-table-column prop="sftypes" headerClass="number" cellClass="number">
+    <aqgrlib-tree-table-column prop="sftypes" headerClass="number" cellClass="number" *ngIf="!searchServiceParams.ftype">
         <ng-template aqgrlibTreeTableColumnHeader>Secondary farmed types</ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>

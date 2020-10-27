@@ -40,7 +40,7 @@ export class FtypesTableComponent extends BaseTable01Component implements OnInit
     }
 
     ngOnInit(){
-        this.searchServiceParams.ftype=this.searchServiceParams.ftype || "null";
+        this.searchServiceParams.ftype=this.searchServiceParams.ftype || null;
         super.ngOnInit();
     }
 }
