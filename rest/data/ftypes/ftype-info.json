@@ -1,4 +1,30 @@
 [{
-    "id": "Strains 1",
-    "name": "Strains 1"
-}]
+        "id": "Strains 1",
+        "name": "Strains 1"
+    },
+    {
+        "id": "Hybrids 1",
+        "name": "Hybrids 1",
+        "status": "rejected",
+        "ftypeParent": "Strains 1",
+        "speciesParent": "Chanos chanos",
+        "countryParent": "Egypt",
+        "comments": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa",
+        "VarRes_P": "Fabrizio Antonangeli",
+        "VarDesc_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "estProdVar_P": "7,0",
+        "EstValVar_P": "9,0",
+        "VarRegDetails_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "VarPropDet_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "NatRegVar_P": "Yes",
+        "isIntroduced": "No data",
+        "useSpeciesVar_P": "Human food consumption",
+        "usepurposeratVar_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "VarBreedref_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Varherch_P": "Yes",
+        "VarGenetic_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "VarSou_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Varexport_P": "Yes",
+        "Varexportdetail_P": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]
