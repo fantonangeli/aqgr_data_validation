@@ -1,0 +1,24 @@
+@import './vars.scss';
+.statusColors {
+    &.rejected {
+        color: $color_red;
+    }
+    &.pending,
+    &.new {
+        color: $color_yellow;
+    }
+    &.accepted,
+    &.published {
+        color: $color_green;
+    }
+}
+
+.statusWr {
+    font-weight: bold;
+    &::first-letter {
+        text-transform: capitalize;
+    }
+    span {
+        @extend .statusColors;
+    }
+}

@@ -4,7 +4,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of Hybrid 1 of Strain 1 of Chanos chanos in Egypt:</h1>
+                    <h1 class="csc-firstHeader">Data validation of {{info.name}} of {{info.ftypeParent}} of {{info.speciesParent}} in {{info.countryParent}}:</h1>
                 </div>
             </div>
         </div>
@@ -18,6 +18,128 @@
     </div>
     <div class="row">
         <div class="col-12">
+
+<div class="table-responsive">
+    <table class="fao-expandtable infoTable table table-striped table-bordered">
+        <tbody>
+
+            <tr>
+                <td>Status:</td>
+                <td class="status"><span [ngClass]="info.status">{{info.status}}</span></td>
+            </tr>
+
+            <tr>
+                <td>Name of person reporting information for this farmed type (if different from the national focal point):</td>
+                <td>{{info.VarRes_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Description:</td>
+                <td>{{info.VarDesc_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Estimated production of this farmed type (in percentage):</td>
+                <td>{{info.estProdVar_P}} %</td>
+            </tr>
+
+
+            <tr>
+                <td>Estimated total value of production (in USD):</td>
+                <td>{{info.EstValVar_P}} $</td>
+            </tr>
+
+
+            <tr>
+                <td>Paternal species:</td>
+                <td>{{info.speciesParent}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Has this farmed type been introduced?</td>
+                <td>{{info.isIntroduced}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Introuction details:</td>
+                <td>{{info.VarPropDet_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Is it recognized in a national registration system?</td>
+                <td>{{info.NatRegVar_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Details:</td>
+                <td>{{info.VarRegDetails_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>What is the principal rationale for commercial production?</td>
+                <td>{{info.useSpeciesVar_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Details and reference:</td>
+                <td>{{info.VarBreedref_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Does it have distinguishing characteristics?</td>
+                <td>{{info.Varherch_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Characteristics:</td>
+                <td>{{info.VarGenetic_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Details and references:</td>
+                <td>{{info.VarBreedref_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Source:</td>
+                <td>{{info.VarSou_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Has this farmed type been exported for aquaculture use?</td>
+                <td>{{info.Varexport_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Please provide details:</td>
+                <td>{{info.Varexportdetail_P}}</td>
+            </tr>
+
+
+            <tr>
+                <td>Comments:</td>
+                <td>{{info.comments}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
         </div>
     </div>
 </div>

@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import './styles/mixin.scss';
+
+table.infoTable tr td {
+    width: 50%;
+    font-weight: bold;
+    &:first-child {
+        text-align: right;
+        font-weight: inherit;
+    }
+    &.status {
+        @extend .statusWr;
+    }
+}

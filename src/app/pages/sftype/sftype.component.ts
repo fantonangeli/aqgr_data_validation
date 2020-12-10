@@ -1,48 +1,42 @@
-import { Component, OnInit, Input, Injector} from '@angular/core';
-import {ViewEncapsulation} from '@angular/core';
-import {SearchServiceParams} from 'aqgr-lib';
-import { BaseTable01Component } from 'src/app/components/base-table01.component';
-import { FtypesService } from 'src/app/services/specie/ftypes.service';
-import { environment } from 'src/environments/environment';
-import * as jsonata from 'jsonata';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ActivatedRoute } from "@angular/router";
+import { FtypeInfoService } from 'src/app/services/ftype/ftype-info.service';
+import { environment } from "src/environments/environment";
+import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 
 @Component({
   selector: 'app-sftype',
   templateUrl: './sftype.component.html',
   styleUrls: ['./sftype.component.scss']
 })
-export class SFtypeComponent extends BaseTable01Component implements OnInit{
-    @Input() searchServiceParams: SearchServiceParams;
-    isPrimaryFtype=true;
+export class SFtypeComponent implements OnInit {
+    name:string;
+    ftypeName="";
+    info={};
 
-    constructor(injector: Injector, service: FtypesService){
-        super(injector, service);
-    }
-
-
+  constructor(private route: ActivatedRoute, private _ftypeInfoService:FtypeInfoService, private _logger:LoggerService) { }
+    
     /**
-     * load data for the table and set it to tableData
+     * fetch the data and load them
+     * @param name ftype code
      *
-     * @param data the data from the service
      */
-    public loadTableData(data){
-        let newdata;
+    fetchInfo(id:string) {
+        this._ftypeInfoService.getData(id).subscribe(
+            (data)=>{
+                this.info=data;
+            },
+            (error)=>{
+                this._logger.error("Network error: ", error);
+            }
+        );
 
-        if(!data) return;
-
-        newdata=jsonata('${ ftypeCategory:{"name": (ftypeCategory)[0], "sftypes": $sum(sftypes), "_children":[$] } }.*').evaluate(data);
-
-        if(!environment.production){
-            newdata[0]._toggle=true;
-        }
-
-        return newdata;
     }
 
     ngOnInit(){
-        this.searchServiceParams.ftype=this.searchServiceParams.ftype || null;
-        this.isPrimaryFtype=this.searchServiceParams.ftype === null;
-        super.ngOnInit();
-    }
-}
+        this.name = this.route.snapshot.paramMap.get("name");
 
+        this.fetchInfo(this.name);
+    }
+
+}
