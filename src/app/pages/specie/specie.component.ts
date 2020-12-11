@@ -14,6 +14,7 @@ export class SpecieComponent implements OnInit {
     alphaCode:string;
     specieName="";
     searchServiceParams=new SearchServiceParams();
+    info={};
 
   constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService, private router:Router) { }
     isNative=false;
@@ -29,7 +30,7 @@ export class SpecieComponent implements OnInit {
             (data)=>{
                 this.specieName=data.name;
                 this.isNative=UtilsService.yn2Bool(data.native_CM);
-                this.origData=data;
+                this.origData=this.info=data;
                 this.searchServiceParams.specie=this.specieName;
             },
             (error)=>{
