@@ -12,8 +12,8 @@ import { FtypesTableComponent } from 'src/app/components/specie/ftypes-table/fty
 })
 export class FtypeComponent implements OnInit {
     name:string;
-    ftypeName="";
     searchServiceParams=new SearchServiceParams();
+    info={};
 
     @ViewChild(FtypesTableComponent, {static:false}) tableComponent: FtypesTableComponent;
 
@@ -27,8 +27,8 @@ export class FtypeComponent implements OnInit {
     fetchInfo(id:string) {
         this._ftypeInfoService.getData(id).subscribe(
             (data)=>{
-                this.ftypeName=data.name;
-                this.searchServiceParams.ftype=this.ftypeName;
+                this.searchServiceParams.ftype=data.name;
+                this.info=data;
             },
             (error)=>{
                 this._logger.error("Network error: ", error);

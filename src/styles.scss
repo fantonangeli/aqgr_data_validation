@@ -11,3 +11,7 @@ table.infoTable tr td {
         @extend .statusWr;
     }
 }
+
+hr {
+    border-top-width: 2px;
+}

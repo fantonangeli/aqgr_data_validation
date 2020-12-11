@@ -11,7 +11,6 @@ import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 })
 export class SFtypeComponent implements OnInit {
     name:string;
-    ftypeName="";
     info={};
 
   constructor(private route: ActivatedRoute, private _ftypeInfoService:FtypeInfoService, private _logger:LoggerService) { }

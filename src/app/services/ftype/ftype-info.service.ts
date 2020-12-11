@@ -9,8 +9,9 @@ import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
   providedIn: 'root'
 })
 export class FtypeInfoService extends BaseService{
+    /* TODO: Talk with Kiran: Bug if you change the status from the ftypes service, it is not propagated in this service */
     constructor(http: HttpClient, logger: LoggerService) {
-        super(http, environment.services.params);
+        super(http, environment.services.params, false);
     }
 
     /**
