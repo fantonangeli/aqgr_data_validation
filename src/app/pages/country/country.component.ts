@@ -13,6 +13,7 @@ export class CountryComponent implements OnInit {
     iso3:string;
     countryName="";
     searchServiceParams=new SearchServiceParams();
+    info={};
 
   constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService, private _logger:LoggerService) { }
     
@@ -25,6 +26,7 @@ export class CountryComponent implements OnInit {
         this._countryInfoService.getData(this.iso3).subscribe(
             (data)=>{
                 this.countryName=data.nameEn;
+                this.info=data;
                 this.searchServiceParams.country=this.countryName;
             },
             (error)=>{
