@@ -18,7 +18,7 @@ $color_viking_approx: #5bc0de;
     position: relative;
     line-height: 2.5em;
     text-indent: 3.25em;
-    margin-top: 2em;
+    margin: 0;
     cursor: pointer; //Instead of the line below you could use @include user-select($select)
     user-select: none;
 }
