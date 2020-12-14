@@ -1,41 +1,20 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Injector } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { FtypeInfoService } from 'src/app/services/ftype/ftype-info.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
+import { BasePage01Component } from 'src/app/components/base-page01.component';
 
 @Component({
   selector: 'app-sftype',
   templateUrl: './sftype.component.html',
   styleUrls: ['./sftype.component.scss']
 })
-export class SFtypeComponent implements OnInit {
-    name:string;
-    info={};
+export class SFtypeComponent extends BasePage01Component implements OnInit {
 
-  constructor(private route: ActivatedRoute, private _ftypeInfoService:FtypeInfoService, private _logger:LoggerService) { }
-    
-    /**
-     * fetch the data and load them
-     * @param name ftype code
-     *
-     */
-    fetchInfo(id:string) {
-        this._ftypeInfoService.getData(id).subscribe(
-            (data)=>{
-                this.info=data;
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
+    constructor(injector: Injector, service: FtypeInfoService){
+        super(injector, service);
     }
 
-    ngOnInit(){
-        this.name = this.route.snapshot.paramMap.get("name");
-
-        this.fetchInfo(this.name);
-    }
 
 }

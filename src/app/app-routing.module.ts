@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'country/:iso3', component: CountryComponent },
   { path: 'species/:alphaCode', component: SpecieComponent },
   { path: 'ftype/:name', component: FtypeComponent },
-  { path: 'sftype/:name', component: SFtypeComponent },
+  { path: 'sftype/:id', component: SFtypeComponent },
   { path: 'error', component: ErrorComponent },
 ];
 

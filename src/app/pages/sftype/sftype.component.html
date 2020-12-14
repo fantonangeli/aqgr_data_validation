@@ -138,9 +138,13 @@
                 </table>
             </div>
 
-            <!-- TODO: add accept/reject btn -->
+        </div>
+    </div>
 
-
+    <div class="row">
+        <div class="col-12 mb-3">
+            <button type="button" class="btn btn-success" *ngIf="info.status!==statuses.accepted" (click)="onAcceptClick(info)">Accept</button>
+            <button type="button" class="btn btn-danger" *ngIf="info.status!==statuses.rejected" (click)="onRejectClick(info)">Reject</button>
         </div>
     </div>
 </div>

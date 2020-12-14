@@ -1,5 +1,7 @@
 const baseUrl="http://localhost:3000/";
 
+/* TODO: put labels in a config */
+
 export const environment = {
     production: false,
     logging:true,
@@ -29,6 +31,7 @@ export const environment = {
             all:baseUrl+"ftypes",
             edit:(id)=>`${baseUrl}ftypes/${id}`,
             info:baseUrl+"ftype-info",
+            infoEdit:(id)=>`${baseUrl}ftype-info/${id}`,
         },
         params: {
             country:"_country_like",
