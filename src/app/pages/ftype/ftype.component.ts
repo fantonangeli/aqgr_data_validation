@@ -15,7 +15,7 @@ export class FtypeComponent implements OnInit {
     searchServiceParams=new SearchServiceParams();
     info={};
 
-    @ViewChild(FtypesTableComponent, {static:false}) tableComponent: FtypesTableComponent;
+    @ViewChild(FtypesTableComponent) tableComponent: FtypesTableComponent;
 
   constructor(private route: ActivatedRoute, private _ftypeInfoService:FtypeInfoService, private _logger:LoggerService) { }
     

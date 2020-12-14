@@ -1,4 +1,4 @@
-import { Input, OnInit, Injector } from '@angular/core';
+import { Input, OnInit, Injector, Directive } from '@angular/core';
 import {Observable, merge} from 'rxjs';
 import {SearchServiceParams} from 'aqgr-lib';
 import {Router} from '@angular/router';
@@ -9,6 +9,7 @@ import * as jsonata from 'jsonata';
 /**
  * Base class to be extended from tables components
  */
+@Directive()
 export class BaseTable01Component implements OnInit{
     tableData=[];
     summaryData=[];
