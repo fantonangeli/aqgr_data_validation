@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment';
 @Directive()
 export class BasePage01Component implements OnInit{
     id:string;
-    info={};
+    info:any={};
     statuses=environment.statuses;
     router:Router;
     logger: LoggerService;

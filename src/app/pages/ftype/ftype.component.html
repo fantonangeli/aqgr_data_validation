@@ -3,7 +3,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of <i>{{info.name}}</i> of <i>{{info.species}}</i> in {{info.country}}:</h1>
+                    <h1 class="csc-firstHeader">Data validation of <i>{{info['name']}}</i> of <i>{{info['species']}}</i> in {{info['country']}}:</h1>
                 </div>
             </div>
         </div>
@@ -25,203 +25,203 @@
 
                         <tr>
                             <td>Status:</td>
-                            <td class="status"><span [ngClass]="info.status">{{info.status}}</span></td>
+                            <td class="status"><span [ngClass]="info['status']">{{info['status']}}</span></td>
                         </tr>
 
                         <tr>
                             <td>Quantify, in percentage, the contribution of each system
                                 to national aquaculture production.</td>
-                            <td>{{info.culturesSystemper_P}} %</td>
+                            <td>{{info['culturesSystemper_P']}} %</td>
                         </tr>
 
                         <tr>
                             <td>Name of variety</td>
-                            <td><i>{{info.VarName_P}}</i></td>
+                            <td><i>{{info['VarName_P']}}</i></td>
                         </tr>
 
                         <tr>
                             <td>Name of person reporting information for this farmed
                                 type (if different from the national focal point):
                             </td>
-                            <td>{{info.VarRes_P}}</td>
+                            <td>{{info['VarRes_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Description</td>
-                            <td>{{info.VarDesc_P}}</td>
+                            <td>{{info['VarDesc_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Estimated production of this farmed type (in percentage)</td>
-                            <td>{{info.estProdVar_P}} %</td>
+                            <td>{{info['estProdVar_P']}} %</td>
                         </tr>
 
                         <tr>
                             <td>Estimated total value of production (in USD)</td>
-                            <td>{{info.EstValVar_P}} $</td>
+                            <td>{{info['EstValVar_P']}} $</td>
                         </tr>
 
                         <tr>
                             <td>What is the origin of this farmed type?</td>
-                            <td>{{info.OrigVar_P}}</td>
+                            <td>{{info['OrigVar_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Introduction details</td>
-                            <td>{{info.VarPropDet_P}}</td>
+                            <td>{{info['VarPropDet_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Do risks associated with this farmed type differ from
                                 those of the species as a whole?</td>
-                            <td>{{info.Varrisks_P}}</td>
+                            <td>{{info['Varrisks_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Provide details on real or potential risks associated
                                 with the use of this farmed type.</td>
-                            <td>{{info.Varriskdetails_P}}</td>
+                            <td>{{info['Varriskdetails_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>What is the species composition?</td>
-                            <td>{{info.SpecCompVar_P}}</td>
+                            <td>{{info['SpecCompVar_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Species Composition:</td>
-                            <td>{{info.SpecCompListVar_P}}</td>
+                            <td>{{info['SpecCompListVar_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>How has it become a variety?</td>
-                            <td>{{info.Varmethod_P}}</td>
+                            <td>{{info['Varmethod_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>How many generations has it been domesticated?</td>
-                            <td>{{info.VarDomestication_P}}</td>
+                            <td>{{info['VarDomestication_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>What selective breeding techniques were used:</td>
-                            <td>{{info.VarBreeding_P}}</td>
+                            <td>{{info['VarBreeding_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>What is the principal rationale for commercial production?
                             </td>
-                            <td>{{info.useSpeciesVar_P}}</td>
+                            <td>{{info['useSpeciesVar_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Details of rationale</td>
-                            <td>{{info.usepurposeratVar_P}}</td>
+                            <td>{{info['usepurposeratVar_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Is it registered in one or more of the following information
                                 systems?
                             </td>
-                            <td>{{info.RegVar_P}}</td>
+                            <td>{{info['RegVar_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Insert the information system reference number, DOI
                                 and/or hyperlink</td>
-                            <td>{{info.RegDetails_P}}</td>
+                            <td>{{info['RegDetails_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Is it recognized in a national registry of farmed types?
                             </td>
-                            <td>{{info.NatRegVar_P}}</td>
+                            <td>{{info['NatRegVar_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Details:</td>
-                            <td>{{info.VarRegDetails_P}}</td>
+                            <td>{{info['VarRegDetails_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Does it have a documented breeding history?</td>
-                            <td>{{info.VarBreedHis_P}}</td>
+                            <td>{{info['VarBreedHis_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>No. of generations</td>
-                            <td>{{info.VarBreedgen_P}}</td>
+                            <td>{{info['VarBreedgen_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Provide details and reference</td>
-                            <td>{{info.VarBreedref_P}}</td>
+                            <td>{{info['VarBreedref_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Does it have heritable distinguishing characteristics?</td>
-                            <td>{{info.Varherch_P}}</td>
+                            <td>{{info['Varherch_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Genetic Characteristics</td>
-                            <td>{{info.VarGenetic_P}}</td>
+                            <td>{{info['VarGenetic_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Qualitative phenotype</td>
-                            <td>{{info.VarQualPheno_P}}</td>
+                            <td>{{info['VarQualPheno_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Quantitative performance characteristic</td>
-                            <td>{{info.VarQuanPerf_P}}</td>
+                            <td>{{info['VarQuanPerf_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Production performance</td>
-                            <td>{{info.VarProdPerf_P}}</td>
+                            <td>{{info['VarProdPerf_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Carcass composition</td>
-                            <td>{{info.VarCarcass_P}}</td>
+                            <td>{{info['VarCarcass_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Flesh quality</td>
-                            <td>{{info.VarFlesh_P}}</td>
+                            <td>{{info['VarFlesh_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Fitness</td>
-                            <td>{{info.VarFitness_P}}</td>
+                            <td>{{info['VarFitness_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Describe distinguishing charteristics</td>
-                            <td>{{info.VarDistComments_P}}</td>
+                            <td>{{info['VarDistComments_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Sources</td>
-                            <td>{{info.VarSou_P}}</td>
+                            <td>{{info['VarSou_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Has this farmed type been exported out of your country
                                 for aquaculture use?</td>
-                            <td>{{info.Varexport_P}}</td>
+                            <td>{{info['Varexport_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Please provide details</td>
-                            <td>{{info.Varexportdetail_P}}</td>
+                            <td>{{info['Varexportdetail_P']}}</td>
                         </tr>
 
                         <tr>
                             <td>Comments:</td>
-                            <td>{{info.comments}}</td>
+                            <td>{{info['comments']}}</td>
                         </tr>
 
 
@@ -245,7 +245,7 @@
 
     <div class="row">
         <div class="col-sm-12">
-            Secondary farmed types for <b><i>{{info.name}}</i></b> of <b><i>{{info.species}}</i></b>            in <b>{{info.country}}</b>.
+            Secondary farmed types for <b><i>{{info['name']}}</i></b> of <b><i>{{info['species']}}</i></b>            in <b>{{info['country']}}</b>.
         </div>
     </div>
 
@@ -259,7 +259,7 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <app-sftypes-table [searchServiceParams]="searchServiceParams" *ngIf="info.name"></app-sftypes-table>
+            <app-sftypes-table [searchServiceParams]="searchServiceParams" *ngIf="info['name']"></app-sftypes-table>
         </div>
     </div>
 
