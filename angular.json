@@ -45,7 +45,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -68,8 +67,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "sourceMap": true,
-            "vendorSourceMap": true,
+            "sourceMap": {
+              "styles": true,
+              "scripts": true,
+              "vendor": true
+            },
             "browserTarget": "aqgr-data-validation:build"
           },
           "configurations": {

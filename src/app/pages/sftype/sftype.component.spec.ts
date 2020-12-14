@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { SFtypeComponent } from './sftype.component';
 
@@ -6,7 +6,7 @@ describe('SFtypeComponent', () => {
   let component: SFtypeComponent;
   let fixture: ComponentFixture<SFtypeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ SFtypeComponent ]
     })

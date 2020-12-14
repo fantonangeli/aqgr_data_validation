@@ -1,4 +1,4 @@
-import { Input, OnInit, Injector } from '@angular/core';
+import { Input, OnInit, Injector, Directive } from '@angular/core';
 import {SearchServiceParams} from 'aqgr-lib';
 import {Router, ActivatedRoute} from '@angular/router';
 import { LoggerService } from 'aqgr-lib';
@@ -7,6 +7,7 @@ import { environment } from 'src/environments/environment';
 /**
  * Base class to be extended from page components
  */
+@Directive()
 export class BasePage01Component implements OnInit{
     id:string;
     info={};

@@ -1,8 +1,15 @@
 {
   "extends": "tslint:recommended",
   "rules": {
+    "align": {
+      "options": [
+        "parameters",
+        "statements"
+      ]
+    },
     "curly": [true, "ignore-same-line"],
     "typedef-whitespace": false,
+    "arrow-return-shorthand": true,
     "array-type": false,
     "arrow-parens": false,
     "deprecation": {
@@ -17,12 +24,19 @@
       "app",
       "camelCase"
     ],
+    "eofline": true,
     "component-selector": [
       true,
       "element",
       "app",
       "kebab-case"
     ],
+    "import-spacing": true,
+    "indent": {
+      "options": [
+        "spaces"
+      ]
+    },
     "import-blacklist": [
       true,
       "rxjs/Rx"
@@ -82,6 +96,20 @@
     "no-output-on-prefix": true,
     "no-output-rename": true,
     "no-outputs-metadata-property": true,
+    "semicolon": {
+      "options": [
+        "always"
+      ]
+    },
+    "space-before-function-paren": {
+      "options": {
+        "anonymous": "never",
+        "asyncArrow": "always",
+        "constructor": "never",
+        "method": "never",
+        "named": "never"
+      }
+    },
     "template-banana-in-box": true,
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
@@ -93,6 +121,13 @@
         "check-finally", 
         "check-else"
     ],
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-pascal-case"
+      ]
+    },
     "max-line-length": false
   },
   "rulesDirectory": [
