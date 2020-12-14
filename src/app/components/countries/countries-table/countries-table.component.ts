@@ -6,6 +6,7 @@ import { BaseTable01Component } from 'src/app/components/base-table01.component'
 import { environment } from 'src/environments/environment';
 import * as jsonata from 'jsonata';
 
+
 @Component({
     selector: 'app-countries-table',
     templateUrl: './countries-table.component.html',
