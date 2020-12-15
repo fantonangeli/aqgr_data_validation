@@ -9,12 +9,11 @@ import { SFtypeComponent } from 'src/app/pages/sftype/sftype.component';
 import { ErrorComponent } from 'src/app/pages/error/error.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'countries' },
-  { path: 'countries', component: CountriesComponent },
-  { path: 'country/:id', component: CountryComponent },
-  { path: 'species/:id', component: SpecieComponent },
-  { path: 'ftype/:id', component: FtypeComponent },
-  { path: 'sftype/:id', component: SFtypeComponent },
+  { path: '', component: CountriesComponent },
+  { path: ':country', component: CountryComponent },
+  { path: ':country/:species', component: SpecieComponent },
+  { path: ':country/:species/:ftype', component: FtypeComponent },
+  { path: ':country/:species/:ftype/:sftype', component: SFtypeComponent },
   { path: 'error', component: ErrorComponent },
 ];
 

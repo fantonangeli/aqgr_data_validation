@@ -19,9 +19,12 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
         super(injector, service);
     }
 
+    /**
+     * event executed when element info are loaded
+     */
     onInfoLoaded(){
-        /* TODO: the query should contain country  */
-        // this.searchServiceParams.ftype=this.info.name;
+        /* TODO: the query should contain country and specie */
+        this.searchServiceParams.country=this.info.nameEn;
     }
 
     /**

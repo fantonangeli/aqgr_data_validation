@@ -88,7 +88,14 @@ export class BasePage01Component implements OnInit{
     }
 
     ngOnInit(){
-        this.id = this.route.snapshot.paramMap.get("id");
+        let pm = this.route.snapshot.paramMap;
+
+        this.searchServiceParams.country=pm.get('country');
+        this.searchServiceParams.specie=pm.get('species');
+        this.searchServiceParams.ftype=pm.get('ftype');
+        this.searchServiceParams.sftype=pm.get('sftype');
+
+        this.id = this.searchServiceParams.sftype || this.searchServiceParams.ftype || this.searchServiceParams.specie || this.searchServiceParams.country;
 
         this.fetchInfo(this.id);
     }
