@@ -15,12 +15,19 @@ export class BasePage01Component implements OnInit{
     router:Router;
     logger: LoggerService;
     route:ActivatedRoute;
+    searchServiceParams=new SearchServiceParams();
 
     constructor(protected injector, protected service){
         this.logger=new LoggerService();
         this.router=injector.get(Router);
         this.route=injector.get(ActivatedRoute);
     }
+
+
+    /**
+     * event executed when element info are loaded
+     */
+    onInfoLoaded():void{}
 
     /**
      * fetch the data and load them
@@ -31,6 +38,7 @@ export class BasePage01Component implements OnInit{
         this.service.getData(id).subscribe(
             (data)=>{
                 this.info=data;
+                this.onInfoLoaded();
             },
             (error)=>{
                 this.logger.error("Network error: ", error);

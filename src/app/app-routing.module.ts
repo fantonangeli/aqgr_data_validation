@@ -11,9 +11,9 @@ import { ErrorComponent } from 'src/app/pages/error/error.component';
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'countries' },
   { path: 'countries', component: CountriesComponent },
-  { path: 'country/:iso3', component: CountryComponent },
-  { path: 'species/:alphaCode', component: SpecieComponent },
-  { path: 'ftype/:name', component: FtypeComponent },
+  { path: 'country/:id', component: CountryComponent },
+  { path: 'species/:id', component: SpecieComponent },
+  { path: 'ftype/:id', component: FtypeComponent },
   { path: 'sftype/:id', component: SFtypeComponent },
   { path: 'error', component: ErrorComponent },
 ];
