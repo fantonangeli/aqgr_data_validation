@@ -19,6 +19,34 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
         super(injector, service);
     }
 
+    onInfoLoaded(){
+        /* TODO: the query should contain country  */
+        // this.searchServiceParams.ftype=this.info.name;
+    }
+
+    /**
+     * event called by the publish btn
+     *
+     * @param {any} item the item from the table
+     */
+    public onPublishClick(item):void{
+        item.status=environment.statuses.published;
+
+        this.saveData(item);
+    }
+
+
+    /**
+     * event called by the Unpublish btn
+     *
+     * @param {any} item the item from the table
+     */
+    public onUnpublishClick(item):void{
+        item.status=environment.statuses.accepted;
+
+        this.saveData(item);
+    }
+
     /**
      * Toggle the native flag for this specie and send the value to the service
      * @param isNative the new native value

@@ -3,7 +3,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of <b><i>{{info['name']}}</i></b>  in {{info['country']}}:</h1>
+                    <h1 class="csc-firstHeader">Data validation of <i>{{info['name']}}</i>  in {{info['country']}}:</h1>
                 </div>
             </div>
         </div>
@@ -101,8 +101,13 @@
 
             <div class="row">
                 <div class="col-12 mb-3">
-                    <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)">Accept</button>
-                    <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)">Reject</button>
+                    <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.accepted" (click)="onPublishClick(info)">Publish</button>
+                    <button type="button" class="btn btn-warning" *ngIf="info['status']===statuses.published" (click)="onUnpublishClick(info)">Unpublish</button>
+                    <span *ngIf="info['ftypes']===0">
+                        <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.new || info['status']===statuses.rejected" (click)="onAcceptClick(info)">Accept</button>
+                        <button type="button" class="btn btn-danger" *ngIf="info['status']===statuses.new || info['status']===statuses.accepted" (click)="onRejectClick(info)">Reject</button>
+                    </span>
+
                 </div>
             </div>
 

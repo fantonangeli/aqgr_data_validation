@@ -20,6 +20,7 @@ export class FtypeComponent extends BasePage01Component implements OnInit {
     }
 
     onInfoLoaded(){
+        /* TODO: the query should contain country and specie */
         this.searchServiceParams.ftype=this.info.name;
     }
 
