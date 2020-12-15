@@ -1,66 +1,33 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Injector } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 import { SpecieInfoService } from 'src/app/services/specie/specie-info.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 import { UtilsService } from 'src/app/services/utils.service';
+import { BasePage01Component } from 'src/app/components/base-page01.component';
 
 @Component({
   selector: 'app-specie',
   templateUrl: './specie.component.html',
   styleUrls: ['./specie.component.scss']
 })
-export class SpecieComponent implements OnInit {
-    alphaCode:string;
-    specieName="";
-    searchServiceParams=new SearchServiceParams();
-    info={};
+export class SpecieComponent extends BasePage01Component implements OnInit {
 
-  constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService, private router:Router) { }
-    isNative=false;
-    origData:any;
+    yn2Bool=UtilsService.yn2Bool;
 
-    /**
-     * fetch the data and load them
-     * @param alphaCode specie code
-     *
-     */
-    fetchInfo(alphaCode:string) {
-        this._specieInfoService.getData(this.alphaCode).subscribe(
-            (data)=>{
-                this.specieName=data.name;
-                this.isNative=UtilsService.yn2Bool(data.native_CM);
-                this.origData=this.info=data;
-                this.searchServiceParams.specie=this.specieName;
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
+    constructor(injector: Injector, service: SpecieInfoService){
+        super(injector, service);
     }
 
     /**
      * Toggle the native flag for this specie and send the value to the service
      * @param isNative the new native value
      */
-    toggleNative(isNative:boolean) {
-        const newData=this.origData;
-        newData.native_CM=UtilsService.bool2YN(isNative);
+    toggleNative(isNative:boolean):void {
+        this.info.native_CM=UtilsService.bool2YN(isNative);
 
-        this._specieInfoService.edit(newData.id, newData).subscribe(
-            (data)=>{
-            },
-            (err)=>{
-                this.router.navigate(['/error']);
-            }
-        );
+        this.saveData(this.info);
     }
 
-    ngOnInit(){
-        this.alphaCode = this.route.snapshot.paramMap.get("alphaCode");
-
-        this.fetchInfo(this.alphaCode);
-    }
 
 }

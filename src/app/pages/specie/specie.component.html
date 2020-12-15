@@ -3,7 +3,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of <b><i>{{specieName}}</i></b>  in {{info['country']}}:</h1>
+                    <h1 class="csc-firstHeader">Data validation of <b><i>{{info['name']}}</i></b>  in {{info['country']}}:</h1>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                         <tr>
                             <td>Is the species native to your country?</td>
                             <!-- TODO: connect funky radio to native_CM -->
-                            <td><app-funky-radio type="success" inputId="nativeCB" label="Is this spece native?" [(inputModel)]="isNative" (inputModelChange)="toggleNative($event)"></app-funky-radio></td>
+                            <td><app-funky-radio type="success" inputId="nativeCB" label="Is this spece native?" [inputModel]="yn2Bool(info['native_CM'])" (inputModelChange)="toggleNative($event)"></app-funky-radio></td>
                         </tr>
 
                         <tr>
@@ -99,7 +99,12 @@
                 </table>
             </div>
 
-            <!-- TODO: add accept/reject btn -->
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)">Accept</button>
+                    <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)">Reject</button>
+                </div>
+            </div>
 
 
         </div>
@@ -124,7 +129,7 @@
     
     <div class="row">
         <div class="col-12">
-            <app-ftypes-table [searchServiceParams]="searchServiceParams" *ngIf="specieName"></app-ftypes-table>
+            <app-ftypes-table [searchServiceParams]="searchServiceParams" *ngIf="info['name']"></app-ftypes-table>
         </div>
     </div>
 </div>

@@ -59,7 +59,7 @@ export class BasePage01Component implements OnInit{
             (newdata)=>{
             },
             (err)=>{
-                // this.router.navigate(['/error']);
+                this.router.navigate(['/error']);
             }
         );
     }
