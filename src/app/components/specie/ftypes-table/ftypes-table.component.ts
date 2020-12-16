@@ -28,7 +28,7 @@ export class FtypesTableComponent extends BaseTable01Component implements OnInit
     public loadTableData(data){
         let newdata;
 
-        if(!data) return;
+        if((!data) || (!data.length)) return;
 
         newdata=jsonata('${ ftypeCategory:{"name": (ftypeCategory)[0], "sftypes": $sum(sftypes), "_children":[$] } }.*').evaluate(data);
 

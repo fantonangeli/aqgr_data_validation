@@ -28,7 +28,7 @@ export class SFtypesTableComponent extends BaseTable01Component implements OnIni
     public loadTableData(data){
         let newdata;
 
-        if(!data) return;
+        if((!data) || (!data.length)) return;
 
         newdata=jsonata('${ ftypeCategory:{"name": (ftypeCategory)[0], "sftypes": $sum(sftypes), "_children":[$] } }.*').evaluate(data);
 

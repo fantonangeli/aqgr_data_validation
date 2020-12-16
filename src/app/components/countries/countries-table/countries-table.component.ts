@@ -26,7 +26,7 @@ export class CountriesTableComponent extends BaseTable01Component {
     public loadTableData(data){
         let newdata;
 
-        if(!data) return;
+        if((!data) || (!data.length)) return;
 
         newdata=jsonata('${ continent:{        "nameEn": (continent)[0], "species":$sum(species), "ftypes":$sum(ftypes), "sftypes":$sum(sftypes), "_children":[ { region:[{        "nameEn": (region)[0], "species":$sum(species), "ftypes":$sum(ftypes), "sftypes":$sum(sftypes), "_children":[$] } ] } ].* } }.*').evaluate(data);
 

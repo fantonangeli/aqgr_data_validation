@@ -28,7 +28,7 @@ export class SpeciesTableComponent extends BaseTable01Component {
     public loadTableData(data){
         let newdata;
 
-        if(!data) return;
+        if((!data) || (!data.length)) return;
 
         newdata=jsonata('${ taxonomy:{"name": (taxonomy)[0], "ftypes": $sum(ftypes), "sftypes": $sum(sftypes), "_children":[$] } }.*').evaluate(data);
 

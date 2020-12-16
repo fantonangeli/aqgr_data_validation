@@ -63,7 +63,6 @@ export class BaseTable01Component implements OnInit{
 
         this.service.getAll(this.searchServiceParams).subscribe(
             (data)=>{
-                /* TODO: Bug: error in case of [] in json */
                 this.origData=JSON.parse(JSON.stringify(data));
                 this.tableData=this.loadTableData(data);
                 this.summaryData=this.loadSummaryData(data);
