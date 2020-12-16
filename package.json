@@ -26,7 +26,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@ng-select/ng-select": "^5.0.9",
-    "angular-cli-ghpages": "^0.6.2",
+    "angular-cli-ghpages": "^1.0.0-rc.1",
     "bootstrap": "^4.5.3",
     "jsonata": "^1.8.4",
     "material-design-icons": "^3.0.1",
