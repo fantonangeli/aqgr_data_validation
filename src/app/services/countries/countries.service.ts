@@ -20,7 +20,7 @@ export class CountriesService extends BaseService {
      */
     getAll(ssp: SearchServiceParams=new SearchServiceParams()): Observable<any> {
         return this._getAll(
-            this.constructor.name,
+            "CountriesService",
             environment.services.countries.all,
             ssp
         );
@@ -34,7 +34,7 @@ export class CountriesService extends BaseService {
     getData(iso3: string): Observable<any> {
 
         return this._getById(
-            "CountryInfoService",
+            "CountriesService",
             environment.services.countries.info,
             iso3
         );
