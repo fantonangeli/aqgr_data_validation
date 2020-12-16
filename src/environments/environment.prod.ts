@@ -12,7 +12,7 @@ export const environment = {
     /**
      * default date format used to format dates
      */
-    defaultDateFormat:'dd/MM/yyyy hh:mm',
+    defaultDateFormat:'dd-MMM-yyyy',
 
     services:{
         countries:{
@@ -29,6 +29,7 @@ export const environment = {
             all:baseUrl+"ftypes",
             edit:(id)=>`${baseUrl}ftypes/${id}`,
             info:baseUrl+"ftype-info",
+            infoEdit:(id)=>`${baseUrl}ftype-info/${id}`,
         },
         params: {
             country:"_country_like",
