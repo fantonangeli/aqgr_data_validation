@@ -1,3 +1,9 @@
+<div class="row">
+    <div class="col-12 mb-3">
+        <button type="button" class="btn btn-success" (click)="acceptAll()">Accept all</button>
+    </div>
+</div>
+
 <div class="tableSummary">
     <span *ngFor="let s of summaryData; last as isLast"><span class="status" [ngClass]="s.status">{{s.status}}</span>: {{s.count}}{{isLast?"":", "}}</span>
 </div>

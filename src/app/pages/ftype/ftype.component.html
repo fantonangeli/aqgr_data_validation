@@ -258,11 +258,6 @@
     <br>
 
     <div class="row">
-        <div class="col-12 mb-3">
-            <button type="button" class="btn btn-success" (click)="onAcceptAllClick()">Accept all</button>
-        </div>
-    </div>
-    <div class="row">
         <div class="col-12">
             <app-sftypes-table [searchServiceParams]="userStateService.ssp" *ngIf="info['name']"></app-sftypes-table>
         </div>

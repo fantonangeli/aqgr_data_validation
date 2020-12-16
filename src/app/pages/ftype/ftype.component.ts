@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, Injector } from '@angular/core';
+import { Component, OnInit, Injector } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 // import { FtypeInfoService } from 'src/app/services/ftype/ftype-info.service';
 import { FtypesService } from 'src/app/services/ftypes/ftypes.service';
@@ -14,8 +14,6 @@ import { BasePage01Component } from 'src/app/components/base-page01.component';
 })
 export class FtypeComponent extends BasePage01Component implements OnInit {
 
-    @ViewChild(FtypesTableComponent) tableComponent: FtypesTableComponent;
-
     constructor(injector: Injector, service: FtypesService){
         super(injector, service);
     }
@@ -28,12 +26,5 @@ export class FtypeComponent extends BasePage01Component implements OnInit {
         this.userStateService.ssp.ftype=this.info.name;
     }
 
-    /**
-     * event fired on AcceptAllClick.
-     *
-     */
-    public onAcceptAllClick():void{
-        this.tableComponent.acceptAll();
-    }
 
 }
