@@ -24,7 +24,8 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
      */
     onInfoLoaded(){
         /* TODO: the query should contain country and specie */
-        this.searchServiceParams.country=this.info.nameEn;
+        this.searchServiceParams.specie=this.info.name;
+        this.userStateService.ssp.specie=this.info.name;
     }
 
     /**

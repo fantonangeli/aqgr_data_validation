@@ -3,6 +3,7 @@ import {SearchServiceParams} from 'aqgr-lib';
 import {Router, ActivatedRoute} from '@angular/router';
 import { LoggerService } from 'aqgr-lib';
 import { environment } from 'src/environments/environment';
+import { UserStateService } from 'src/app/services/user-state.service';
 
 /**
  * Base class to be extended from page components
@@ -16,18 +17,20 @@ export class BasePage01Component implements OnInit{
     logger: LoggerService;
     route:ActivatedRoute;
     searchServiceParams=new SearchServiceParams();
+    userStateService:UserStateService;
 
     constructor(protected injector, protected service){
         this.logger=new LoggerService();
         this.router=injector.get(Router);
         this.route=injector.get(ActivatedRoute);
+        this.userStateService=injector.get(UserStateService);
     }
 
 
     /**
      * event executed when element info are loaded
      */
-    onInfoLoaded():void{}
+    onInfoLoaded():void{ }
 
     /**
      * fetch the data and load them
@@ -88,14 +91,7 @@ export class BasePage01Component implements OnInit{
     }
 
     ngOnInit(){
-        let pm = this.route.snapshot.paramMap;
-
-        this.searchServiceParams.country=pm.get('country');
-        this.searchServiceParams.specie=pm.get('species');
-        this.searchServiceParams.ftype=pm.get('ftype');
-        this.searchServiceParams.sftype=pm.get('sftype');
-
-        this.id = this.searchServiceParams.sftype || this.searchServiceParams.ftype || this.searchServiceParams.specie || this.searchServiceParams.country;
+        this.id = this.route.snapshot.paramMap.get("id");
 
         this.fetchInfo(this.id);
     }

@@ -23,8 +23,8 @@ export class FtypeComponent extends BasePage01Component implements OnInit {
      * event executed when element info are loaded
      */
     onInfoLoaded(){
-        /* TODO: the query should contain country and specie */
         this.searchServiceParams.ftype=this.info.name;
+        this.userStateService.ssp.ftype=this.info.name;
     }
 
     /**

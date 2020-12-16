@@ -21,5 +21,6 @@ export class CountryComponent extends BasePage01Component implements OnInit {
      */
     onInfoLoaded(){
         this.searchServiceParams.country=this.info.nameEn;
+        this.userStateService.ssp.country=this.info.nameEn;
     }
 }

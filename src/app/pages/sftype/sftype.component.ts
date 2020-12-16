@@ -16,5 +16,4 @@ export class SFtypeComponent extends BasePage01Component implements OnInit {
         super(injector, service);
     }
 
-
 }
