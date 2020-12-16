@@ -17,14 +17,14 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
 
     constructor(injector: Injector, service: SpecieInfoService){
         super(injector, service);
+        this.userStateService.ssp.ftype="";
     }
 
     /**
      * event executed when element info are loaded
      */
     onInfoLoaded(){
-        /* TODO: the query should contain country and specie */
-        this.searchServiceParams.specie=this.info.name;
+        // this.searchServiceParams.specie=this.info.name;
         this.userStateService.ssp.specie=this.info.name;
     }
 

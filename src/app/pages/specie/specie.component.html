@@ -40,7 +40,6 @@
 
                         <tr>
                             <td>Is the species native to your country?</td>
-                            <!-- TODO: connect funky radio to native_CM -->
                             <td><app-funky-radio type="success" inputId="nativeCB" label="Is this spece native?" [inputModel]="yn2Bool(info['native_CM'])" (inputModelChange)="toggleNative($event)"></app-funky-radio></td>
                         </tr>
 
@@ -134,7 +133,7 @@
     
     <div class="row">
         <div class="col-12">
-            <app-ftypes-table [searchServiceParams]="searchServiceParams" *ngIf="info['name']"></app-ftypes-table>
+            <app-ftypes-table [searchServiceParams]="userStateService.ssp" *ngIf="info['name']"></app-ftypes-table>
         </div>
     </div>
 </div>

@@ -264,7 +264,7 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <app-sftypes-table [searchServiceParams]="searchServiceParams" *ngIf="info['name']"></app-sftypes-table>
+            <app-sftypes-table [searchServiceParams]="userStateService.ssp" *ngIf="info['name']"></app-sftypes-table>
         </div>
     </div>
 

@@ -1,5 +1,4 @@
 import { Input, OnInit, Injector, Directive } from '@angular/core';
-import {SearchServiceParams} from 'aqgr-lib';
 import {Router, ActivatedRoute} from '@angular/router';
 import { LoggerService } from 'aqgr-lib';
 import { environment } from 'src/environments/environment';
@@ -16,7 +15,6 @@ export class BasePage01Component implements OnInit{
     router:Router;
     logger: LoggerService;
     route:ActivatedRoute;
-    searchServiceParams=new SearchServiceParams();
     userStateService:UserStateService;
 
     constructor(protected injector, protected service){

@@ -23,7 +23,7 @@ export class FtypeComponent extends BasePage01Component implements OnInit {
      * event executed when element info are loaded
      */
     onInfoLoaded(){
-        this.searchServiceParams.ftype=this.info.name;
+        // this.searchServiceParams.ftype=this.info.name;
         this.userStateService.ssp.ftype=this.info.name;
     }
 

@@ -14,13 +14,14 @@ export class CountryComponent extends BasePage01Component implements OnInit {
 
     constructor(injector: Injector, service: CountryInfoService){
         super(injector, service);
+        this.userStateService.ssp.specie="";
     }
 
     /**
      * event executed when element info are loaded
      */
     onInfoLoaded(){
-        this.searchServiceParams.country=this.info.nameEn;
+        // this.searchServiceParams.country=this.info.nameEn;
         this.userStateService.ssp.country=this.info.nameEn;
     }
 }
