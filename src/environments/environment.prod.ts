@@ -17,24 +17,24 @@ export const environment = {
     services:{
         countries:{
             all:baseUrl+"countries",
-            info:baseUrl+"country-info",
+            info:baseUrl+"countries",
         },
         species:{
             all:baseUrl+"species",
-            info:baseUrl+"species-info",
-            infoEdit:(id)=>`${baseUrl}species-info/${id}`,
+            info:baseUrl+"species",
+            infoEdit:(id)=>`${baseUrl}species/${id}`,
             edit:(id)=>`${baseUrl}species/${id}`,
         },
         ftypes:{
             all:baseUrl+"ftypes",
             edit:(id)=>`${baseUrl}ftypes/${id}`,
-            info:baseUrl+"ftype-info",
-            infoEdit:(id)=>`${baseUrl}ftype-info/${id}`,
+            info:baseUrl+"ftypes",
+            infoEdit:(id)=>`${baseUrl}ftypes/${id}`,
         },
         params: {
-            country:"_country_like",
+            country:"country_like",
             alphaCode:"alphaCode_like",
-            specie:"_species_like",
+            specie:"species_like",
             ftype:"_ftypeParent_like",
             sftype:"sftype_like",
             limit:"_limit",
