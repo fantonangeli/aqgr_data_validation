@@ -2,7 +2,7 @@ import { Component, OnInit, Input, Injector} from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
 import {SearchServiceParams} from 'aqgr-lib';
 import { BaseTable01Component } from 'src/app/components/base-table01.component';
-import { FtypesService } from 'src/app/services/specie/ftypes.service';
+import { FtypesService } from 'src/app/services/ftypes/ftypes.service';
 import { environment } from 'src/environments/environment';
 import * as jsonata from 'jsonata';
 

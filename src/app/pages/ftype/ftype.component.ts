@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, Injector } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 // import { FtypeInfoService } from 'src/app/services/ftype/ftype-info.service';
-import { FtypesService } from 'src/app/services/specie/ftypes.service';
+import { FtypesService } from 'src/app/services/ftypes/ftypes.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 import { FtypesTableComponent } from 'src/app/components/specie/ftypes-table/ftypes-table.component';

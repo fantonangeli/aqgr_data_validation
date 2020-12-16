@@ -1,6 +1,6 @@
 import { Component, OnInit, Injector } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
-import { SpeciesService } from 'src/app/services/country/species.service';
+import { SpeciesService } from 'src/app/services/species/species.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 import { UtilsService } from 'src/app/services/utils.service';
