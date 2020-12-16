@@ -6,6 +6,7 @@ import { DatePipe } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
+import { DenyDirectAccessService } from './services/deny-direct-access.service';
 import { AppComponent } from './app.component';
 import { CountriesTableComponent } from './components/countries/countries-table/countries-table.component';
 import { CountriesComponent } from './pages/countries/countries.component';
@@ -47,6 +48,7 @@ import { SFtypesTableComponent } from './components/ftype/sftypes-table/sftypes-
     AppRoutingModule
   ],
   providers: [
+      DenyDirectAccessService,
       DatePipe,
       {provide: 'LoggingEnabled', useValue: environment.logging}
   ],
