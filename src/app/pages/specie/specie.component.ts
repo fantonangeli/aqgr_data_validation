@@ -1,6 +1,6 @@
 import { Component, OnInit, Injector } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
-import { SpecieInfoService } from 'src/app/services/specie/specie-info.service';
+import { SpeciesService } from 'src/app/services/country/species.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 import { UtilsService } from 'src/app/services/utils.service';
@@ -15,7 +15,7 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
 
     yn2Bool=UtilsService.yn2Bool;
 
-    constructor(injector: Injector, service: SpecieInfoService){
+    constructor(injector: Injector, service: SpeciesService){
         super(injector, service);
         this.userStateService.ssp.ftype="";
     }

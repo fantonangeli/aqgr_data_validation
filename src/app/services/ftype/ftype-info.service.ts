@@ -5,6 +5,10 @@ import { shareReplay, map } from "rxjs/operators";
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 
+/**
+ * @deprecated use the normal FtypesService
+ *
+ */
 @Injectable({
   providedIn: 'root'
 })

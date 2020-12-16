@@ -26,6 +26,20 @@ export class FtypesService extends BaseService {
         );
     }
 
+    /**
+     * get info about a ftype
+     *
+     * @params id the id of the element
+     */
+    getData(id: string): Observable<any> {
+
+        return this._getById(
+            this.constructor.name,
+            environment.services.ftypes.info,
+            id
+        );
+    }
+
 
     /**
      * edit an item.

@@ -8,8 +8,9 @@
     "species": 2,
     "ftypes": 5,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-20T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-31T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ALB",
@@ -20,8 +21,9 @@
     "species": 14,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-18T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-17T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "DZA",
@@ -32,8 +34,9 @@
     "species": 21,
     "ftypes": 4,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-17T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ASM",
@@ -44,8 +47,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-02T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-22T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "AGO",
@@ -56,8 +60,9 @@
     "species": 2,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-15T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ATG",
@@ -68,8 +73,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-13T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ARG",
@@ -80,8 +86,9 @@
     "species": 23,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-22T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ARM",
@@ -92,8 +99,9 @@
     "species": 8,
     "ftypes": 24,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-13T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-01T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ABW",
@@ -104,8 +112,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-30T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-27T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "AUS",
@@ -116,8 +125,9 @@
     "species": 52,
     "ftypes": 7,
     "sftypes": 15,
-    "lastUploadDate": "2020-03-04T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-22T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "AUT",
@@ -128,8 +138,9 @@
     "species": 22,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-28T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-24T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "AZE",
@@ -140,8 +151,9 @@
     "species": 13,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-20T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-07T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BHS",
@@ -152,8 +164,9 @@
     "species": 7,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-18T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-15T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BHR",
@@ -164,8 +177,9 @@
     "species": 6,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-04T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-13T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BGD",
@@ -176,8 +190,9 @@
     "species": 31,
     "ftypes": 153,
     "sftypes": 173,
-    "lastUploadDate": "2020-03-19T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-12T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BRB",
@@ -188,8 +203,9 @@
     "species": 2,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-09T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-24T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BLR",
@@ -200,8 +216,9 @@
     "species": 14,
     "ftypes": 4,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-01T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BEL",
@@ -212,8 +229,9 @@
     "species": 10,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-02T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-10T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BLZ",
@@ -224,8 +242,9 @@
     "species": 6,
     "ftypes": 6,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-22T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-01T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BEN",
@@ -236,8 +255,9 @@
     "species": 7,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-21T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-18T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BTN",
@@ -248,8 +268,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-18T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BIH",
@@ -260,8 +281,9 @@
     "species": 15,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BWA",
@@ -272,8 +294,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-22T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BRA",
@@ -284,8 +307,9 @@
     "species": 45,
     "ftypes": 158,
     "sftypes": 115,
-    "lastUploadDate": "2020-03-19T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-03T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BRN",
@@ -296,8 +320,9 @@
     "species": 22,
     "ftypes": 10,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-04T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-16T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BGR",
@@ -308,8 +333,9 @@
     "species": 47,
     "ftypes": 2,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-24T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BFA",
@@ -320,8 +346,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-07T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "BDI",
@@ -332,8 +359,9 @@
     "species": 2,
     "ftypes": 6,
     "sftypes": 16,
-    "lastUploadDate": "2020-03-20T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-22T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KHM",
@@ -344,8 +372,9 @@
     "species": 29,
     "ftypes": 113,
     "sftypes": 185,
-    "lastUploadDate": "2020-03-20T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-07T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CMR",
@@ -356,8 +385,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-20T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-29T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CAN",
@@ -368,8 +398,9 @@
     "species": 22,
     "ftypes": 46,
     "sftypes": 11,
-    "lastUploadDate": "2020-03-21T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-25T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CAF",
@@ -380,8 +411,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-23T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TCD",
@@ -392,8 +424,9 @@
     "species": 6,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-10T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CHL",
@@ -404,8 +437,9 @@
     "species": 27,
     "ftypes": 47,
     "sftypes": 84,
-    "lastUploadDate": "2020-03-23T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-15T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CHN",
@@ -416,8 +450,9 @@
     "species": 92,
     "ftypes": 765,
     "sftypes": 781,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-24T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "COL",
@@ -428,8 +463,9 @@
     "species": 24,
     "ftypes": 51,
     "sftypes": 112,
-    "lastUploadDate": "2020-03-02T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-15T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "COG",
@@ -440,8 +476,9 @@
     "species": 2,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-23T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "COK",
@@ -452,8 +489,9 @@
     "species": 9,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-19T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-17T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CRI",
@@ -464,8 +502,9 @@
     "species": 14,
     "ftypes": 22,
     "sftypes": 78,
-    "lastUploadDate": "2020-03-15T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-14T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "HRV",
@@ -476,8 +515,9 @@
     "species": 25,
     "ftypes": 6,
     "sftypes": 17,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-28T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CUB",
@@ -488,8 +528,9 @@
     "species": 13,
     "ftypes": 6,
     "sftypes": 15,
-    "lastUploadDate": "2020-03-20T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-01T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CYP",
@@ -501,7 +542,8 @@
     "ftypes": 0,
     "sftypes": 0,
     "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "accepted"
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CZE",
@@ -512,8 +554,9 @@
     "species": 17,
     "ftypes": 11,
     "sftypes": 20,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-24T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "DNK",
@@ -524,8 +567,9 @@
     "species": 34,
     "ftypes": 11,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-30T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-13T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "DMA",
@@ -536,8 +580,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-10T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-31T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "DOM",
@@ -548,8 +593,9 @@
     "species": 23,
     "ftypes": 2,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-05T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ECU",
@@ -560,8 +606,9 @@
     "species": 18,
     "ftypes": 37,
     "sftypes": 36,
-    "lastUploadDate": "2020-03-31T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-04T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "EGY",
@@ -572,8 +619,9 @@
     "species": 25,
     "ftypes": 114,
     "sftypes": 120,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-06T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SLV",
@@ -584,8 +632,9 @@
     "species": 11,
     "ftypes": 11,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-09T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-25T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GNQ",
@@ -596,8 +645,9 @@
     "species": 4,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-31T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ERI",
@@ -609,7 +659,8 @@
     "ftypes": 0,
     "sftypes": 0,
     "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "pending"
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "EST",
@@ -620,8 +671,9 @@
     "species": 15,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-08T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SWZ",
@@ -632,8 +684,9 @@
     "species": 9,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-02T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-30T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ETH",
@@ -644,8 +697,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-06T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "FRO",
@@ -656,8 +710,9 @@
     "species": 2,
     "ftypes": 8,
     "sftypes": 8,
-    "lastUploadDate": "2020-03-31T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-03T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "FJI",
@@ -668,8 +723,9 @@
     "species": 15,
     "ftypes": 5,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-13T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-17T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "FIN",
@@ -680,8 +736,9 @@
     "species": 10,
     "ftypes": 7,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-09T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-10T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "FRA",
@@ -692,8 +749,9 @@
     "species": 76,
     "ftypes": 92,
     "sftypes": 109,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-06T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GUF",
@@ -704,8 +762,9 @@
     "species": 6,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-27T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-26T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PYF",
@@ -716,8 +775,9 @@
     "species": 12,
     "ftypes": 5,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-18T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GAB",
@@ -728,8 +788,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-21T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GMB",
@@ -740,8 +801,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-24T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-25T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GEO",
@@ -752,8 +814,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-28T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-31T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "DEU",
@@ -764,8 +827,9 @@
     "species": 26,
     "ftypes": 9,
     "sftypes": 37,
-    "lastUploadDate": "2020-03-21T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GHA",
@@ -776,8 +840,9 @@
     "species": 5,
     "ftypes": 17,
     "sftypes": 21,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-06T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GRC",
@@ -788,8 +853,9 @@
     "species": 39,
     "ftypes": 20,
     "sftypes": 16,
-    "lastUploadDate": "2020-03-26T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-08T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GRD",
@@ -800,8 +866,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-31T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GLP",
@@ -812,8 +879,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-23T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-04T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GUM",
@@ -824,8 +892,9 @@
     "species": 10,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-12T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-16T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GTM",
@@ -836,8 +905,9 @@
     "species": 23,
     "ftypes": 20,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-04T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-25T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GIN",
@@ -848,8 +918,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-28T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-05T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GNB",
@@ -861,7 +932,8 @@
     "ftypes": 0,
     "sftypes": 0,
     "lastUploadDate": "2020-03-07T14:55:04Z",
-    "status": "accepted"
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "GUY",
@@ -872,8 +944,9 @@
     "species": 13,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-23T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "HTI",
@@ -884,8 +957,9 @@
     "species": 5,
     "ftypes": 6,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-07T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "HND",
@@ -897,7 +971,8 @@
     "ftypes": 16,
     "sftypes": 26,
     "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "accepted"
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "HUN",
@@ -908,8 +983,9 @@
     "species": 13,
     "ftypes": 6,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-19T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-16T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ISL",
@@ -920,8 +996,9 @@
     "species": 20,
     "ftypes": 16,
     "sftypes": 21,
-    "lastUploadDate": "2020-03-26T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-27T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "IND",
@@ -932,8 +1009,9 @@
     "species": 29,
     "ftypes": 191,
     "sftypes": 201,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-05T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "IDN",
@@ -944,8 +1022,9 @@
     "species": 59,
     "ftypes": 414,
     "sftypes": 353,
-    "lastUploadDate": "2020-03-19T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-03T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "IRQ",
@@ -956,8 +1035,9 @@
     "species": 4,
     "ftypes": 3,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-31T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-24T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "IRL",
@@ -968,8 +1048,9 @@
     "species": 21,
     "ftypes": 14,
     "sftypes": 12,
-    "lastUploadDate": "2020-03-09T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ISR",
@@ -980,8 +1061,9 @@
     "species": 23,
     "ftypes": 4,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-25T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-23T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ITA",
@@ -992,8 +1074,9 @@
     "species": 70,
     "ftypes": 91,
     "sftypes": 114,
-    "lastUploadDate": "2020-03-15T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-12T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "JAM",
@@ -1004,8 +1087,9 @@
     "species": 7,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-07T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-12T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "JPN",
@@ -1016,8 +1100,9 @@
     "species": 44,
     "ftypes": 78,
     "sftypes": 153,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-27T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "JOR",
@@ -1028,8 +1113,9 @@
     "species": 3,
     "ftypes": 1,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-08T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-13T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KAZ",
@@ -1040,8 +1126,9 @@
     "species": 16,
     "ftypes": 2,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-12T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-18T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KEN",
@@ -1052,8 +1139,9 @@
     "species": 8,
     "ftypes": 17,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-04T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-14T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KIR",
@@ -1064,8 +1152,9 @@
     "species": 4,
     "ftypes": 5,
     "sftypes": 22,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-08T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KOR",
@@ -1076,8 +1165,9 @@
     "species": 70,
     "ftypes": 138,
     "sftypes": 104,
-    "lastUploadDate": "2020-03-10T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-05T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KWT",
@@ -1088,8 +1178,9 @@
     "species": 9,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-28T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-27T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KGZ",
@@ -1100,8 +1191,9 @@
     "species": 9,
     "ftypes": 7,
     "sftypes": 16,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-05T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LVA",
@@ -1112,8 +1204,9 @@
     "species": 22,
     "ftypes": 8,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-27T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LBN",
@@ -1124,8 +1217,9 @@
     "species": 5,
     "ftypes": 3,
     "sftypes": 15,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-10T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LSO",
@@ -1136,8 +1230,9 @@
     "species": 3,
     "ftypes": 4,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-22T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LBR",
@@ -1148,8 +1243,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-24T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-31T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LBY",
@@ -1160,8 +1256,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-05T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LTU",
@@ -1172,8 +1269,9 @@
     "species": 16,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-24T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MDG",
@@ -1184,8 +1282,9 @@
     "species": 11,
     "ftypes": 17,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-28T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-23T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MWI",
@@ -1196,8 +1295,9 @@
     "species": 9,
     "ftypes": 14,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-30T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-28T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MYS",
@@ -1208,8 +1308,9 @@
     "species": 76,
     "ftypes": 57,
     "sftypes": 106,
-    "lastUploadDate": "2020-03-31T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MLI",
@@ -1220,8 +1321,9 @@
     "species": 4,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-05T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MLT",
@@ -1232,8 +1334,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-22T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MHL",
@@ -1244,8 +1347,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MTQ",
@@ -1256,8 +1360,9 @@
     "species": 6,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-20T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-26T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MUS",
@@ -1268,8 +1373,9 @@
     "species": 13,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-06T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-29T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MYT",
@@ -1280,8 +1386,9 @@
     "species": 6,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-29T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MEX",
@@ -1292,8 +1399,9 @@
     "species": 58,
     "ftypes": 25,
     "sftypes": 47,
-    "lastUploadDate": "2020-03-30T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-26T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MDA",
@@ -1304,8 +1412,9 @@
     "species": 10,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-15T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MNE",
@@ -1316,8 +1425,9 @@
     "species": 7,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-14T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-11T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MAR",
@@ -1328,8 +1438,9 @@
     "species": 21,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-28T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MOZ",
@@ -1340,8 +1451,9 @@
     "species": 13,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-02T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-08T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MMR",
@@ -1352,8 +1464,9 @@
     "species": 25,
     "ftypes": 78,
     "sftypes": 153,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-15T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NAM",
@@ -1364,8 +1477,9 @@
     "species": 10,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-24T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-03T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NRU",
@@ -1376,8 +1490,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-27T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-08T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NPL",
@@ -1388,8 +1503,9 @@
     "species": 12,
     "ftypes": 18,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-08T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NLD",
@@ -1400,8 +1516,9 @@
     "species": 16,
     "ftypes": 27,
     "sftypes": 34,
-    "lastUploadDate": "2020-03-19T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-29T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NCL",
@@ -1412,8 +1529,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-13T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NZL",
@@ -1424,8 +1542,9 @@
     "species": 5,
     "ftypes": 9,
     "sftypes": 12,
-    "lastUploadDate": "2020-03-06T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-08T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NIC",
@@ -1436,8 +1555,9 @@
     "species": 6,
     "ftypes": 6,
     "sftypes": 16,
-    "lastUploadDate": "2020-03-28T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NER",
@@ -1448,8 +1568,9 @@
     "species": 2,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-30T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-07T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NGA",
@@ -1460,8 +1581,9 @@
     "species": 25,
     "ftypes": 31,
     "sftypes": 69,
-    "lastUploadDate": "2020-03-22T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-25T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "MKD",
@@ -1472,8 +1594,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-15T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "NOR",
@@ -1484,8 +1607,9 @@
     "species": 16,
     "ftypes": 19,
     "sftypes": 21,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-10T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "OMN",
@@ -1496,8 +1620,9 @@
     "species": 9,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-23T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PAK",
@@ -1508,8 +1633,9 @@
     "species": 10,
     "ftypes": 30,
     "sftypes": 8,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-27T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PLW",
@@ -1520,8 +1646,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-02T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-17T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PAN",
@@ -1532,8 +1659,9 @@
     "species": 18,
     "ftypes": 4,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-07T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-13T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PNG",
@@ -1544,8 +1672,9 @@
     "species": 11,
     "ftypes": 7,
     "sftypes": 16,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-31T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PRY",
@@ -1556,8 +1685,9 @@
     "species": 12,
     "ftypes": 2,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PER",
@@ -1568,8 +1698,9 @@
     "species": 31,
     "ftypes": 19,
     "sftypes": 29,
-    "lastUploadDate": "2020-03-15T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-12T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PHL",
@@ -1580,8 +1711,9 @@
     "species": 34,
     "ftypes": 70,
     "sftypes": 114,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-08T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "POL",
@@ -1592,8 +1724,9 @@
     "species": 14,
     "ftypes": 8,
     "sftypes": 16,
-    "lastUploadDate": "2020-03-05T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-24T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PRT",
@@ -1604,8 +1737,9 @@
     "species": 48,
     "ftypes": 22,
     "sftypes": 74,
-    "lastUploadDate": "2020-03-25T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-08T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "PRI",
@@ -1616,8 +1750,9 @@
     "species": 12,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-29T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "QAT",
@@ -1628,8 +1763,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-01T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ROU",
@@ -1640,8 +1776,9 @@
     "species": 37,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-13T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-01T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "RUS",
@@ -1652,8 +1789,9 @@
     "species": 46,
     "ftypes": 24,
     "sftypes": 7,
-    "lastUploadDate": "2020-03-15T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-23T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "RWA",
@@ -1664,8 +1802,9 @@
     "species": 4,
     "ftypes": 2,
     "sftypes": 13,
-    "lastUploadDate": "2020-03-27T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-10T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "KNA",
@@ -1676,8 +1815,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-31T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-30T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LCA",
@@ -1688,8 +1828,9 @@
     "species": 4,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-27T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-12T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "WSM",
@@ -1700,8 +1841,9 @@
     "species": 10,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-26T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-06T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SAU",
@@ -1712,8 +1854,9 @@
     "species": 19,
     "ftypes": 27,
     "sftypes": 74,
-    "lastUploadDate": "2020-03-14T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-11T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SEN",
@@ -1724,8 +1867,9 @@
     "species": 12,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-13T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SRB",
@@ -1736,8 +1880,9 @@
     "species": 6,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-17T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-22T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SYC",
@@ -1748,8 +1893,9 @@
     "species": 2,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-10T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SLE",
@@ -1760,8 +1906,9 @@
     "species": 2,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-04T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-03T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SGP",
@@ -1772,8 +1919,9 @@
     "species": 81,
     "ftypes": 18,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-04T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SVK",
@@ -1784,8 +1932,9 @@
     "species": 21,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-16T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SVN",
@@ -1796,8 +1945,9 @@
     "species": 28,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-13T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-06T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SLB",
@@ -1809,7 +1959,8 @@
     "ftypes": 9,
     "sftypes": 11,
     "lastUploadDate": "2020-03-19T14:55:04Z",
-    "status": "accepted"
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ZAF",
@@ -1820,8 +1971,9 @@
     "species": 28,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-30T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SSD",
@@ -1832,8 +1984,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-10T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-14T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ESP",
@@ -1844,8 +1997,9 @@
     "species": 141,
     "ftypes": 48,
     "sftypes": 95,
-    "lastUploadDate": "2020-03-28T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-15T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "LKA",
@@ -1856,8 +2010,9 @@
     "species": 23,
     "ftypes": 4,
     "sftypes": 18,
-    "lastUploadDate": "2020-03-21T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-29T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SDN",
@@ -1868,8 +2023,9 @@
     "species": 2,
     "ftypes": 1,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-19T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SUR",
@@ -1880,8 +2036,9 @@
     "species": 6,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-28T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SWE",
@@ -1892,8 +2049,9 @@
     "species": 11,
     "ftypes": 4,
     "sftypes": 13,
-    "lastUploadDate": "2020-03-22T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "CHE",
@@ -1904,8 +2062,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-26T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "SYR",
@@ -1916,8 +2075,9 @@
     "species": 6,
     "ftypes": 8,
     "sftypes": 19,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-28T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TJK",
@@ -1928,8 +2088,9 @@
     "species": 9,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-13T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "THA",
@@ -1940,8 +2101,9 @@
     "species": 48,
     "ftypes": 75,
     "sftypes": 143,
-    "lastUploadDate": "2020-03-04T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TLS",
@@ -1952,8 +2114,9 @@
     "species": 6,
     "ftypes": 11,
     "sftypes": 21,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-22T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TGO",
@@ -1964,8 +2127,9 @@
     "species": 5,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-01T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-30T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TON",
@@ -1976,8 +2140,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-03T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-02T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TTO",
@@ -1988,8 +2153,9 @@
     "species": 4,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-22T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TUN",
@@ -2000,8 +2166,9 @@
     "species": 33,
     "ftypes": 5,
     "sftypes": 12,
-    "lastUploadDate": "2020-03-21T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-03T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TUR",
@@ -2012,8 +2179,9 @@
     "species": 29,
     "ftypes": 33,
     "sftypes": 35,
-    "lastUploadDate": "2020-03-27T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-20T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TKM",
@@ -2024,8 +2192,9 @@
     "species": 3,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-29T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-26T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "TUV",
@@ -2036,8 +2205,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "UGA",
@@ -2048,8 +2218,9 @@
     "species": 9,
     "ftypes": 6,
     "sftypes": 12,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "UKR",
@@ -2060,8 +2231,9 @@
     "species": 37,
     "ftypes": 5,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-13T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ARE",
@@ -2072,8 +2244,9 @@
     "species": 19,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-11T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-14T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "USA",
@@ -2084,8 +2257,9 @@
     "species": 45,
     "ftypes": 48,
     "sftypes": 70,
-    "lastUploadDate": "2020-03-31T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-25T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "URY",
@@ -2096,8 +2270,9 @@
     "species": 14,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-21T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-04T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "UZB",
@@ -2108,8 +2283,9 @@
     "species": 13,
     "ftypes": 46,
     "sftypes": 49,
-    "lastUploadDate": "2020-03-10T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-16T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "VUT",
@@ -2120,8 +2296,9 @@
     "species": 8,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-07T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-09T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "VNM",
@@ -2132,8 +2309,9 @@
     "species": 27,
     "ftypes": 121,
     "sftypes": 161,
-    "lastUploadDate": "2020-03-16T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-17T14:55:04Z",
+    "status": "pending",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "YEM",
@@ -2144,8 +2322,9 @@
     "species": 1,
     "ftypes": 0,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-02T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-27T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ZMB",
@@ -2156,8 +2335,9 @@
     "species": 10,
     "ftypes": 24,
     "sftypes": 15,
-    "lastUploadDate": "2020-03-08T14:55:04Z",
-    "status": "pending"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   },
   {
     "id": "ZWE",
@@ -2168,7 +2348,8 @@
     "species": 4,
     "ftypes": 3,
     "sftypes": 0,
-    "lastUploadDate": "2020-03-06T14:55:04Z",
-    "status": "accepted"
+    "lastUploadDate": "2020-03-21T14:55:04Z",
+    "status": "accepted",
+    "natfocal": "Fabrizio Antonangeli"
   }
 ]

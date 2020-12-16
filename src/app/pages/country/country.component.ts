@@ -1,6 +1,7 @@
 import { Component, OnInit, Injector } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
-import { CountryInfoService } from 'src/app/services/country/country-info.service';
+// import { CountryInfoService } from 'src/app/services/country/country-info.service';
+import { CountriesService } from 'src/app/services/countries/countries.service';
 import { environment } from "src/environments/environment";
 import { LoggerService, SearchServiceParams, BaseService } from "aqgr-lib";
 import { BasePage01Component } from 'src/app/components/base-page01.component';
@@ -12,7 +13,7 @@ import { BasePage01Component } from 'src/app/components/base-page01.component';
 })
 export class CountryComponent extends BasePage01Component implements OnInit {
 
-    constructor(injector: Injector, service: CountryInfoService){
+    constructor(injector: Injector, service: CountriesService){
         super(injector, service);
         this.userStateService.ssp.specie="";
     }

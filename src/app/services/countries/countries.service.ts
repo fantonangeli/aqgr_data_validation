@@ -25,4 +25,18 @@ export class CountriesService extends BaseService {
             ssp
         );
     }
+
+    /**
+     * get by countryCode
+     * @params
+     * @returns {Observable}
+     */
+    getData(iso3: string): Observable<any> {
+
+        return this._getById(
+            "CountryInfoService",
+            environment.services.countries.info,
+            iso3
+        );
+    }
 }
