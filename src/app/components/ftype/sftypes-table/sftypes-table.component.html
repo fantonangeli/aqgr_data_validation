@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-12 mb-3">
-        <button type="button" class="btn btn-success" (click)="acceptAll()">Accept all</button>
+        <button type="button" class="btn btn-success" (click)="acceptAll()">{{"sftypesTable.acceptAll" | translate}}</button>
     </div>
 </div>
 
@@ -11,9 +11,7 @@
 <aqgrlib-tree-table [data]="tableData" enableCount="true">
 
     <aqgrlib-tree-table-column prop="name">
-        <ng-template aqgrlibTreeTableColumnHeader>
-            <span>Secondary farmed type</span>
-        </ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'sftypesTable.sftypesCol' | translate"></span></ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" let-count="count" aqgrlibTreeTableColumnCell>
             <span *ngIf="level===0">{{value}} ({{count}})</span>
             <span *ngIf="level===1">
@@ -24,23 +22,23 @@
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="lastModifiedDate" cellClass="date">
-        <ng-template aqgrlibTreeTableColumnHeader>Last update</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'sftypesTable.lastupdateCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:defaultDateFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="status" cellClass="status">
-        <ng-template aqgrlibTreeTableColumnHeader>Status</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'sftypesTable.statusCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>
             <span [ngClass]="value">{{value}}</span>
         </ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column cellClass="actions" headerClass="actions">
-        <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'sftypesTable.actionsCol' | translate"></span></ng-template>
         <ng-template let-row="row" let-level="level" aqgrlibTreeTableColumnCell>
             <span *ngIf="row.sftypes===0 && level>0">
-                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status!==statuses.accepted" (click)="onAcceptClick(row)">Accept</button>
-                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status!==statuses.rejected" (click)="onRejectClick(row)">Reject</button>
+                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status!==statuses.accepted" (click)="onAcceptClick(row)">{{"sftypesTable.acceptBtn" | translate}}</button>
+                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status!==statuses.rejected" (click)="onRejectClick(row)">{{"sftypesTable.rejectBtn" | translate}}</button>
             </span>
         </ng-template>
     </aqgrlib-tree-table-column>

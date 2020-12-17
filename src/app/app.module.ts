@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule, HttpClient} from '@angular/common/http';
 import { DatePipe } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { DenyDirectAccessService } from './services/deny-direct-access.service';
@@ -45,7 +47,14 @@ import { SFtypesTableComponent } from './components/ftype/sftypes-table/sftypes-
     HttpClientModule,
     AqgrLibModule,
     FontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    })
   ],
   providers: [
       DenyDirectAccessService,
@@ -55,3 +64,7 @@ import { SFtypesTableComponent } from './components/ftype/sftypes-table/sftypes-
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function HttpLoaderFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http, environment.paths.i18n+"/", ".json");
+}

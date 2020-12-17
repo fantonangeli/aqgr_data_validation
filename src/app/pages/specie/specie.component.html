@@ -3,7 +3,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of <i>{{info['name']}}</i>  in {{info['country']}}:</h1>
+                    <h1 class="csc-firstHeader"><span [innerHTML]="'speciePage.pageTitle' | translate:info"></span></h1>
                 </div>
             </div>
         </div>
@@ -24,72 +24,72 @@
                     <tbody>
 
                         <tr>
-                            <td>Person providing the information for this species (if different from the National Focal Point)</td>
+                            <td [innerHTML]="'speciePage.addinformant_CM' | translate"></td>
                             <td>{{info['addinformant_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Status:</td>
+                            <td [innerHTML]="'speciePage.status' | translate"></td>
                             <td class="status"><span [ngClass]="info['status']">{{info['status']}}</span></td>
                         </tr>
 
                         <tr>
-                            <td>Common name for the species in your country</td>
+                            <td [innerHTML]="'speciePage.cse_CM' | translate"></td>
                             <td>{{info['cse_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Is the species native to your country?</td>
+                            <td [innerHTML]="'speciePage.native_CM' | translate"></td>
                             <td><app-funky-radio type="success" inputId="nativeCB" label="Is this spece native?" [inputModel]="yn2Bool(info['native_CM'])" (inputModelChange)="toggleNative($event)"></app-funky-radio></td>
                         </tr>
 
                         <tr>
-                            <td>Are there any risks associated with the introduction of this species/farmed type?</td>
+                            <td [innerHTML]="'speciePage.risks_CM' | translate"></td>
                             <td>{{info['risks_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Provide details on real or potential risks associated to the introduction of this species.</td>
+                            <td [innerHTML]="'speciePage.risksdetail_CM' | translate"></td>
                             <td>{{info['risksdetail_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What is the main use of this species?</td>
+                            <td [innerHTML]="'speciePage.mainuse_CM' | translate"></td>
                             <td>{{info['mainuse_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Are there any species-specific controls on conservation, management and use of this species?</td>
+                            <td [innerHTML]="'speciePage.wre_CM' | translate"></td>
                             <td>{{info['wre_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What are the common culture systems commony used for this species</td>
+                            <td [innerHTML]="'speciePage.cultureSystem_CM' | translate"></td>
                             <td>{{info['cultureSystem_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>How many tonnes of this species did your country produce last year?</td>
+                            <td [innerHTML]="'speciePage.ProdAmt_CM' | translate"></td>
                             <td>{{info['ProdAmt_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What is the estimated total value of production in USD?</td>
+                            <td [innerHTML]="'speciePage.prodVal_CM' | translate"></td>
                             <td>{{info['prodVal_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What is the current trend of production (i.e. over the last 10 years)?</td>
+                            <td [innerHTML]="'speciePage.prodTrend_CM' | translate"></td>
                             <td>{{info['prodTrend_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What is the expected trend in production over the next 10 years? Please mark appropriate box.</td>
+                            <td [innerHTML]="'speciePage.futTrend_CM' | translate"></td>
                             <td>{{info['futTrend_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Comments:</td>
+                            <td [innerHTML]="'speciePage.comments' | translate"></td>
                             <td>{{info['comments']}}</td>
                         </tr>
 
@@ -100,11 +100,11 @@
 
             <div class="row">
                 <div class="col-12 mb-3">
-                    <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.accepted" (click)="onPublishClick(info)">Publish</button>
-                    <button type="button" class="btn btn-warning" *ngIf="info['status']===statuses.published" (click)="onUnpublishClick(info)">Unpublish</button>
+                    <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.accepted" (click)="onPublishClick(info)">{{"speciePage.publishBtn" | translate}}</button>
+                    <button type="button" class="btn btn-warning" *ngIf="info['status']===statuses.published" (click)="onUnpublishClick(info)">{{"speciePage.unPublishBtn" | translate}}</button>
                     <span *ngIf="info['ftypes']===0">
-                        <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.new || info['status']===statuses.rejected" (click)="onAcceptClick(info)">Accept</button>
-                        <button type="button" class="btn btn-danger" *ngIf="info['status']===statuses.new || info['status']===statuses.accepted" (click)="onRejectClick(info)">Reject</button>
+                        <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.new || info['status']===statuses.rejected" (click)="onAcceptClick(info)">{{"speciePage.acceptBtn" | translate}}</button>
+                        <button type="button" class="btn btn-danger" *ngIf="info['status']===statuses.new || info['status']===statuses.accepted" (click)="onRejectClick(info)">{{"speciePage.rejectBtn" | translate}}</button>
                     </span>
 
                 </div>
@@ -123,9 +123,7 @@
     <br>
 
     <div class="row">
-        <div class="col-sm-12">
-            Primary farmed types of <b><i>{{info['name']}}</i></b> in <b>{{info['country']}}</b>.
-        </div>
+        <div class="col-sm-12" [innerHTML]="'speciePage.ftypesTableTitle' | translate:info"></div>
     </div>
 
     <br>
