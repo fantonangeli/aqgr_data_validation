@@ -1,8 +1,6 @@
 const baseUrl="http://localhost:3000/";
 const assetsPath="assets/";
 
-/* TODO: put labels in a config */
-
 export const environment = {
     production: false,
     logging:true,
@@ -57,7 +55,7 @@ export const environment = {
     },
 
     paths:{
-        i18n:assetsPath+"/i18n",
+        i18n:assetsPath+"i18n",
     }
 
 };

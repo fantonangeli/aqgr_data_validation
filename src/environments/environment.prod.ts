@@ -1,4 +1,5 @@
 const baseUrl="https://aqgr-dv-demo-rest.herokuapp.com/";
+const assetsPath="assets/";
 
 export const environment = {
     production: false,
@@ -51,6 +52,10 @@ export const environment = {
         published:"published",
         new:"new",
         pending:"pending"
+    },
+
+    paths:{
+        i18n:assetsPath+"i18n",
     }
 
 };
