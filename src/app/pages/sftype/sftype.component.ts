@@ -12,7 +12,7 @@ import { BasePage01Component } from 'src/app/components/base-page01.component';
   styleUrls: ['./sftype.component.scss']
 })
 export class SFtypeComponent extends BasePage01Component implements OnInit {
-
+    /* TODO: change _ftypeParent to ftypeParent */
     constructor(injector: Injector, service: FtypesService){
         super(injector, service);
     }

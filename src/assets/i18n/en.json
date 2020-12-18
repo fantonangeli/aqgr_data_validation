@@ -3,41 +3,17 @@
         "pagetitle":"Data validation:",
         "intro":" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  "
     },
-    "countriesTable":{
-        "countriesCol":"Countries",
-        "speciesCol":"Species",
-        "ftypesCol":"Primary farmed types",
-        "sftypesCol":"Secondary<br>farmed types",
-        "lastUpdateCol":"Last upload",
-        "statusCol":"Status"
+    "countryPage":{
+        "pageTitle":"Data validation of species in {{nameEn}}:",
+        "natfocal":"National coordinator name: "
     },
-    "sftypesTable":{
-        "acceptAll":"Accept all",
-        "sftypesCol":"Secondary farmed type",
-        "lastupdateCol":"Last update",
-        "statusCol":"Status",
-        "actionsCol":"Actions",
-        "rejectBtn":"Reject",
-        "acceptBtn":"Accept"
-    },
-    "speciesTable":{
-        "speciesCol":"Species",
-        "ftypesCol":"Primary farmed types",
-        "sftypesCol":"Secondary farmed types",
-        "lastModifiedCol":"Last update",
-        "statusCol":"Status",
-        "actionCol":"Actions",
-        "publishBtn":"Publish",
-        "acceptBtn":"Accept",
-        "rejectBtn":"Reject",
-        "unpublishBtn":"Unpublish"
-    },
-    "speciePage":{
+    "speciesPage":{
         "pageTitle":"Data validation of <i>{{name}}</i> in {{country}}:",
         "addinformant_CM":"Person providing the information for this species (if different from the National Focal Point)",
         "status":"Status:",
         "cse_CM":"Common name for the species in your country",
         "native_CM":"Is the species native to your country?",
+        "native_CM_label":"Is this species native?",
         "risks_CM":"Are there any risks associated with the introduction of this species/farmed type?",
         "risksdetail_CM":"Provide details on real or potential risks associated to the introduction of this species.",
         "mainuse_CM":"What is the main use of this species?",
@@ -97,5 +73,72 @@
         "rejectBtn":"Reject",
         "acceptBtn":"Accept",
         "tableTitle":" Secondary farmed types for <b><i>{{name}}</i></b> of <b><i>{{species}}</i></b> in <b>{{country}}</b>.  "
+    },
+    "sftypePage":{
+        "pageTitle":"Data validation of <i>{{name}}</i> of <i>{{_ftypeParent}}</i> of <i>{{species}}</i> in {{country}}:",
+        "status":"Status:",
+        "VarDesc_P":"Description:",
+        "estProdVar_P":"Estimated production of this farmed type (in percentage):",
+        "EstValVar_P":"Estimated total value of production (in USD):",
+        "species":"Paternal species:",
+        "isIntroduced":"Has this farmed type been introduced?",
+        "VarPropDet_P":"Introuction details:",
+        "NatRegVar_P":"Is it recognized in a national registration system?",
+        "VarRegDetails_P":"Details:",
+        "useSpeciesVar_P":"What is the principal rationale for commercial production?",
+        "VarBreedref_P":"Details and reference:",
+        "Varherch_P":"Does it have distinguishing characteristics?",
+        "VarGenetic_P":"Characteristics:",
+        "VarBreedref_P":"Details and references:",
+        "VarSou_P":"Source:",
+        "Varexport_P":"Has this farmed type been exported for aquaculture use?",
+        "Varexportdetail_P":"Please provide details:",
+        "comments":"Comments:",
+        "acceptBtn":"Accept",
+        "rejectBtn":"Reject"
+    },
+    "errorPage":{
+        "pageTitle":"Oops!",
+        "errorMessage":"There was an error with the server",
+        "backToHomeLink":"Back to Home"
+    },
+    "countriesTable":{
+        "countriesCol":"Countries",
+        "speciesCol":"Species",
+        "ftypesCol":"Primary farmed types",
+        "sftypesCol":"Secondary<br>farmed types",
+        "lastUpdateCol":"Last upload",
+        "statusCol":"Status"
+    },
+    "speciesTable":{
+        "speciesCol":"Species",
+        "ftypesCol":"Primary farmed types",
+        "sftypesCol":"Secondary farmed types",
+        "lastModifiedCol":"Last update",
+        "statusCol":"Status",
+        "actionCol":"Actions",
+        "publishBtn":"Publish",
+        "acceptBtn":"Accept",
+        "rejectBtn":"Reject",
+        "unpublishBtn":"Unpublish"
+    },
+    "ftypesTable":{
+        "ftypesCol":"Primary farmed type",
+        "sftypesCol":"Secondary farmed types",
+        "lastUpdateCol":"Last update",
+        "statusCol":"Status",
+        "actionsCol":"Actions",
+        "acceptBtn":"Accept",
+        "rejectBtn":"Reject",
+        "eof":""
+    },
+    "sftypesTable":{
+        "acceptAll":"Accept all",
+        "sftypesCol":"Secondary farmed type",
+        "lastupdateCol":"Last update",
+        "statusCol":"Status",
+        "actionsCol":"Actions",
+        "rejectBtn":"Reject",
+        "acceptBtn":"Accept"
     }
 }

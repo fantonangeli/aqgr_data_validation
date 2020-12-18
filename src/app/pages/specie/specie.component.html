@@ -3,7 +3,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader"><span [innerHTML]="'speciePage.pageTitle' | translate:info"></span></h1>
+                    <h1 class="csc-firstHeader"><span [innerHTML]="'speciesPage.pageTitle' | translate:info"></span></h1>
                 </div>
             </div>
         </div>
@@ -24,72 +24,72 @@
                     <tbody>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.addinformant_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.addinformant_CM' | translate"></td>
                             <td>{{info['addinformant_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.status' | translate"></td>
+                            <td [innerHTML]="'speciesPage.status' | translate"></td>
                             <td class="status"><span [ngClass]="info['status']">{{info['status']}}</span></td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.cse_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.cse_CM' | translate"></td>
                             <td>{{info['cse_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.native_CM' | translate"></td>
-                            <td><app-funky-radio type="success" inputId="nativeCB" label="Is this spece native?" [inputModel]="yn2Bool(info['native_CM'])" (inputModelChange)="toggleNative($event)"></app-funky-radio></td>
+                            <td [innerHTML]="'speciesPage.native_CM' | translate"></td>
+                            <td><app-funky-radio type="success" inputId="nativeCB" label="{{'speciesPage.native_CM_label' | translate}}" [inputModel]="yn2Bool(info['native_CM'])" (inputModelChange)="toggleNative($event)"></app-funky-radio></td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.risks_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.risks_CM' | translate"></td>
                             <td>{{info['risks_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.risksdetail_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.risksdetail_CM' | translate"></td>
                             <td>{{info['risksdetail_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.mainuse_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.mainuse_CM' | translate"></td>
                             <td>{{info['mainuse_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.wre_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.wre_CM' | translate"></td>
                             <td>{{info['wre_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.cultureSystem_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.cultureSystem_CM' | translate"></td>
                             <td>{{info['cultureSystem_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.ProdAmt_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.ProdAmt_CM' | translate"></td>
                             <td>{{info['ProdAmt_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.prodVal_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.prodVal_CM' | translate"></td>
                             <td>{{info['prodVal_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.prodTrend_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.prodTrend_CM' | translate"></td>
                             <td>{{info['prodTrend_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.futTrend_CM' | translate"></td>
+                            <td [innerHTML]="'speciesPage.futTrend_CM' | translate"></td>
                             <td>{{info['futTrend_CM']}}</td>
                         </tr>
 
                         <tr>
-                            <td [innerHTML]="'speciePage.comments' | translate"></td>
+                            <td [innerHTML]="'speciesPage.comments' | translate"></td>
                             <td>{{info['comments']}}</td>
                         </tr>
 
@@ -100,11 +100,11 @@
 
             <div class="row">
                 <div class="col-12 mb-3">
-                    <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.accepted" (click)="onPublishClick(info)">{{"speciePage.publishBtn" | translate}}</button>
-                    <button type="button" class="btn btn-warning" *ngIf="info['status']===statuses.published" (click)="onUnpublishClick(info)">{{"speciePage.unPublishBtn" | translate}}</button>
+                    <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.accepted" (click)="onPublishClick(info)">{{"speciesPage.publishBtn" | translate}}</button>
+                    <button type="button" class="btn btn-warning" *ngIf="info['status']===statuses.published" (click)="onUnpublishClick(info)">{{"speciesPage.unPublishBtn" | translate}}</button>
                     <span *ngIf="info['ftypes']===0">
-                        <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.new || info['status']===statuses.rejected" (click)="onAcceptClick(info)">{{"speciePage.acceptBtn" | translate}}</button>
-                        <button type="button" class="btn btn-danger" *ngIf="info['status']===statuses.new || info['status']===statuses.accepted" (click)="onRejectClick(info)">{{"speciePage.rejectBtn" | translate}}</button>
+                        <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.new || info['status']===statuses.rejected" (click)="onAcceptClick(info)">{{"speciesPage.acceptBtn" | translate}}</button>
+                        <button type="button" class="btn btn-danger" *ngIf="info['status']===statuses.new || info['status']===statuses.accepted" (click)="onRejectClick(info)">{{"speciesPage.rejectBtn" | translate}}</button>
                     </span>
 
                 </div>
@@ -123,7 +123,7 @@
     <br>
 
     <div class="row">
-        <div class="col-sm-12" [innerHTML]="'speciePage.ftypesTableTitle' | translate:info"></div>
+        <div class="col-sm-12" [innerHTML]="'speciesPage.ftypesTableTitle' | translate:info"></div>
     </div>
 
     <br>

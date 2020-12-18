@@ -3,7 +3,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of <i>{{info['name']}}</i> of <i>{{info['ftypeParent']}}</i> of <i>{{info['species']}}</i> in {{info['country']}}:</h1>
+                    <h1 class="csc-firstHeader" [innerHTML]="'sftypePage.pageTitle' | translate:info"></h1>
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
                     <tbody>
 
                         <tr>
-                            <td>Status:</td>
+                            <td [innerHTML]="'sftypePage.status' | translate"></td>
                             <td class="status"><span [ngClass]="info['status']">{{info['status']}}</span></td>
                         </tr>
 
@@ -34,103 +34,103 @@
 
 
                         <tr>
-                            <td>Description:</td>
+                            <td [innerHTML]="'sftypePage.VarDesc_P' | translate"></td>
                             <td>{{info['VarDesc_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Estimated production of this farmed type (in percentage):</td>
+                            <td [innerHTML]="'sftypePage.estProdVar_P' | translate"></td>
                             <td>{{info['estProdVar_P']}} %</td>
                         </tr>
 
 
                         <tr>
-                            <td>Estimated total value of production (in USD):</td>
+                            <td [innerHTML]="'sftypePage.EstValVar_P' | translate"></td>
                             <td>{{info['EstValVar_P']}} $</td>
                         </tr>
 
 
                         <tr>
-                            <td>Paternal species:</td>
+                            <td [innerHTML]="'sftypePage.species' | translate"></td>
                             <td><i>{{info['species']}}</i></td>
                         </tr>
 
 
                         <tr>
-                            <td>Has this farmed type been introduced?</td>
+                            <td [innerHTML]="'sftypePage.isIntroduced' | translate"></td>
                             <td>{{info['isIntroduced']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Introuction details:</td>
+                            <td [innerHTML]="'sftypePage.VarPropDet_P' | translate"></td>
                             <td>{{info['VarPropDet_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Is it recognized in a national registration system?</td>
+                            <td [innerHTML]="'sftypePage.NatRegVar_P' | translate"></td>
                             <td>{{info['NatRegVar_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Details:</td>
+                            <td [innerHTML]="'sftypePage.VarRegDetails_P' | translate"></td>
                             <td>{{info['VarRegDetails_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>What is the principal rationale for commercial production?</td>
+                            <td [innerHTML]="'sftypePage.useSpeciesVar_P' | translate"></td>
                             <td>{{info['useSpeciesVar_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Details and reference:</td>
+                            <td [innerHTML]="'sftypePage.VarBreedref_P' | translate"></td>
                             <td>{{info['VarBreedref_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Does it have distinguishing characteristics?</td>
+                            <td [innerHTML]="'sftypePage.Varherch_P' | translate"></td>
                             <td>{{info['Varherch_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Characteristics:</td>
+                            <td [innerHTML]="'sftypePage.VarGenetic_P' | translate"></td>
                             <td>{{info['VarGenetic_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Details and references:</td>
+                            <td [innerHTML]="'sftypePage.VarBreedref_P' | translate"></td>
                             <td>{{info['VarBreedref_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Source:</td>
+                            <td [innerHTML]="'sftypePage.VarSou_P' | translate"></td>
                             <td>{{info['VarSou_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Has this farmed type been exported for aquaculture use?</td>
+                            <td [innerHTML]="'sftypePage.Varexport_P' | translate"></td>
                             <td>{{info['Varexport_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Please provide details:</td>
+                            <td [innerHTML]="'sftypePage.Varexportdetail_P' | translate"></td>
                             <td>{{info['Varexportdetail_P']}}</td>
                         </tr>
 
 
                         <tr>
-                            <td>Comments:</td>
+                            <td [innerHTML]="'sftypePage.comments' | translate"></td>
                             <td>{{info['comments']}}</td>
                         </tr>
 
@@ -143,8 +143,8 @@
 
     <div class="row">
         <div class="col-12 mb-3">
-            <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)">Accept</button>
-            <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)">Reject</button>
+            <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)" [innerHTML]="'sftypePage.acceptBtn' | translate"></button>
+            <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)" [innerHTML]="'sftypePage.rejectBtn' | translate"></button>
         </div>
     </div>
 </div>

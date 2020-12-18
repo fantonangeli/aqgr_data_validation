@@ -6,7 +6,7 @@
 
     <aqgrlib-tree-table-column prop="name">
         <ng-template aqgrlibTreeTableColumnHeader>
-            <span>Primary farmed type</span>
+            <span><span [innerHTML]="'ftypesTable.ftypesCol' | translate"></span></span>
         </ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" let-count="count" aqgrlibTreeTableColumnCell>
             <span *ngIf="level===0">{{value}} ({{count}})</span>
@@ -18,28 +18,28 @@
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="sftypes" headerClass="number" cellClass="number">
-        <ng-template aqgrlibTreeTableColumnHeader>Secondary farmed types</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'ftypesTable.sftypesCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="lastModifiedDate" cellClass="date">
-        <ng-template aqgrlibTreeTableColumnHeader>Last update</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'ftypesTable.lastUpdateCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:defaultDateFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="status" cellClass="status">
-        <ng-template aqgrlibTreeTableColumnHeader>Status</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'ftypesTable.statusCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>
             <span [ngClass]="value">{{value}}</span>
         </ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column cellClass="actions" headerClass="actions">
-        <ng-template aqgrlibTreeTableColumnHeader>Actions</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'ftypesTable.actionsCol' | translate"></span></ng-template>
         <ng-template let-row="row" let-level="level" aqgrlibTreeTableColumnCell>
             <span *ngIf="row.sftypes===0 && level>0">
-                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status!==statuses.accepted" (click)="onAcceptClick(row)">Accept</button>
-                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status!==statuses.rejected" (click)="onRejectClick(row)">Reject</button>
+                <button type="button" class="btn mx-2 btn-success" *ngIf="row.status!==statuses.accepted" (click)="onAcceptClick(row)">{{"ftypesTable.acceptBtn" | translate}}</button>
+                <button type="button" class="btn mx-2 btn-danger" *ngIf="row.status!==statuses.rejected" (click)="onRejectClick(row)">{{"ftypesTable.rejectBtn" | translate}}</button>
             </span>
         </ng-template>
     </aqgrlib-tree-table-column>
