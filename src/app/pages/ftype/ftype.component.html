@@ -3,7 +3,7 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of <i>{{info['name']}}</i> of <i>{{info['species']}}</i> in {{info['country']}}:</h1>
+                    <h1 class="csc-firstHeader" [innerHTML]="'ftypePage.pagetitle' | translate:info"></h1>
                 </div>
             </div>
         </div>
@@ -24,203 +24,192 @@
                     <tbody>
 
                         <tr>
-                            <td>Status:</td>
+                            <td [innerHTML]="'ftypePage.status' | translate"></td>
                             <td class="status"><span [ngClass]="info['status']">{{info['status']}}</span></td>
                         </tr>
 
                         <tr>
-                            <td>Quantify, in percentage, the contribution of each system
-                                to national aquaculture production.</td>
+                            <td [innerHTML]="'ftypePage.culturesSystemper_P' | translate"></td>
                             <td>{{info['culturesSystemper_P']}} %</td>
                         </tr>
 
                         <tr>
-                            <td>Name of variety</td>
+                            <td [innerHTML]="'ftypePage.VarName_P' | translate"></td>
                             <td><i>{{info['VarName_P']}}</i></td>
                         </tr>
 
                         <tr>
-                            <td>Name of person reporting information for this farmed
-                                type (if different from the national focal point):
-                            </td>
+                            <td [innerHTML]="'ftypePage.VarRes_P' | translate"></td>
                             <td>{{info['VarRes_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Description</td>
+                            <td [innerHTML]="'ftypePage.VarDesc_P' | translate"></td>
                             <td>{{info['VarDesc_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Estimated production of this farmed type (in percentage)</td>
+                            <td [innerHTML]="'ftypePage.estProdVar_P' | translate"></td>
                             <td>{{info['estProdVar_P']}} %</td>
                         </tr>
 
                         <tr>
-                            <td>Estimated total value of production (in USD)</td>
+                            <td [innerHTML]="'ftypePage.EstValVar_P' | translate"></td>
                             <td>{{info['EstValVar_P']}} $</td>
                         </tr>
 
                         <tr>
-                            <td>What is the origin of this farmed type?</td>
+                            <td [innerHTML]="'ftypePage.OrigVar_P' | translate"></td>
                             <td>{{info['OrigVar_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Introduction details</td>
+                            <td [innerHTML]="'ftypePage.VarPropDet_P' | translate"></td>
                             <td>{{info['VarPropDet_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Do risks associated with this farmed type differ from
-                                those of the species as a whole?</td>
+                            <td [innerHTML]="'ftypePage.Varrisks_P' | translate"></td>
                             <td>{{info['Varrisks_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Provide details on real or potential risks associated
-                                with the use of this farmed type.</td>
+                            <td [innerHTML]="'ftypePage.Varriskdetails_P' | translate"></td>
                             <td>{{info['Varriskdetails_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What is the species composition?</td>
+                            <td [innerHTML]="'ftypePage.SpecCompVar_P' | translate"></td>
                             <td>{{info['SpecCompVar_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Species Composition:</td>
+                            <td [innerHTML]="'ftypePage.SpecCompListVar_P' | translate"></td>
                             <td>{{info['SpecCompListVar_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>How has it become a variety?</td>
+                            <td [innerHTML]="'ftypePage.Varmethod_P' | translate"></td>
                             <td>{{info['Varmethod_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>How many generations has it been domesticated?</td>
+                            <td [innerHTML]="'ftypePage.VarDomestication_P' | translate"></td>
                             <td>{{info['VarDomestication_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What selective breeding techniques were used:</td>
+                            <td [innerHTML]="'ftypePage.VarBreeding_P' | translate"></td>
                             <td>{{info['VarBreeding_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>What is the principal rationale for commercial production?
-                            </td>
+                            <td [innerHTML]="'ftypePage.useSpeciesVar_P' | translate"></td>
                             <td>{{info['useSpeciesVar_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Details of rationale</td>
+                            <td [innerHTML]="'ftypePage.usepurposeratVar_P' | translate"></td>
                             <td>{{info['usepurposeratVar_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Is it registered in one or more of the following information
-                                systems?
-                            </td>
+                            <td [innerHTML]="'ftypePage.RegVar_P' | translate"></td>
                             <td>{{info['RegVar_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Insert the information system reference number, DOI
-                                and/or hyperlink</td>
+                            <td [innerHTML]="'ftypePage.RegDetails_P' | translate"></td>
                             <td>{{info['RegDetails_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Is it recognized in a national registry of farmed types?
-                            </td>
+                            <td [innerHTML]="'ftypePage.NatRegVar_P' | translate"></td>
                             <td>{{info['NatRegVar_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Details:</td>
+                            <td [innerHTML]="'ftypePage.VarRegDetails_P' | translate"></td>
                             <td>{{info['VarRegDetails_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Does it have a documented breeding history?</td>
+                            <td [innerHTML]="'ftypePage.VarBreedHis_P' | translate"></td>
                             <td>{{info['VarBreedHis_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>No. of generations</td>
+                            <td [innerHTML]="'ftypePage.VarBreedgen_P' | translate"></td>
                             <td>{{info['VarBreedgen_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Provide details and reference</td>
+                            <td [innerHTML]="'ftypePage.VarBreedref_P' | translate"></td>
                             <td>{{info['VarBreedref_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Does it have heritable distinguishing characteristics?</td>
+                            <td [innerHTML]="'ftypePage.Varherch_P' | translate"></td>
                             <td>{{info['Varherch_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Genetic Characteristics</td>
+                            <td [innerHTML]="'ftypePage.VarGenetic_P' | translate"></td>
                             <td>{{info['VarGenetic_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Qualitative phenotype</td>
+                            <td [innerHTML]="'ftypePage.VarQualPheno_P' | translate"></td>
                             <td>{{info['VarQualPheno_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Quantitative performance characteristic</td>
+                            <td [innerHTML]="'ftypePage.VarQuanPerf_P' | translate"></td>
                             <td>{{info['VarQuanPerf_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Production performance</td>
+                            <td [innerHTML]="'ftypePage.VarProdPerf_P' | translate"></td>
                             <td>{{info['VarProdPerf_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Carcass composition</td>
+                            <td [innerHTML]="'ftypePage.VarCarcass_P' | translate"></td>
                             <td>{{info['VarCarcass_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Flesh quality</td>
+                            <td [innerHTML]="'ftypePage.VarFlesh_P' | translate"></td>
                             <td>{{info['VarFlesh_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Fitness</td>
+                            <td [innerHTML]="'ftypePage.VarFitness_P' | translate"></td>
                             <td>{{info['VarFitness_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Describe distinguishing charteristics</td>
+                            <td [innerHTML]="'ftypePage.VarDistComments_P' | translate"></td>
                             <td>{{info['VarDistComments_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Sources</td>
+                            <td [innerHTML]="'ftypePage.VarSou_P' | translate"></td>
                             <td>{{info['VarSou_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Has this farmed type been exported out of your country
-                                for aquaculture use?</td>
+                            <td [innerHTML]="'ftypePage.Varexport_P' | translate"></td>
                             <td>{{info['Varexport_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Please provide details</td>
+                            <td [innerHTML]="'ftypePage.Varexportdetail_P' | translate"></td>
                             <td>{{info['Varexportdetail_P']}}</td>
                         </tr>
 
                         <tr>
-                            <td>Comments:</td>
+                            <td [innerHTML]="'ftypePage.comments' | translate"></td>
                             <td>{{info['comments']}}</td>
                         </tr>
 
@@ -232,8 +221,8 @@
 
             <div class="row">
                 <div class="col-12 mb-3">
-                    <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)">Accept</button>
-                    <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)">Reject</button>
+                    <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)" [innerHTML]="'ftypePage.acceptBtn' | translate"></button>
+                    <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)" [innerHTML]="'ftypePage.rejectBtn' | translate"></button>
                 </div>
             </div>
 
@@ -249,9 +238,7 @@
     <br>
 
     <div class="row">
-        <div class="col-sm-12">
-            Secondary farmed types for <b><i>{{info['name']}}</i></b> of <b><i>{{info['species']}}</i></b>            in <b>{{info['country']}}</b>.
-        </div>
+        <div class="col-sm-12" [innerHTML]="'ftypePage.tableTitle' | translate:info"></div>
     </div>
 
     <br>

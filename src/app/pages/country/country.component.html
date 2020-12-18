@@ -3,15 +3,13 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader">Data validation of species in {{info['nameEn']}}:</h1>
+                    <h1 class="csc-firstHeader" [innerHTML]="'countryPage.pageTitle' | translate:info"></h1>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12">
-            National coordinator name: <b>{{info['natfocal']}}</b>
-        </div>
+        <div class="col-sm-12">{{"countryPage.natfocal" | translate }}<b>{{info['natfocal']}}</b> </div>
     </div>
         
     <br>

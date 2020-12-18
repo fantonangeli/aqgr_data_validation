@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
     <div class="col-md-12 text-center">
-        <span class="display-1 d-block">Oops!</span>
-        <div class="mb-4 lead">There was an error with the server</div>
-        <a [routerLink]="['/countries']" class="btn btn-link">Back to Home</a>
+        <span class="display-1 d-block" [innerHTML]="'errorPage.pageTitle' | translate"></span>
+        <div class="mb-4 lead" [innerHTML]="'errorPage.errorMessage' | translate"></div>
+        <a [routerLink]="['/countries']" class="btn btn-link" [innerHTML]="'errorPage.backToHomeLink' | translate"></a>
     </div>
 </div>

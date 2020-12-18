@@ -1,0 +1,18 @@
+Find text in tags:
+/>\s*[^< ]\+
+
+yank 
+p page
+t: [innerHTML]="'page.' | translate"
+t:{{'page.' | translate}}
+
+i18n html:
+q:/>\s*[^< ]\+"cyitdithi [innerHTML]="'page.' | translate"F.bve"ppll
+t:/>\s*[^< ]\+€ku€kbè€kb+"cyitditi<span [innerHTML]="'page.' | translate"></span>2F'wve"ppf'
+n:/>\s*[^< ]\+€ku€kbè€kb+"cyitditi{{"""pPa.la;€kb:""€kb€kb€kb | translate}}F"
+
+i18n json:
+w:"lyiw€ü€kNo"""lPA:"",bf""cp€ü€kP
+
+i18n all:
+a(formdata):/info['ww"lyi'@q"lP@w/info[w

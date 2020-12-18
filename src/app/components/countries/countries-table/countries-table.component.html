@@ -5,7 +5,7 @@
 <aqgrlib-tree-table [data]="tableData" enableCount="true">
 
     <aqgrlib-tree-table-column prop="nameEn">
-        <ng-template aqgrlibTreeTableColumnHeader>Countries</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'countriesTable.countriesCol' | translate"></span></ng-template>
         <ng-template let-value="value" let-level="level" let-row="row" let-count="count" aqgrlibTreeTableColumnCell>
             <span *ngIf="level!=2">{{value}} ({{count}})</span>
             <a [routerLink]="['/country', (production)?row.iso3:'PHL']" *ngIf="level===2">{{value}}</a>
@@ -13,29 +13,29 @@
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="species" headerClass="number" cellClass="number">
-        <ng-template aqgrlibTreeTableColumnHeader>Species</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'countriesTable.speciesCol' | translate"></span></ng-template>
         <ng-template let-value="value" let-row="row" aqgrlibTreeTableColumnCell>
             <span>{{value | number:defaultNumberFormat}}</span>
         </ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="ftypes" headerClass="number" cellClass="number">
-        <ng-template aqgrlibTreeTableColumnHeader>Primary farmed types</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'countriesTable.ftypesCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="sftypes" headerClass="number" cellClass="number">
-        <ng-template aqgrlibTreeTableColumnHeader>Secondary<br>farmed types</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'countriesTable.sftypesCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | number:defaultNumberFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="lastUploadDate" cellClass="date">
-        <ng-template aqgrlibTreeTableColumnHeader>Last upload</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'countriesTable.lastUpdateCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value | date:defaultDateFormat}}</ng-template>
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="status" cellClass="status">
-        <ng-template aqgrlibTreeTableColumnHeader>Status</ng-template>
+        <ng-template aqgrlibTreeTableColumnHeader><span [innerHTML]="'countriesTable.statusCol' | translate"></span></ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>
             <span [ngClass]="value">{{value}}</span>
         </ng-template>
