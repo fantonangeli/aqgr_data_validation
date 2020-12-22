@@ -222,6 +222,7 @@
             <div class="row">
                 <div class="col-12 mb-3">
                     <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)" [innerHTML]="'ftypePage.acceptBtn' | translate"></button>
+                    <!-- TODO: there is no space between accept and reject btn -->
                     <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)" [innerHTML]="'ftypePage.rejectBtn' | translate"></button>
                 </div>
             </div>

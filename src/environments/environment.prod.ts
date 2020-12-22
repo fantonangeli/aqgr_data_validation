@@ -23,14 +23,12 @@ export const environment = {
         species:{
             all:baseUrl+"species",
             info:baseUrl+"species",
-            infoEdit:(id)=>`${baseUrl}species/${id}`,
             edit:(id)=>`${baseUrl}species/${id}`,
         },
         ftypes:{
             all:baseUrl+"ftypes",
             edit:(id)=>`${baseUrl}ftypes/${id}`,
             info:baseUrl+"ftypes",
-            infoEdit:(id)=>`${baseUrl}ftypes/${id}`,
         },
         params: {
             country:"country_like",
