@@ -129,8 +129,7 @@
         "statusCol":"Status",
         "actionsCol":"Actions",
         "acceptBtn":"Accept",
-        "rejectBtn":"Reject",
-        "eof":""
+        "rejectBtn":"Reject"
     },
     "sftypesTable":{
         "acceptAll":"Accept all",
