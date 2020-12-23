@@ -42,7 +42,8 @@ export class BasePage01Component implements OnInit{
                 this.onInfoLoaded();
             },
             (error)=>{
-                this.logger.error("Network error: ", error);
+                // Error redirect if item not found
+                this.router.navigate(['/error']);
             }
         );
 
