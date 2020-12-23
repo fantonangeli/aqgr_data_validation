@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'ftype/:id', component: FtypeComponent, canActivate : [DenyDirectAccessService]  },
   { path: 'sftype/:id', component: SFtypeComponent, canActivate : [DenyDirectAccessService]  },
   { path: 'error', component: ErrorComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'error' },
 ];
 
 @NgModule({
