@@ -34,7 +34,7 @@ export const environment = {
             country:"country_like",
             alphaCode:"alphaCode_like",
             specie:"species_like",
-            ftype:"_ftypeParent_like",
+            ftype:"ftypeParent_like",
             sftype:"sftype_like",
             limit:"_limit",
             sortBy:"_sort"

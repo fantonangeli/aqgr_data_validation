@@ -264,7 +264,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
 | --- | --- | --- |
 | country_like | string | The country name |
 | species_like | string | The species name |
-| _ftypeParent_like | string | The parent ftype name |
+| ftypeParent_like | string | The parent ftype name |
 
 
 ```json
@@ -276,7 +276,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
         "lastModifiedDate": "2020-03-06T14:55:04Z",
         "status": "pending",
         "ftypeCategory": "Strains",
-        "_ftypeParent": "null",
+        "ftypeParent": "null",
         "species": "Chanos chanos",
         "country": "Philippines",
         "comments": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa",
@@ -335,7 +335,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
     "lastModifiedDate": "2020-03-06T14:55:04Z",
     "status": "pending",
     "ftypeCategory": "Strains",
-    "_ftypeParent": "null",
+    "ftypeParent": "null",
     "species": "Chanos chanos",
     "country": "Philippines",
     "comments": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa",
@@ -393,7 +393,7 @@ Note: all the parameter starting with "_" are used in the dev environment to hav
     "lastModifiedDate": "2020-03-06T14:55:04Z",
     "status": "pending",
     "ftypeCategory": "Strains",
-    "_ftypeParent": "null",
+    "ftypeParent": "null",
     "species": "Chanos chanos",
     "country": "Philippines",
     "comments": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa",
@@ -482,7 +482,7 @@ Note: the id property is needed by json_server to build the endpoints for the de
     "Varmethod_P": 9,
     "Varriskdetails_P": 9,
     "Varrisks_P": "No data",
-    "_ftypeParent": "Strains 1",
+    "ftypeParent": "Strains 1",
     "addinformant_CM": "Fabrizio Antonangeli",
     "alphaCode": "EMA",
     "comments": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa",

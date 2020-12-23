@@ -75,7 +75,7 @@
         "tableTitle":" Secondary farmed types for <b><i>{{name}}</i></b> of <b><i>{{species}}</i></b> in <b>{{country}}</b>.  "
     },
     "sftypePage":{
-        "pageTitle":"Data validation of <i>{{name}}</i> of <i>{{_ftypeParent}}</i> of <i>{{species}}</i> in {{country}}:",
+        "pageTitle":"Data validation of <i>{{name}}</i> of <i>{{ftypeParent}}</i> of <i>{{species}}</i> in {{country}}:",
         "status":"Status:",
         "VarDesc_P":"Description:",
         "estProdVar_P":"Estimated production of this farmed type (in percentage):",
