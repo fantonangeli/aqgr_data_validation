@@ -99,12 +99,12 @@
             </div>
 
             <div class="row">
-                <div class="col-12 mb-3">
-                    <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.accepted" (click)="onPublishClick(info)">{{"speciesPage.publishBtn" | translate}}</button>
-                    <button type="button" class="btn btn-warning" *ngIf="info['status']===statuses.published" (click)="onUnpublishClick(info)">{{"speciesPage.unPublishBtn" | translate}}</button>
+                <div class="col-12 mb-3 mx-n2">
+                    <button type="button" class="btn mx-2 btn-success" *ngIf="info['status']===statuses.accepted" (click)="onPublishClick(info)">{{"speciesPage.publishBtn" | translate}}</button>
+                    <button type="button" class="btn mx-2 btn-warning" *ngIf="info['status']===statuses.published" (click)="onUnpublishClick(info)">{{"speciesPage.unPublishBtn" | translate}}</button>
                     <span *ngIf="info['ftypes']===0">
-                        <button type="button" class="btn btn-success" *ngIf="info['status']===statuses.new || info['status']===statuses.rejected" (click)="onAcceptClick(info)">{{"speciesPage.acceptBtn" | translate}}</button>
-                        <button type="button" class="btn btn-danger" *ngIf="info['status']===statuses.new || info['status']===statuses.accepted" (click)="onRejectClick(info)">{{"speciesPage.rejectBtn" | translate}}</button>
+                        <button type="button" class="btn mx-2 btn-success" *ngIf="info['status']===statuses.new || info['status']===statuses.rejected" (click)="onAcceptClick(info)">{{"speciesPage.acceptBtn" | translate}}</button>
+                        <button type="button" class="btn mx-2 btn-danger" *ngIf="info['status']===statuses.new || info['status']===statuses.accepted" (click)="onRejectClick(info)">{{"speciesPage.rejectBtn" | translate}}</button>
                     </span>
 
                 </div>

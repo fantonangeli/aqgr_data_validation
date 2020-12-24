@@ -142,9 +142,9 @@
     </div>
 
     <div class="row">
-        <div class="col-12 mb-3">
-            <button type="button" class="btn btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)" [innerHTML]="'sftypePage.acceptBtn' | translate"></button>
-            <button type="button" class="btn btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)" [innerHTML]="'sftypePage.rejectBtn' | translate"></button>
+        <div class="col-12 mb-3 mx-n2">
+            <button type="button" class="btn mx-2 btn-success" *ngIf="info['status']!==statuses.accepted" (click)="onAcceptClick(info)" [innerHTML]="'sftypePage.acceptBtn' | translate"></button>
+            <button type="button" class="btn mx-2 btn-danger" *ngIf="info['status']!==statuses.rejected" (click)="onRejectClick(info)" [innerHTML]="'sftypePage.rejectBtn' | translate"></button>
         </div>
     </div>
 </div>
